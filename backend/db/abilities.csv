@@ -1,0 +1,1034 @@
+0,Ability Description,Ability Name,Ability Tier,Cost,Skill Unit 1,,Multiplier,SkillUnit 2,,Multiplier,SkillUnit 3,,Multiplier,SkillUnit 4,,,Apply1,Apply2,Apply3,IconImage
+1,,Swap,Low,0,Sacrifice,MaxHP,1,Protect,Draw,1,,,,,,,Exhaust,,,Exchange
+2,,Exchange,Low,0,Sacrifice,Draw,1,InstantBoost,Draw,2,,,,,,,Exhaust,,,Exchange
+3,,Pain Draw,Medium,0,Sacrifice,MaxHP,2,InstantBoost,Draw,2,,,,,,,Exhaust,,,Pick
+4,,Remember,Low,1,Protect,Draw,1,,,,,,,,,,,,,Idea
+5,,Prepare,Low,1,Buff,Draw,2,,,,,,,,,,,,,ThumbUp
+6,Deal 10% / 15% of MaxHP damage to the opponent,Tackle,Low,1,Damage,MaxHP,2,,,,,,,,,,,,,Run
+7,Deal 25% of Agility and 25% of Agility damage to the opponent.,Swift,Low,0,Damage,Agility,2,Damage,Agility,2,,,,,,,,,,Bird
+8,,Block Attack,Low,0,Damage,Protect,4,,,,,,,,,,,,,ShieldBash
+9,Deal 70% of Strength damage to the opponent,Fire Attack,Low,0,Damage,Strength,4,,,,,,,,,,Fire,,,FireRay
+10,Deal 70% of Agility damage to the opponent.,Water Attack,Low,0,Damage,Agility,4,,,,,,,,,,Water,,,WaterDrops
+11,Deal 70% of Intelligence damage to the opponent.,Ice Attack,Low,0,Damage,Intelligence,4,,,,,,,,,,Water,,,IceArrow
+12,Deal 70% of Agility damage to the opponent.,Thunder Attack,Low,0,Damage,Agility,4,,,,,,,,,,Thunder,,,LightningTrio
+13,Deal 70% of Strength damage to the opponent.,Earth Attack,Low,0,Damage,Strength,4,,,,,,,,,,Earth,,,Earth
+14,Deal 150% of Agility damage to the opponent.,Wind Attack,Low,0,Damage,Agility,4,,,,,,,,,,Wind,,,WindSlap
+15,,Light Attack,Low,0,Damage,Intelligence,4,,,,,,,,,,Light,,,OrbShining
+16,Deal 70% of Intelligence damage to the opponent.,Dark Attack,Low,0,Damage,Intelligence,4,,,,,,,,,,Dark,,,EvilHand
+17,"Deal 40% of Strength, 40% of Agility and 40% of Intelligence damage to the opponent. Apply 3 Restrain to the opponent.",Wrap,Low,1,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,Debuff,Restrain,3,,,,Tentacles
+18,Deal 70% of Agility damage to the opponent. Apply 2 Injury to the opponent.,Leg Sweep,Low,0,Damage,Agility,4,Debuff,Injury,2,,,,,,,,,,Slash
+19,,Hit Bruises,Low,0,Damage,Strength,4,Debuff,Injury,2,,,,,,,,,,Injury
+20,Deal 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Cut Bleed,Low,0,Damage,Agility,3,Debuff,Bleed,1,,,,,,,,,,Bleed
+21,"Deal 5% / 10% of MaxHP, 70% of Strength and 70% of Strength damage to the opponent. Apply 1 Dizzy to the opponent.",Magnitude 5,Low,2,Damage,MaxHP,1,Damage,Strength,4,Damage,Strength,4,Debuff,Wind,1,Earth,,,Earth
+22,DEal100% of Intelligence damage to the opponent. Apply 3 Insane to the opponent.,Mind Power,Low,1,Damage,Intelligence,5,Debuff,Insane,3,,,,,,,,,,Focus
+23,Deal 40% of Strength and 40% of Strength damage to the opponent.,Punch,Low,1,Damage,Strength,3,Damage,Strength,3,,,,,,,,,,Punch
+24,"Deal 25% of Agility, 25% of Agility and 10% of Agility damage to the opponent.",Throw Stones,Low,1,Damage,Agility,2,Damage,Agility,2,Damage,Agility,1,,,,,,,Stones
+25,Deal 100% of Agility damage to the opponent.,Shoot,Low,1,Damage,Agility,5,,,,,,,,,,,,,Bow
+26,Apply 6 Agility Action Buff on self. Deal 70% of Agility damage to the opponent.,Gun,Low,1,InstantBoost,Agility,6,Damage,Agility,4,,,,,,,,,,Pistol
+27,Deal 100% of Intelligence damage,Cast Spell,Low,1,Damage,Intelligence,5,,,,,,,,,,,,,Staff
+28,Deal 100% of Strength damage,Slash,Low,1,Damage,Strength,5,,,,,,,,,,,,,Slash
+29,Deal 40% of Agility and 40% of agility damage to the opponent.,Stab,Low,1,Damage,Agility,3,Damage,Agility,3,,,,,,,,,,Dagger
+30,Deal 40% of Intelligence and 40% of Intelligence to the opponent.,Staff Attack,Low,1,Damage,Intelligence,3,Damage,Intelligence,3,,,,,,,,,,Staff
+31,Deal 70% of Agility and 40% of Agility damage to the opponent.,Double Shoot,Low,1,Damage,Agility,4,Damage,Agility,3,,,,,,,,,,DoubleShoot
+32,Deal 70% of Strength and 40% of Strength damage to the opponent,Double Slash,Low,1,Damage,Strength,4,Damage,Strength,3,,,,,,,,,,DoubleSlash
+33,Lose 10% of current Max Health. Deal 150% of Strength damage to the opponent.,Bomb,Low,1,Sacrifice,MaxHP,1,Damage,Strength,6,,,,,,,,,,Bomb
+34,Deal 15% / 25% of MaxHP damage to the opponent,Body Slam,Low,1,Damage,MaxHP,3,,,,,,,,,,,,,GroundBreaker
+35,Deal 40% of Agility and 70% of Agility damage to the opponent.,Kick,Low,1,Damage,Agility,3,Damage,Agility,4,,,,,,,,,,Kick
+36,Lose 10% of current max Health. Deal 150% of Strength damage to the opponent.,Hammer Attack,Low,1,Sacrifice,MaxHP,1,Damage,Strength,6,,,,,,,,,,Hammer
+37,Deal 40% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed to the opponent.,Bite,Low,1,Damage,Agility,3,Damage,Strength,3,Debuff,Bleed,1,,,,,,,Bite
+38,,Snowballs,Low,0,Damage,Strength,3,Damage,Strength,3,,,,,,,Water,,,StrikingBalls
+39,"Deal 40% of Strength, 40% of Strength and 25% of Agility damage to the opponent.",Brawl,Low,1,Damage,Strength,3,Damage,Strength,3,Damage,Agility,3,,,,,,,Fist
+40,Deal 200% of Strength damage to the opponent.,Pure Force,Low,2,Damage,Strength,7,,,,,,,,,,,,,Charge
+41,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Burn to the opponent,Book Magic Fire,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Fire,1,,,,Fire,,,SpellBook
+42,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Chill to the opponent,Book Magic Ice,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Water,1,,,,Water,,,SpellBook
+43,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Paralysis to the opponent,Book Magic Thunder,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Thunder,1,,,,Thunder,,,SpellBook
+44,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Dizzy to the opponent,Book Magic Earth,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Earth,1,,,,Earth,,,SpellBook
+45,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Dizzy to the opponent,Book Magic Wind,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Wind,1,,,,Wind,,,SpellBook
+46,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Blind to the opponent,Book Magic Light,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Light,1,,,,Light,,,SpellBook
+47,Deal 70& of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Depress to the opponent,Book Magic Dark,Low,2,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Dark,1,,,,Dark,,,SpellBook
+48,Apply 1 Intelligence Buff on self. Recover 150% Inteligence health.,Book Magic Heal,Low,2,Buff,Intelligence,1,Heal,Intelligence,6,,,,,,,Humanoid,,,SpellBook
+49,Recover 10% / 15% of MaxHP health.,Recover,Low,0,Heal,MaxHP,2,,,,,,,,,,,,,Healing
+50,Recover 70% of Agility health.,Bandage,Low,0,Heal,Agility,4,,,,,,,,,,,,,Bandage
+51,Recover 70% of Intelligence health.,Heal,Low,0,Heal,Intelligence,4,,,,,,,,,,,,,Healing
+52,,Burning Passion,Low,1,Buff,Strength,1,Heal,Strength,4,,,,,,,Fire,,,BurningPassion
+53,Recover 70% of Agility and 70% of Agility health.,Medicine,Low,1,Heal,Agility,4,Heal,Agility,4,,,,,,,Exhaust,,,Remedy
+54,Recover 40% of Agility and 40% of Agility health.,Pill,Low,0,Heal,Agility,3,Heal,Agility,3,,,,,,,Exhaust,,,Medicines
+55,Recover 100% of Intelligence health,Cure,Low,1,Heal,Intelligence,5,,,,,,,,,,,,,Healing
+56,Apply Charge on self.,Charge,Low,1,InstantBoost,Charge,0,,,,,,,,,,,,,Charge
+57,Apply Guard on self.,Guard,Low,1,InstantBoost,Guard,0,,,,,,,,,,,,,Guard
+58,Apply 5 Agility Action Buff on self,Aim,Low,0,InstantBoost,Agility,5,,,,,,,,,,,,,Aim
+59,Apply 3 Strength Action Buff on self.,Roar,Low,0,InstantBoost,Strength,3,,,,,,,,,,,,,Shout
+60,Apply 5 Strength Action Buff on self,Bulk,Low,0,InstantBoost,Strength,5,,,,,,,,,,,,,Charge
+61,Apply 1 Intelligence Buff and 2 Intelligence Action Buff on self.,Think,Low,0,Buff,Intelligence,1,InstantBoost,Intelligence,2,,,,,,,,,,Idea
+62,Apply Stack Charge on self.,Stack Charge,Low,1,Buff,Charge,0,,,,,,,,,,,,,Charge
+63,Apply Stack Guard on self,Stack Guard,Low,1,Buff,Guard,0,,,,,,,,,,,,,Guard
+64,Apply 1 Fire Element on self,Fire Element,Low,0,Buff,Fire,1,,,,,,,,,,,,,Fire
+65,Apply 1 Water Element on self,Water Element,Low,0,Buff,Water,1,,,,,,,,,,,,,Water
+66,Apply 1 Thunder Element on self,Thunder Element,Low,0,Buff,Thunder,1,,,,,,,,,,,,,Thunder
+67,Apply 1 Earth Element on self,Earth Element,Low,0,Buff,Earth,1,,,,,,,,,,,,,Earth
+68,Apply 1 Wind Element on self,Wind Element,Low,0,Buff,Wind,1,,,,,,,,,,,,,Wind
+69,Apply 1 Light Element on self,Light Element,Low,0,Buff,Light,1,,,,,,,,,,,,,Light
+70,Apply 1 Dark Element on self,Dark Element,Low,0,Buff,Dark,1,,,,,,,,,,,,,Dark
+71,,Extinguisher,Low,0,Protect,Fire,0,,,,,,,,,,,,,BurnRecover
+72,,Warm Heat,Low,0,Protect,Water,0,,,,,,,,,,,,,ChillRecover
+73,,Rehabilitation,Low,0,Protect,Thunder,0,,,,,,,,,,,,,ParalysisRecover
+74,Remove all DIzzy and Winde Vulnerable from self.,Stay Mindful,Low,0,Protect,Wind,0,,,,,,,,,,,,,DizzyRecover
+75,,Herbicide,Low,0,Protect,Earth,0,,,,,,,,,,,,,SeedRecover
+76,Remove all Blind and Light Vulnerable from self.,Sun Glasses,Low,0,Protect,Light,0,,,,,,,,,,,,,BlindRecover
+77,,Love & Caring,Low,0,Protect,Dark,0,,,,,,,,,,,,,DepressRecover
+78,,Hemotasis,Low,0,Protect,Bleed,0,,,,,,,,,,,,,BleedRecover
+79,,Treatment,Low,0,Protect,Injury,0,,,,,,,,,,,,,InjuryRecover
+80,,Antidote,Low,0,Protect,Venom,0,,,,,,,,,,,,,VenomRecover
+81,,Unchain,Low,0,Protect,Restrain,0,,,,,,,,,,,,,RestrainRecover
+82,,Sedative,Low,0,Protect,Insane,0,,,,,,,,,,,,,InsaneRecover
+83,Apply 1 Agility and 1 Strength Buff on self.,Stretch,Low,1,Buff,Agility,1,Buff,Strength,1,,,,,,,,,,Leg
+84,Apply 1 Burn to the opponent,Cast Burn,Low,0,Debuff,Fire,1,,,,,,,,,,,,,Burn
+85,Apply 1 Chill to the opponent,Cast Chill,Low,1,Debuff,Water,1,,,,,,,,,,,,,Chill
+86,Apply 1 Paralysis to the opponent,Cast Paralysis,Low,0,Debuff,Thunder,1,,,,,,,,,,,,,Paralysis
+87,Apply 1 Dizzy to the opponent,Cast Dizzy,Low,0,Debuff,Wind,1,,,,,,,,,,,,,Dizzy
+88,Apply 1 Seed to the opponent,Cast Seed,Low,0,Debuff,Earth,1,,,,,,,,,,,,,Seed
+89,Apply 1 Blind to the opponent,Cast Blind,Low,0,Debuff,Light,1,,,,,,,,,,,,,Blind
+90,Apply 1 Depress to the opponent,Cast Depress,Low,0,Debuff,Dark,1,,,,,,,,,,,,,Depress
+91,Apply 1 Venom to the opponent,Cast Venom,Low,0,Debuff,Venom,4,,,,,,,,,,,,,Venom
+92,Apply 1 Restrain to the opponent,Cast Restrain,Low,0,Debuff,Restrain,4,,,,,,,,,,,,,Restrain
+93,Apply 1 Insane to the opponent,Cast Insane,Low,0,Debuff,Insane,4,,,,,,,,,,,,,Insane
+94,,Strength Debuff,Low,1,Debuff,Strength,2,,,,,,,,,,,,,DebuffS
+95,,Agility Debuff,Low,1,Debuff,Agility,2,,,,,,,,,,,,,DebuffA
+96,,Intelligence Debuff,Low,1,Debuff,Intelligence,2,,,,,,,,,,,,,DebuffI
+97,,Sneak,Low,1,Debuff,Light,1,Debuff,Wind,1,,,,,,,,,,Hidden
+98,,Shield Break,Low,1,Vulnerable,Protect,5,Damage,Strength,3,,,,,,,,,,CrackedShield
+99,Protect 15% / 25% damage from attacks.,Defend,Low,1,Protect,MaxHP,3,,,,,,,,,,,,,HandShield
+100,Protect 70% Strength damage from attack.,Shield,Low,1,Protect,Strength,4,,,,,,,,,,,,,Shield
+101,Protect 70% of Intelligence damage from attacks.,Barrier,Low,1,Protect,Intelligence,4,,,,,,,,,,,,,Circle
+102,Potect 10% / 15% of MaxHP damage from attacks.,Block,Low,0,Protect,MaxHP,2,,,,,,,,,,,,,HandShield
+103,Apply 4 Agility Action Buff and 2 Intelligence Action Buff on self.,Cautious,Low,0,InstantBoost,Agility,4,InstantBoost,Intelligence,2,,,,,,,,,,HazardSign
+104,,Potion,Low,0,Heal,Null,350,,,,,,,,,,Exhaust,,,Potion
+105,Recover 750 health.,High Potion,Medium,0,Heal,Null,800,,,,,,,,,,Exhaust,,,Potion
+106,Action +1. Apply 2 Agility Action Buff on self.,Quick Hand,High,0,InstantBoost,Action,1,InstantBoost,Agility,2,,,,,,,,,,Hand
+107,Apply 1 Protect Boost on self. Deal 100% of Protect damage to the opponent,Barrier Force,Medium,1,InstantBoost,Protect,1,Damage,Protect,5,,,,,,,,,,Ring
+108,Apply 1 Strength Buff on self. Recover 100% of Strength health.,Channel Energy,Medium,1,Buff,Strength,1,Heal,Strength,5,,,,,,,,,,Meditation
+109,Draw 1 Ability. Apply 4 Agility Action Buff on  self.,Quick Step,Medium,1,InstantBoost,Draw,1,InstantBoost,Agility,4,,,,,,,Exhaust,,,TabiBoot
+110,Draw 2 Abilities.,Quick Draw,Master,1,InstantBoost,Draw,2,,,,,,,,,,,,,Pick
+111,Draw 3 abilities. Apply 3 Burn on self.,Burning Steal,High,1,InstantBoost,Draw,3,Sacrifice,Fire,3,,,,,,,Exhaust,,,FlammingClaw
+112,Draw 3 abilities. Apply 3 blind on self. ,Blindfold Draw,High,1,InstantBoost,Draw,3,Sacrifice,Light,3,,,,,,,Exhaust,,,Blindfold
+113,Lose 10% of current Max Health. Draw 3 Abilities and discard 1 ability from hand.,Shuffle,Medium,1,Sacrifice,MaxHP,1,Sacrifice,Draw,1,InstantBoost,Draw,3,,,,Exhaust,,,Exchange
+114,Deal 40% of Intelligence and 25% of Intelligence damage to the opponent.,Magic Orbs,Medium,0,Damage,Intelligence,3,Damage,Intelligence,2,,,,,,,Charge,,,Orbs
+115,Dal 40% of agility and 25% of Agility damage to the opponent. ,Shuriken,Medium,0,Damage,Agility,3,Damage,Agility,2,,,,,,,Action,,,Dagger
+116,Apply 4 Protect Pierce to the opponent. Deal 25% of Strength and 10% of Strength damage to the opponent.,Drill,Medium,0,Vulnerable,Protect,4,Damage,Strength,2,Damage,Strength,1,,,,Earth,Matter,,Drill
+117,Lose 10% of current Max Health. Deal 15% / 25% of MaxHP damage to the opponent.,Headbutt,Medium,0,Sacrifice,MaxHP,1,Damage,MaxHP,3,,,,,,,,,,Dizzy
+118,Deal 70% of Agility and 25% of Agility damage to the opponent. Apply1 Bleed to the opponent.,Fierce Claw,Medium,1,Damage,Agility,4,Damage,Agility,2,Debuff,Bleed,1,,,,,,,Claws
+119,Deal 150% of Agility damage to the opponent.,Thrust,Medium,1,Damage,Agility,6,,,,,,,,,,,,,Spear
+120,Deal 100% of Agility damage to the opponent. Apply 1 Blind to the opponent.,Jump,Medium,1,Damage,Agility,5,Debuff,Light,1,,,,,,,,,,UpArrow
+121,Deal 100% of Agility damage to the opponent. Apply 1 Paralysis  to the opponent.,Paralysis Shot,Medium,1,Damage,Agility,5,Debuff,Thunder,1,,,,,,,,,,TripleNeedle
+122,Deal 100% of agility damage to the opponent. Apply 1 Burn to the opponent. ,Ember,Medium,1,Damage,Agility,5,Debuff,Fire,1,,,,,,,Fire,,,BurningEmber
+123,Deal 150% of Strength damage to the opponent.,Water Gun,Medium,1,Damage,Strength,6,,,,,,,,,,Water,,,WaterDrops
+124,Deal 70% of Strength damage to the opponent. Apply 1 Chill and 1 Bleed to the opponent.,Frost Spear,Medium,1,Damage,Strength,4,Debuff,Water,1,Debuff,Bleed,1,,,,Water,,,IceSpear
+125,Deal 100% of Intelligence damage to the opponent. Apply 1 Paralysis to the opponent.,Thunder Shock,Medium,1,Damage,Intelligence,5,Debuff,Thunder,1,,,,,,,Thunder,,,ThunderStruck
+126,Deal 100% of Agility damage to the opponent. Apply 1 Seed to the opponent.,Vine Whip,Medium,1,Damage,Agility,5,Debuff,Earth,1,,,,,,,Earth,,,VineWhip
+127,,Magnitude 8,Medium,2,Damage,MaxHP,1,Damage,Strength,5,Damage,Strength,4,Debuff,Wind,1,Earth,,,Earth
+128,Deal100% of Intelligence damage to the opponent. Apply 1 Dizzy to the opponent.,Gust,Medium,1,Damage,Intelligence,5,Debuff,Wind,1,,,,,,,Wind,,,SwirlWind
+129,Deal 100% of Strength damage to the opponent. Apply 1 Blind to the opponent.,Shine,Medium,1,Damage,Strength,5,Debuff,Light,1,,,,,,,Light,,,ShinyEntrance
+130,Deal 100% of Agility damage to the opponent. Apply 1 Depress to the opponent.,Shadow Sneak,Medium,1,Damage,Agility,5,Debuff,Dark,1,,,,,,,Dark,,,ShadowFollower
+131,Deal 100% of Strength damage to the opponent. Apply 2 Injury to the opponent.,Low Kick,Medium,1,Damage,Strength,5,Debuff,Injury,2,,,,,,,,,,Kick
+132,Deal 150% ofStrength damage to the opponent. Apply 1 Bleed to the opponent.,Heavy Cut,Medium,1,Damage,Strength,6,Debuff,Bleed,1,,,,,,,,,,PiercingSword
+133,Lose 10% of current Max Health. Deal 25% / 35% of MaxHP damage to the opponent.,Double Edge,Medium,1,Sacrifice,MaxHP,1,Damage,MaxHP,4,,,,,,,,,,GroundBreaker
+134,,Fire Balls,Medium,1,Damage,Intelligence,4,Damage,Intelligence,3,Debuff,Fire,1,,,,Fire,,,FireBalls
+135,Deal 70% of Intelligence and 25% of Intelligence damage to the opponent. Apply 1 Chill to the opponent,Ice Shards,Medium,1,Damage,Intelligence,4,Damage,Intelligence,2,Debuff,Water,1,,,,Water,,,StrikingDiamonds
+136,,Wing Attack,Medium,1,Damage,Agility,6,,,,,,,,,,Wind,,,SpikyWing
+137,Apply 5 Strength Action Buff on self. Deal 100% of Strength damage to the opponent.,Golem Punch,Medium,1,InstantBoost,Strength,5,Damage,Strength,5,,,,,,,Creature,,,Punch
+138,Apply 5 Strength Action Buff on self. Deal 100% of Strength damage to the opponent.,Katana Blade,Medium,1,InstantBoost,Strength,5,Damage,Strength,5,,,,,,,Humanoid,,,Katana
+139,Deal 15/25% of maxHP damage. Apply 2 insane to the opponent. (Lifesteal),Engulf,Medium,1,Damage,MaxHP,3,Debuff,Insane,2,,,,,,,LifeSteal,,,Swallow
+140,Deal 10% / 15% of MaxHP and 10% / 15% of MaxHP damage to the opponent.,Assault,Medium,1,Damage,MaxHP,2,Damage,MaxHP,2,,,,,,,,,,Grab
+141,Apply 5 MaxHP action Buff on self. Protect 15% / 25% Max HPdamage from attacks,Meat Shield,Medium,1,InstantBoost,MaxHP,5,Protect,MaxHP,3,,,,,,,,,,MuscleFat
+142,Deal 100% of strength and 70%of Strength damage to the opponent. Apply 2 Dizzy to the opponent.,Rock Tomb,Medium,2,Damage,Strength,5,Damage,Strength,4,Debuff,Wind,2,,,,Earth,,,Rock
+143,Deal 40% of Strength and 40% of Strength damage to the opponent. Apply 1 Burn to the opponent.,Lava Crack,Medium,1,Damage,Strength,3,Damage,Strength,3,Debuff,Fire,1,,,,Fire,Earth,,EarthCrack
+144,Deal 70% of Agility damage to the opponent. Apply 1 Bleed and 2 Injury to the opponent.,Spear Throw,Medium,0,Damage,Agility,4,Debuff,Bleed,1,Debuff,Injury,2,,,,,,,SpearFishing
+145,Deal 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Sharp Cutlass,Medium,0,Damage,Agility,3,Debuff,Bleed,2,,,,,,,,,,CrossCutlass
+146,Apply 5 Protect Pierce to the opponent. Deal 100% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Backstab,Medium,1,Vulnerable,Protect,5,Damage,Agility,5,Debuff,Bleed,1,,,,Humanoid,,,BowieKnife
+147,Apply 7 Intelligence action Buff on self. Deal 70% of Intelligence damage to the opponent,Cleanse,Medium,0,InstantBoost,Intelligence,7,Damage,Intelligence,4,,,,,,,Light,Spirit,,HolyWater
+148,Recover 100% of agility and 70% of Intelligence health.,Repair,Medium,1,Heal,Agility,5,Heal,Intelligence,4,,,,,,,Matter,,,Repair
+149,Apply 7 Protect Pierce to the opponent. ,Protect Ripped,Medium,1,Vulnerable,Protect,7,,,,,,,,,,,,,CrackedShield
+150,,Electrotherapy,Medium,2,Heal,Intelligence,7,,,,,,,,,,Thunder,,,HeartBattery
+151,Apply 8 Agility Action Buff on self. Deal 40% of Agility damage to the opponent.,Quick Slash,Medium,0,InstantBoost,Agility,8,Damage,Agility,3,,,,,,,,,,Slash
+152,Apply 4 Strength Action Buff and Charge on self.,Power Charge,Medium,1,InstantBoost,Strength,4,InstantBoost,Charge,0,,,,,,,,,,Charge
+153,Apply 4 Strength Action Buff and Stack Charge on self.,Battle Roar,Medium,1,InstantBoost,Strength,4,Buff,Charge,0,,,,,,,,,,Shout
+154,Apply 1 Agility Action Buff on self. Apply 1 Blind and 1 Dizzy to the opponent.,Stealth,Medium,1,InstantBoost,Agility,1,Debuff,Light,1,Debuff,Wind,1,,,,,,,Hidden
+155,Apply 4 Protect Boost on self.,Barrier Boost,Medium,0,InstantBoost,Protect,4,,,,,,,,,,Combo,,,BuffP
+156,Apply 2 Fire Vulnerable and 2 Earth Vulnerable to the opponent. Deal 100% of Intelligence damage to the opponent.,Element Fuse . Magma,Medium,1,Vulnerable,Fire,2,Vulnerable,Earth,2,Damage,Intelligence,5,,,,Fire,Earth,,Volcano
+157,"Deal 25% of Intelligence, 25% of Intelligence and 25% of Intelligence damage to the opponent. Apply 1 Chill to the opponent.",Element Fuse . Storm,Medium,1,Damage,Intelligence,2,Damage,Intelligence,2,Damage,Intelligence,2,Debuff,Water,1,Water,Wind,,Storm
+158,,Element Fuse . Steam,Medium,1,Heal,Intelligence,5,Debuff,Strength,1,Debuff,Agility,1,,,,Fire,Water,,Steam
+159,Protect 15% / 25% MaxHP damage from attacks. Recover 70% of Intelligence health,Element Fuse . Forest,Medium,1,Protect,MaxHP,3,Heal,Intelligence,4,,,,,,,Water,Earth,,Forest
+160,,Element Fuse . Smoke,Medium,1,Damage,Intelligence,3,Debuff,Light,1,Debuff,MaxHP,1,,,,Fire,Wind,,Steam
+161,Apply 2 Agility Buff on self.,Reload,Medium,1,Buff,Agility,2,,,,,,,,,,,,,Clockwise
+162,Apply 2 Intelligence Buff on self.,Magic Buff,Medium,1,Buff,Intelligence,2,,,,,,,,,,,,,MagicSwirl
+163,Apply Stack Guard on self. Protect 10% / 15% MaxHP damage from attacks.,Iron Guard,Medium,1,Buff,Guard,0,Protect,MaxHP,2,,,,,,,,,,Guard
+164,Apply 1 MaxHP Buff and Guard on self.,Cover Guard,Medium,1,Buff,MaxHP,1,InstantBoost,Guard,0,,,,,,,,,,Shield
+165,Apply 1 Intelligence Buff on self. Recover 70% of Strength and 70% of Agility damage to the opponent.,Meditate,Medium,1,Buff,Intelligence,1,Heal,Strength,4,Heal,Agility,4,,,,,,,Meditation
+166,Apply 1 Agility Buff and 1 Intelligence Buff on self.,Calculate,Medium,1,Buff,Agility,1,Buff,Intelligence,1,,,,,,,,,,Processor
+167,Apply 6 Strength Action Buff on self. Protect 70% Strength damage from attacks.,Battle Shield,Medium,1,InstantBoost,Strength,6,Protect,Strength,4,,,,,,,,,,VibratingShield
+168,Remove all Burn and Fire Vulnerable from self. Apply 1 Fire Element on self,Fire Soul,Medium,0,Buff,Fire,1,Protect,Fire,0,,,,,,,,,,Fire
+169,Remove all Chill and Water Vulnerable from self. Apply 1 Water Element on self,Water Soul,Medium,0,Buff,Water,1,Protect,Water,0,,,,,,,,,,Water
+170,Remove all Paralysis and Thunder Vulnerable from self. Apply 1 Thunder Element on self,Thunder Soul,Medium,0,Buff,Thunder,1,Protect,Thunder,0,,,,,,,,,,Thunder
+171,Remove all Seed and Earth Vulnerable from self. Apply 1 Earth Element on self.,Earth Soul,Medium,0,Buff,Earth,1,Protect,Earth,0,,,,,,,,,,Earth
+172,Remove all Dizzy and Wind Vulnerable from self. Apply 1 Wind Element on self.,Wind Soul,Medium,0,Buff,Wind,1,Protect,Wind,0,,,,,,,,,,Wind
+173,Remove all Blind and Light Vunerable from self. Apply 1 Light element on self,Light Soul,Medium,0,Buff,Light,1,Protect,Light,0,,,,,,,,,,Light
+174,Remove all Depress and Dark Vulnerable from self. Apply 1 Dark Element on self.,Dark Soul,Medium,0,Buff,Dark,1,Protect,Dark,0,,,,,,,,,,Dark
+175,Apply 2 Strength Vulnerable to the opponent. Deal 100% of Strength Damage to the opponent.,Smash,Medium,1,Vulnerable,Strength,2,Damage,Strength,5,,,,,,,,,,HeavyFall
+176,Apply 1 Water Element on self. Deal 150% of Strength damage to the opponent.,Sea Assault,Medium,1,Buff,Water,1,Damage,Strength,6,,,,,,,,,,WaveCrest
+177,,Ground Assault,Medium,1,Buff,Earth,1,Damage,MaxHP,3,,,,,,,,,,GroundBreaker
+178,Apply 1 Wind Element on self.Deal 150% of Intelligence damage to the opponent.,Sky Assault,Medium,1,Buff,Wind,1,Damage,Intelligence,6,,,,,,,,,,AfterBurn
+179,"Apply Charge, 4 Strength Action Buff, 4 Agility Action Buff and 4 Intelligence Action Buff on self.",Focus,Medium,1,InstantBoost,Charge,0,InstantBoost,Strength,4,InstantBoost,Agility,4,InstantBoost,Intelligence,4,,,,Focus
+180,Apply 2 Intelligence Buff and 6 Intelligence Buff on self.,Focus Reading,Medium,2,Buff,Intelligence,2,InstantBoost,Intelligence,6,,,,,,,,,,Book
+181,Apply 3 Intelligence Action Buff on self. Recover 100% of Intelligence health,Pray,Medium,1,InstantBoost,Intelligence,3,Heal,Intelligence,5,,,,,,,Light,Charge,,Kneeling
+182,Apply 1 Paralysis and 4 Restrain to the opponent.,Immobilize Trap,Medium,1,Debuff,Thunder,1,Debuff,Restrain,4,,,,,,,,,,WolfTrap
+183,Apply 1 Agility Debuff and 2 Strength Debuffs to the opponent.,Weaken,Medium,1,Debuff,Agility,1,Debuff,Strength,2,,,,,,,,,,Debuff
+184,Apply 1 Strength Debuff and 2 Intelligence Debuff to the opponent.,Fragile,Medium,1,Debuff,Strength,1,Debuff,Intelligence,2,,,,,,,,,,ShatteredGlass
+185,Apply 1 Intelligence and 2 Agility Debuff to the opponent.,Hesitate,Medium,1,Debuff,Intelligence,1,Debuff,Agility,2,,,,,,,,,,Idea
+186,"Deal 40% of Agility, 25% of Agility and 25% of Agility damage to the opponent.",Triple Arrows,Medium,1,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,,,,,,,TripleArrows
+187,Remove all Blind and Light Vulnerable from self. Deal 100% of Agility damage to the opponent,Mark Shot,Medium,0,Protect,Light,0,Damage,Agility,5,,,,,,,,,,MarkShoot
+188,Deal 150% of Strength damage to the opponent,Power Shot,Medium,1,Damage,Strength,6,,,,,,,,,,,,,Reticule
+189,"Apply 1 Water Element, 1 Agility Buff and 4 Water Boost on self.",Swim,Medium,1,Buff,Water,1,Buff,Agility,1,InstantBoost,Water,4,,,,,,,DoubleFish
+190,"Apply 1 Wind Element, 1 Agility Buff and 4 Wind Boost on self.",Fly,Medium,1,Buff,Wind,1,Buff,Agility,1,InstantBoost,Wind,4,,,,,,,FluffyWing
+191,Protect 10/15% maxHP damage. Deal 70% of your protect as damage to the opponent.,Shield Bash,Medium,1,Protect,MaxHP,2,Damage,Protect,4,,,,,,,,,,ShieldBash
+192,Remove all Elemental Status Effects and Elemental Vulnerable from self.,Remedy,Master,0,Protect,Element,2,Protect,Null,400,,,,,,,Exhaust,,,Remedy
+193,Remove all Stat Debuffs and Stat Vulnerables from self.,Miracle Drop,Medium,0,Protect,Debuff,0,,,,,,,,,,Exhaust,,,Dew
+194,Apply 5 Agility Action Buff on self. Deal 40% of Agility and 40% of Agility damage to the opponent.,Assault Rifle,Medium,1,InstantBoost,Agility,5,Damage,Agility,3,Damage,Agility,3,,,,,,,AssaultRifle
+195,Apply 5 Strength Action Buff on self. Deal 40% of Strength and 40% of strength damage to the opponent.,Shot Gun,Medium,1,InstantBoost,Strength,5,Damage,Strength,3,Damage,Strength,3,,,,,,,ShotGun
+196,Deal 40% of Agility and 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Dagger Throw,Medium,1,Damage,Agility,3,Damage,Agility,3,Debuff,Bleed,1,,,,,,,Dagger
+197,Next turn draw +2.,Draw Next,High,0,Buff,Draw,2,,,,,,,,,,Exhaust,,,Exchange
+198,"Apply 1 Thunder Element, 3 Thunder Boosts and 2 Agility Action Buff on self. ",Lightning Step,High,0,Buff,Thunder,1,InstantBoost,Thunder,3,InstantBoost,Agility,2,,,,,,,QuakeStomp
+199,Deal 100% of Strength and 100% of Agility damage to the opponent. ,Cross Slash,High,1,Damage,Strength,5,Damage,Agility,5,,,,,,,,,,CrossSlash
+200,"Deal 40% of agility, 40% of Agility and 40% of Agility damage to the opponent.",Triple Slash,High,1,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,,,,,,,DoubleSlash
+201,Action +2.,Nap,Master,0,InstantBoost,Action,2,,,,,,,,,,Exhaust,,,Tent
+202,"Deal 40% of Agility, 25% of Agility and 25% of Agility damage to the opponent",Precise Stab,High,1,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,,,,Humanoid,Creature,,Dagger
+203,Apply 2 Fire element to self.,Fire Spirit,High,0,Buff,Fire,2,,,,,,,,,,,,,Fire
+204,Apply 2 Water element to self.,Water Spirit,High,0,Buff,Water,2,,,,,,,,,,,,,Water
+205,Apply 2 Thunder element to self.,Thunder Spirit,High,0,Buff,Thunder,2,,,,,,,,,,,,,Thunder
+206,Apply 2 Earth element to self.,Earth Spirit,High,0,Buff,Earth,2,,,,,,,,,,,,,Earth
+207,Apply 2 Wind element to self.,Wind Spirit,High,0,Buff,Wind,2,,,,,,,,,,,,,Wind
+208,Apply 2 Light element to self.,Light Spirit,High,0,Buff,Light,2,,,,,,,,,,,,,Light
+209,Apply 2 Dark element on self,Dark Spirit,High,0,Buff,Dark,2,,,,,,,,,,,,,Dark
+210,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 1 Burn to the opponent.,Thunder Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Thunder,1,Thunder,,,Bite
+211,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 1 Paralysis to the opponent.,Fire Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Fire,1,Fire,,,Bite
+212,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 1 Chill to the opponent.,Ice Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Water,1,Water,,,Bite
+213,,Aero Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Wind,1,Wind,,,Bite
+214,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 1 Seed to the opponent.,Wood Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Earth,1,Earth,,,Bite
+215,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 1 Depress to the opponent.,Night Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Dark,1,Dark,,,Bite
+216,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 1 Blind to the opponent,Bright Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Light,1,Light,,,Bite
+217,Deal 100% of Agility and 40% of Strength damage to the opponent. Apply 1 Bleed and 4 Venom to the opponent,Poison Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Venom,4,,,,Bite
+218,"Apply 4 Agility Action Buff on self. Deal 70% of Agility, 70% of Agility and 70% of Agility damage to the opponent.",Machine Gun,High,2,InstantBoost,Agility,4,Damage,Agility,4,Damage,Agility,4,Damage,Agility,4,,,,MachineGun
+219,Apply 1 Agility Buff on self. Recover 25% of Agility and 35% of Agility health,Chakra,High,1,Buff,Agility,1,Heal,Agility,2,Heal,Agility,2,,,,Action,,,Meditation
+220,Deal 100% of Intelligence and 250 damage to the opponent,Dark Pulse,High,0,Damage,Intelligence,5,Damage,Null,250,,,,,,,Dark,Spirit,,MagicPalm
+221,Deal 70% of Agility and 100% of Intelligence damage to the opponent. Apply 1 chill and 2 Paralysis to the opponent.,Element Fuse . Thunder Storm,High,2,Damage,Agility,4,Damage,Intelligence,5,Debuff,Water,1,Debuff,Thunder,2,Thunder,Water,Wind,Storm
+222,"Deal 40% of Intelligence, 70% of Intelligence and 70% of Agility damage to the opponent. Apply 7 Venom to the opponent.",Element Fuse . Plague,High,2,Damage,Intelligence,3,Damage,Intelligence,4,Damage,Agility,4,Debuff,Venom,7,Dark,Wind,,Vomiting
+223,Remove all Stat Debuffs and Stat Vulnerables from self. Protect 70% Intelligence damage from attacks.Recover 70% Intelligence health.,Element Fuse . Aurora,High,1,Protect,Debuff,0,Protect,Intelligence,4,Heal,Intelligence,4,,,,Light,Wind,Thunder,Sunrise
+224,Remove all Stat Debuffs and Stat Vulnerables from self. Recover 20% / 5% and 15% / 25% axHP health.,Element Fuse . Synthesis,High,2,Protect,Element,2,Heal,MaxHP,4,Heal,MaxHP,2,,,,Earth,Light,Water,SolidLeaf
+225,Deal 100% of Intelligence damage to the opponent. Apply 1 Chill and 2 Depress to the opponent.,Element Fuse . Thrill Cold,High,1,Damage,Intelligence,5,Debuff,Water,1,Debuff,Dark,2,,,,Dark,Water,,ThermometerCold
+226,Apply 4 Protect Pierce and 2 Intelligence Vulnerable to the opponent. Deal 100%  of Intelligence damage to the opponent. Apply 1 Intelligence Debuff to the opponent.,Magic Disarm,High,1,Vulnerable,Protect,4,Vulnerable,Intelligence,2,Damage,Intelligence,5,Debuff,Intelligence,1,,,,DropWeapon
+227,Apply 8 Agility Action Buff on self.  Deal 100% of Agility damage to the opponent,Blitz Blade,High,1,InstantBoost,Agility,8,Damage,Agility,5,,,,,,,,,,CrossSlash
+228,"Deal 40% of Agility, 40% of Agility and 70% of Agility damage to the opponent.",Sonic Thrust,High,1,Damage,Agility,2,Damage,Agility,3,Damage,Agility,4,,,,Agility,Action,,Divert
+229,Lose 10% of current Max Health. Deal 200% of Strength to the opponent. Apply 1 Strength Vulnerable to the opponent.,Dynamite,High,1,Sacrifice,MaxHP,1,Damage,Strength,7,Sacrifice,Strength,1,,,,,,,Dynamite
+230,Deal 40% of Intelligence and 40% of Intelligence damage to the opponent. Apply 2 Burn to the opponent. ,Elemental Spell . Blaze,High,1,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Fire,2,,,,Fire,,,FireWave
+231,Deal 40% of Intelligence and 40% of Intelligence damage to the opponent. Apply 2 Paralysis to the opponent.,Elemental Spell . Lightning,High,1,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Thunder,2,,,,Thunder,,,ThunderStruck
+232,Deal 40% of Intelligence and 40% of Intelligence damage to the opponent. Apply 2 Chill to the opponent,Elemental Spell . Terra,High,1,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Earth,2,,,,Earth,,,PlanetEarth
+233,Deal 40% of Intelligence and 40% of Intelligence damage to the opponent. Apply 2 Seed to the opponent,Elemental Spell . Frost,High,1,Damage,Intelligence,4,Damage,Intelligence,3,Debuff,Water,1,,,,Water,,,IceSpell
+234,Deal 40% of Intelligence and 40% of Intelligence damage to the opponent. Apply 2 Dizzy to the opponent,Elemental Spell . Aero,High,1,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Wind,2,,,,Wind,,,SwirlWind
+235,Deal 40% of Intelligence and 40% of Intelligence damage to the opponent. Apply 2 Blind to the opponent,Elemental Spell . Gleam,High,1,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Light,2,,,,Light,,,ShinyIris
+236,Deal 40% of Intelligence and 40% ofdamage to the opponent. Apply 2 Depress to the opponent.,Elemental Spell . Gloom,High,1,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Dark,2,,,,Dark,,,SpikyEclipse
+237,"Recover 70% of Agility, 40% of Agility, 25% of Agility and 25% of Agility health.",Muscle Straining,High,2,Heal,Agility,4,Heal,Agility,3,Heal,Agility,2,Heal,Agility,2,Humanoid,,,InternalOrgan
+238,"Lose 10% of current Max Health. Recover 70% of Strength, 70% of Agility and 70% of Intelligence health. ",Gemstone Heal,High,1,Sacrifice,MaxHP,1,Heal,Strength,4,Heal,Agility,4,Heal,Intelligence,4,Combo,,,Gem
+239,Lose 10% of current Max Health. Deal 200% of Strength damage to the opponent. (Negative Power),Wing Blade,High,2,Damage,Strength,7,Debuff,Bleed,3,,,,,,,Wind,,,CurlyWing
+240,Action Points +2. Apply 3 Seed on self.,Seed Generate,Master,0,InstantBoost,Action,2,Sacrifice,Earth,3,,,,,,,Exhaust,,,Sprout
+241,Remove all Stat Debuffs and Stat Vulnerables from self. Protect 70% Intelligence and 40% Intelligence damage from attacks,Force Barrier,High,2,Protect,Debuff,0,Buff,Intelligence,1,Protect,Intelligence,5,Protect,Intelligence,2,,,,CagedBall
+242,"Consume all Fire Elements, for each element consumed, deal 25% Fire damage based on your strongest attribute [Fire Final at Max Stacks]. Apply 2 Burn to the opponent.",Flamethrower,High,1,Damage,Fire,2,Debuff,Fire,2,,,,,,,Fire,,,DragonBreath
+243,Apply 1 Bleed Vulnerable and 1 Injury Vulnerable to the opponent. Apply 2 Bleed and 4 Injury to the opponent.,Wound Shatter,High,2,Vulnerable,Bleed,1,Vulnerable,Injury,1,Debuff,Bleed,2,Debuff,Injury,4,,,,BleedingWound
+244,"Deal 5% / 10% of MaxHP, 100% of Strength and 100% of Strength damage to the opponent. Apply 1 Dizzy to the opponent.",Magnitude 10,High,2,Damage,MaxHP,1,Damage,Strength,5,Damage,Strength,5,Debuff,Wind,1,Earth,,,Earth
+245,,Typhoon,High,2,Vulnerable,Wind,2,Vulnerable,Water,3,Damage,Agility,4,Damage,Agility,5,Wind,Water,Exhaust,EntangledTyphoon
+246,,Hurricane,High,2,Vulnerable,Wind,2,Vulnerable,Water,3,Damage,Strength,4,Damage,Strength,5,Wind,Water,Exhaust,EntangledTyphoon
+247,Apply 2 Wind Vulnerable and 3 Water Vulnerable to the opponent. Deal 70% of Intelligence and 100% of Intelligence damage to the opponent. ,Cyclone,High,2,Vulnerable,Wind,2,Vulnerable,Water,3,Damage,Intelligence,4,Damage,Intelligence,5,Wind,Water,Exhaust,EntangledTyphoon
+248,Apply 4 Fire Vunerable to the opponent. ,Exposed Fire,High,0,Vulnerable,Fire,4,,,,,,,,,,,,,VulnerableFire
+249,Apply 4 Water Vunerable to the opponent. ,Exposed Water,High,0,Vulnerable,Water,4,,,,,,,,,,,,,VulnerableWater
+250,Apply 4 Thunder Vunerable to the opponent. ,Exposed Thunder,High,0,Vulnerable,Thunder,4,,,,,,,,,,,,,VulnerableThunder
+251,Apply 4 Earth Vunerable to the opponent. ,Exposed Earth,High,0,Vulnerable,Earth,4,,,,,,,,,,,,,VulnerableEarth
+252,Apply 4 Wind Vunerable to the opponent. ,Exposed Wind,High,0,Vulnerable,Wind,4,,,,,,,,,,,,,VulnerableWind
+253,Apply 4 Light Vunerable to the opponent. ,Exposed Light,High,0,Vulnerable,Light,4,,,,,,,,,,,,,VulnerableLight
+254,Apply 4 Dark Vulnerable to the opponent.,Exposed Dark,High,0,Vulnerable,Dark,4,,,,,,,,,,,,,VulnerableDark
+255,Apply 1 Bleed Vulnerable to the opponent,Exposed Bleed,High,0,Vulnerable,Bleed,1,,,,,,,,,,,,,VulnerableBleed
+256,Apply 1 Injury Vulnerable to the opponent,Exposed Injury,High,0,Vulnerable,Injury,1,,,,,,,,,,,,,VulnerableInjury
+257,Apply 2 Strength Vulnerable to the opponent. Deal 70% of Strength damage to the opponent.,Exposed Strength,High,0,Vulnerable,Strength,2,Damage,Strength,4,,,,,,,,,,VulnerableS
+258,Apply 2 Agility Vulnerable to the opponent. Deal 70% of agility damage to the opponent.,Exposed Agility,High,0,Vulnerable,Agility,2,Damage,Agility,4,,,,,,,,,,VulnerableA
+259,Apply 2 Intelligence Vulnerable to the opponent. Deal 70% of Intelligence damage to the opponent.,Exposed Intelligence,High,0,Vulnerable,Intelligence,2,Damage,Intelligence,4,,,,,,,,,,VulnerableI
+260,Apply 4 Seed and 5 Restrain to the opponent.,Leech Seed,High,1,Debuff,Earth,4,Debuff,Restrain,5,,,,,,,Exhaust,,,Sprout
+261,Deal 150% of Agility damage to the opponent. Apply 1 Blind to the opponent.,High Jump,High,1,Damage,Agility,6,Debuff,Light,1,,,,,,,,,,UpArrow
+262,Lose 10% of Max Health and Draw 2 abilities.,Supplement,Master,0,Sacrifice,MaxHP,1,InstantBoost,Draw,2,,,,,,,Exhaust,,,Bag
+263,Draw 3 Abilities. Apply 12 Insane on self,Crazy Draw,Master,0,InstantBoost,Draw,3,Sacrifice,Insane,12,,,,,,,Exhaust,,,Pick
+264,Apply 7 Protect Pierce to the opponent. Deal 200% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Assassinate,High,2,Vulnerable,Protect,7,Damage,Agility,7,Debuff,Bleed,1,,,,Humanoid,,,BackStab
+265,Apply Guard on self. Recover 10% / 15% and 10%  / 15% of  MaxHP Health,Regenerate,High,2,InstantBoost,Guard,0,Heal,MaxHP,2,Heal,MaxHP,2,Heal,MaxHP,1,,,,Regeneration
+266,Draw 1 ability. Apply 1 Intelligence Buff on self. Protect 100% Intelligence damage from attacks.,Magic Barrier,High,2,Buff,Intelligence,1,InstantBoost,Draw,1,Protect,Intelligence,5,,,,,,,StoneSphere
+267,Remove all PAralysis and Thunder Vulnerable from self. Protect 70% Intelligence and 70% Intelligence health.,Mechanic Barrier,High,1,Protect,Thunder,0,Protect,Intelligence,4,Heal,Intelligence,4,,,,Matter,,,StoneSphere
+268,,Icicles Crash,High,2,Damage,Strength,6,Debuff,Bleed,2,Debuff,Injury,4,,,,Water,,,IciclesFence
+269,,Back To Nature,High,2,Buff,Strength,2,Heal,Strength,6,,,,,,,Earth,Creature,Exhaust,PlantsAndAnimals
+270,Apply 2 Agility Buff on self. Recover 100% of Agility health.,Medical Pack,High,2,Buff,Agility,2,Heal,Agility,6,,,,,,,,,,MedicalPack
+271,"Deal 40% of Agility, 25% of Agility and 25% of Agility damage to the opponent",Frenzy Slash,High,1,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,,,,Multiply,Exhaust,,AllForOne
+272,"Deal 70% of Strength, 25% of Strength and 10% of Strength damage to the opponent ",Frenzy Punches,High,1,Damage,Strength,4,Damage,Strength,2,Damage,Strength,1,,,,Multiply,Exhaust,,Punches
+273,Deal 10% of Strength and 100% of Strength damage to the opponent. Apply 2Burn to the opponent.,Lava Plume,High,1,Damage,Strength,1,Damage,Strength,5,Debuff,Fire,2,,,,Fire,Earth,,Volcano
+274,Deal 15% / 25% of MaxHP damage to the opponent. Apply 4 Injury to the opponent.,Frozen Slam,High,1,Damage,MaxHP,3,Debuff,Injury,4,,,,,,,Water,,,IceBergs
+275,,Grass Knot,High,1,Damage,MaxHP,2,Debuff,MaxHP,1,Debuff,Restrain,6,,,,Earth,,,Grass
+276,Apply 1 Element on self. Protect 100% damage frpm attacks. Recover 100 health,Elemental Spirits,High,0,Buff,Element,1,Protect,Null,200,Heal,Null,200,,,,Combo,,,TripleYin
+277,Deal 200% of Strength damage to the opponent. Apply 4 Injury to the opponent.,Mega Punch,High,2,Damage,Strength,7,Debuff,Injury,4,,,,,,,,,,PunchBlast
+278,Double the stacks of self Stat Buffs,Double Buff,High,1,Buff,Multiply,0,,,,,,,,,,Exhaust,,,Doubled
+279,Double the stacks of self action buffs/boost.,Double Boost,High,1,InstantBoost,Multiply,0,,,,,,,,,,Exhaust,,,Doubled
+280,Double the stacks of your opponent's Stat Debuffs. ,Double Debuff,High,1,Debuff,Multiply,0,,,,,,,,,,Exhaust,,,Doubled
+281,Double the stacks of your opponent's Vulnerables.,Double Vulnerable,High,1,Vulnerable,Multiply,0,,,,,,,,,,Exhaust,,,Doubled
+282,Recover 1500 health.,Mega Potion,High,0,Heal,Null,1200,,,,,,,,,,Exhaust,,,Potion
+283,Deal 150% of Strength damage to the opponent. Apply 3 Injury to the opponent.,Water Jet,High,1,Damage,Strength,6,Debuff,Injury,3,,,,,,,Water,,,Gloop
+284,"Deal 40% of Strength, 40% of Strength, 40% of Strength and 40% of Strength damage to the opponent",Rampage,Master,1,Damage,Strength,3,Damage,Strength,3,Damage,Strength,3,Damage,Strength,3,,,,LaserSparks
+285,Lose 10% of current Max Health. Deal 200% of Strength damage to the opponent,Gravity,Master,1,Sacrifice,MaxHP,1,Damage,Strength,7,,,,,,,Debuff,,,Orbit
+286,Deal 200% of Strength damage to the opponent.,Heavy Axe Smash,Master,1,Damage,Strength,7,,,,,,,,,,,,,BattleAxe
+287,"Remove all Elemental Status Effects, Elemental Vulnerables, Stat Debuffs and Stat Vulnerables from self. Recover 850 health.",Elixir,Master,0,Protect,Element,0,Protect,Debuff,0,Heal,Null,900,,,,Exhaust,,,Elixir
+288,"Protect 150% Agility damage from attacks. Recover 10% of Agility, 10% of Agility and 10% o Agility health.",Velocity Circle,Master,2,Protect,Agility,6,Heal,Agility,2,Heal,Agility,2,Heal,Agility,2,,,,CircleSparks
+289,Apply Stack Guard on self. Protect 150% of Strength damage from attacks. Recover 100% of Strength health.,Priwen,Master,2,Buff,Guard,0,Protect,Strength,6,Heal,Strength,5,,,,,,,BorderedShield
+290,Remove all Stat Debuffs and Stat Vulnerables from self. Recover 25%/40% of  MaxHP  health.,Soul Mend,Master,1,Protect,Debuff,0,Heal,MaxHP,5,,,,,,,Spirit,,,Resonance
+291,"Deal 15%/25% of MaxHP, 70% of Strength, 70% of Agility and 70% of Inteligence damage to the opponent",Element Fuse . Chaos,Master,2,Damage,MaxHP,3,Damage,Strength,4,Damage,Agility,4,Damage,Intelligence,4,Light,Dark,,DarkSpirit
+292,Deal 200% of Intelligence damage to the opponent.,Element Fuse . Plasma,Master,1,Damage,Intelligence,7,,,,,,,,,,Thunder,Fire,,PlasmaBolt
+293,Deal 100% of Intelligence damage to the opponent. Apply 1 Burn and 2 Blind to the opponent.,Element Fuse . Sunlight,Master,1,Damage,Intelligence,5,Debuff,Fire,1,Debuff,Light,2,,,,Light,Fire,,Sun
+294,Apply 1 Intelligence Buff on self. Protect 70% Intelligence damage from attacks. Recover 70% of Intelligence health. Deal 70% of Intelligence damage to the opponent.,Element Fuse . Rainbow,Master,2,Buff,Intelligence,1,Protect,Intelligence,4,Heal,Intelligence,4,Damage,Intelligence,4,Light,Water,,RainbowStar
+295,Apply 1 Agility Buff and 2 Agility Action Buff on self. Deal 150% of Agility damage to the opponent.,Sniper,Master,1,Buff,Agility,1,InstantBoost,Agility,2,Damage,Agility,6,,,,,,,Sniper
+296,Apply Charge on self. Double the stacks of self action Buffs/boost.,Dead Focus,Master,1,InstantBoost,Charge,0,InstantBoost,Multiply,0,,,,,,,Exhaust,,,Focus
+297,Apply 4 Strength Buff on self.,Strength Burst,Master,1,Buff,Strength,4,,,,,,,,,,Exhaust,,,BuffS
+298,Apply 4 Agility Buff on self.,Agility Burst,Master,1,Buff,Agility,4,,,,,,,,,,Exhaust,,,BuffA
+299,Apply 4 Intelligence Buff on self ,Intelligence Burst,Master,1,Buff,Intelligence,4,,,,,,,,,,Exhaust,,,BuffI
+300,"Apply 3 Fire Vulnerable to the opponent. Consume all Fire Elements, for each element consumed, deal 40% Fire damage based on your strongest attribute. [Fire Finale at Max Stacks]",Blast Burn,Master,2,Vulnerable,Fire,3,Damage,Fire,3,,,,,,,Fire,Exhaust,,FireWave
+301,"Apply 3 Wind Vulnerable to the opponent. Consume all Wind Elements, for each element consumed, deal 40% Wind damage based on your strongest attribute. [Wind Finale at Max Stacks]",Blizzard,Master,2,Vulnerable,Water,2,Damage,Water,3,Debuff,Water,1,,,,Water,Exhaust,,SnowFlake
+302,"Apply 3 Water Vulnerable to the opponent. Consume all Water Elements, for each element consumed, deal 40% Water damage based on your strongest attribute. [Water Finale at Max Stacks]",Hydro Pump,Master,2,Vulnerable,Water,3,Damage,Water,3,,,,,,,Water,Exhaust,,GooExplosion
+303,"Apply 3 Thunder Vulnerable to the opponent. Consume all Thunder Elements, for each Element consumed, deal 40% Thunder damage based on your strongest attribute [Thunder Finale at Max Stacks]",Thunderbolt,Master,2,Vulnerable,Thunder,3,Damage,Thunder,3,,,,,,,Thunder,Exhaust,,ThunderStruck
+304,"Apply 3 Earth Vulnerable to the opponent. Consume all Earth Elements, for each Element consumed, deal 40% Earth damage based on your strongest Attribute [Earth finale at Max Stacks]",Earthquake,Master,2,Vulnerable,Earth,3,Damage,Earth,3,,,,,,,Earth,Exhaust,,EarthCrack
+305,"Apply 3 Wind Vulnerable to the opponent. Consume all Wind Elements, for each Element consumed, deal 40% Wind damage based on your strongest Attribute [Wind Finale at Max Stacks]",Tornado,Master,2,Vulnerable,Wind,3,Damage,Wind,3,,,,,,,Wind,Exhaust,,Tornado
+306,"Apply 3 Light Vunerable to the opponent. Consume all Light Elements, for each element consumed, deal 40% Light damage based on your Strongest Attribute [Light Finale at Max stacks]",Holy Flare,Master,2,Vulnerable,Light,3,Damage,Light,3,,,,,,,Light,Exhaust,,EclipseFlare
+307,"Apply 3Dark Vulnerable to the opponent. Consume all Dark Elements, for each element consumed, deal 40% Dark damage basedon your strongest attribute [Dark Finale atmax stacks].",Diabolic Chaos,Master,2,Vulnerable,Dark,3,Damage,Dark,3,,,,,,,Dark,Exhaust,,DarkSpirit
+308,"Apply 1 Second Chance on self. Consume all Fire elements, for each element consumed, Fire heal for 40% based on your strongest attribute [Fire Enchant at Max Stacks]",Undying Flame,Master,2,Protect,Guard,1,Heal,Fire,3,,,,,,,Fire,Exhaust,,FlameLeaf
+309,"Remove all Stat Debuffs and Stat Vulnerables from self. Consume all Water elements, for each element consumed, Water heal for 40% based on your strongest element.",Fountain Of Life,Master,2,Protect,Debuff,0,Heal,Water,3,,,,,,,Water,Exhaust,,WaterFountain
+310,"Apply 5 Thunder Vulnerable to the opponent. Consume all Thunder Elements, for each consumed, Thunder heal for 40% based on your strongest attribute [Thunder Enchant at Max Stacks].",Voltage Burst,Master,2,Vulnerable,Thunder,5,Heal,Thunder,3,,,,,,,Thunder,Exhaust,,Energise
+311,"Apply Gurd and Stack Guard on self. Consume all Earth Elements, for each element consumed, Earth heal for 40% based on your strongest attribute [Earth Enchant at Max Stacks]",Gaia Blessing,Master,2,InstantBoost,Guard,0,Buff,Guard,0,Heal,Earth,3,,,,Earth,Exhaust,,Sprout
+312,"Next turn Draw +2. Consume all Wind Elements, for each element consumed, Wind heal for 40% based on your strongest attribute [Wind Enchant at Max Stacks.",Miracle Wind,Master,2,Buff,Draw,2,Heal,Wind,3,,,,,,,Wind,Exhaust,,Breeze
+313,,Radiant Light,Master,2,Protect,Element,2,Heal,Light,3,,,,,,,Light,Exhaust,,Sunbeams
+314,"Apply Charge and Stack Charge on self. Consume all Dark Elements, for each element consumed, Dark heal for 40% based on your strongest attribute [Dark Enchant at max stacks]",Call Of The Void,Master,2,InstantBoost,Charge,0,Buff,Charge,0,Heal,Dark,3,,,,Dark,Exhaust,,DarkSquad
+315,Deal 300% of Intelligence damage to the opponent. Apply 1 Paralysis on self.,Hyper Beam,Master,2,Damage,Intelligence,8,Sacrifice,Thunder,1,,,,,,,Charge,Exhaust,,RingedBeam
+316,Remove all Venom from the opponent. Deal 15% damage from each removed based on opponent's Strength.,Poison Burst,Master,0,Damage,Venom,0,,,,,,,,,,Exhaust,,,Venom
+317,"Remove all Restrain from the opponent, deal 15% for each removed based on opponent's Agility. ",Force Unchained,Master,0,Damage,Restrain,0,,,,,,,,,,Exhaust,,,Restrain
+318,"Remove all Insane from the opponent, deal 15% damage for each removed based on opponent's Intelligence",Mental Torment,Master,0,Damage,Insane,0,,,,,,,,,,Exhaust,,,Insane
+319,,Curse,Curse,0,Curse,Element,1,Buff,Element,2,,,,,,,Curse,,,Curse
+320,,Strength Curse,Curse,1,Curse,Strength,2,Debuff,Strength,3,,,,,,,Curse,,,CurseS
+321,,Agility Curse,Curse,1,Curse,Agility,2,Debuff,Agility,3,,,,,,,Curse,,,CurseA
+322,(Player only) While this ability is in your deck start every combat with 2 Intelligence Debuff. Apply 3 Intelligence Debuff to the opponent.,Intelligence Curse,Curse,1,Curse,Intelligence,2,Debuff,Intelligence,3,,,,,,,Curse,,,CurseI
+323,,Health Curse,Curse,1,Curse,MaxHP,2,Debuff,MaxHP,3,,,,,,,Curse,,,CurseH
+324,,Cursed Fire,Curse,1,Sacrifice,MaxHP,2,Buff,Fire,3,,,,,,,Curse,,,CurseFire
+325,,Cursed Water,Curse,1,Sacrifice,MaxHP,2,Buff,Water,3,,,,,,,Curse,,,CurseWater
+326,,Cursed Thunder,Curse,1,Sacrifice,MaxHP,2,Buff,Thunder,3,,,,,,,Curse,,,CurseThunder
+327,,Cursed Earth,Curse,1,Sacrifice,MaxHP,2,Buff,Earth,3,,,,,,,Curse,,,CurseEarth
+328,,Cursed Wind,Curse,1,Sacrifice,MaxHP,2,Buff,Wind,3,,,,,,,Curse,,,CurseWind
+329,,Cursed Light,Curse,1,Sacrifice,MaxHP,2,Buff,Light,3,,,,,,,Curse,,,CurseLight
+330,,Cursed Dark,Curse,1,Sacrifice,MaxHP,2,Buff,Dark,3,,,,,,,Curse,,,CurseDark
+331,,Burned,Curse,1,Curse,Fire,2,Debuff,Fire,3,,,,,,,Curse,,,CurseBurn
+332,,Chilling,Curse,0,Curse,Water,1,Debuff,Water,1,,,,,,,Curse,,,CurseChill
+333,,Paralyzed,Curse,1,Curse,Thunder,2,Debuff,Thunder,3,,,,,,,Curse,,,CurseParalysis
+334,,Dizzing,Curse,1,Curse,Wind,2,Debuff,Wind,3,,,,,,,Curse,,,CurseDizzy
+335,,Seeded,Curse,1,Curse,Earth,2,Debuff,Earth,3,,,,,,,Curse,,,CurseSeed
+336,,Blinded,Curse,1,Curse,Light,2,Debuff,Light,3,,,,,,,Curse,,,CurseBlind
+337,,Depressing,Curse,1,Curse,Dark,2,Debuff,Dark,3,,,,,,,Curse,,,CurseDepress
+338,,Bleeding,Curse,1,Curse,Bleed,2,Debuff,Bleed,3,,,,,,,Curse,,,CurseBleed
+339,,Injured,Curse,1,Curse,Injury,3,Debuff,Injury,5,,,,,,,Curse,,,CurseInjury
+340,,Venomed,Curse,1,Curse,Venom,4,Debuff,Venom,7,,,,,,,Curse,,,CurseVenom
+341,,Restrained,Curse,1,Curse,Restrain,4,Debuff,Restrain,7,,,,,,,Curse,,,CurseRestrain
+342,"(Player only) While this ability is in your deck, start every combat with 4 Insane. Apply 7 Insane to the opponent. ",Insanity,Curse,1,Curse,Insane,4,Debuff,Insane,7,,,,,,,Curse,,,CurseInsane
+343,Start every combat with 2 Strength debuff. Apply 7 Strength Vulnerable to the opponent.,Corrupted Strength,Curse,1,Curse,Strength,2,Vulnerable,Strength,6,,,,,,,Curse,,,CurseS
+344,,Corrupted Agility,Curse,1,Curse,Agility,2,Vulnerable,Agility,6,,,,,,,Curse,,,CurseA
+345,,Corrupted Intelligence,Curse,1,Curse,Intelligence,2,Vulnerable,Intelligence,6,,,,,,,Curse,,,CurseI
+346,"(Player only) While this ability is in your deck, start every combatwith 2 MaxHP Debuff. Apply 7 MaxHP Vulnerable to opponent. ",Corrupted Health,Curse,1,Curse,MaxHP,2,Vulnerable,MaxHP,6,,,,,,,Curse,,,CurseH
+347,,Corrupted Fire,Curse,1,Curse,Fire,2,Vulnerable,Fire,6,,,,,,,Curse,,,CurseFire
+348,,Corrupted Water,Curse,1,Curse,Water,1,Vulnerable,Water,6,,,,,,,Curse,,,CurseWater
+349,,Corrupted Thunder,Curse,1,Curse,Thunder,2,Vulnerable,Thunder,6,,,,,,,Curse,,,CurseThunder
+350,,Corrupted Wind,Curse,1,Curse,Wind,2,Vulnerable,Wind,6,,,,,,,Curse,,,CurseWind
+351,,Corrupted Earth,Curse,1,Curse,Earth,2,Vulnerable,Earth,6,,,,,,,Curse,,,CurseEarth
+352,,Corrupted Light,Curse,1,Curse,Light,2,Vulnerable,Light,6,,,,,,,Curse,,,CurseLight
+353,,Corrupted Dark,Curse,1,Curse,Dark,2,Vulnerable,Dark,6,,,,,,,Curse,,,CurseDark
+354,,Bleed Wound,Curse,1,Curse,Bleed,2,Vulnerable,Bleed,1,,,,,,,Curse,,,CurseBleed
+355,,Injury Wound,Curse,1,Curse,Injury,3,Vulnerable,Injury,1,,,,,,,Curse,,,CurseInjury
+356,,Voodoo,Curse,1,Debuff,Element,4,Sacrifice,Element,2,,,,,,,Curse,,,Curse
+357,,Voodoo Burn,Curse,1,Debuff,Fire,5,Sacrifice,Fire,3,,,,,,,Curse,,,CurseBurn
+358,,Voodoo Chill,Curse,0,Debuff,Water,1,Sacrifice,Water,1,,,,,,,Curse,,,CurseChill
+359,,Voodoo Paralysis,Curse,1,Debuff,Thunder,5,Sacrifice,Thunder,3,,,,,,,Curse,,,CurseParalysis
+360,,Voodoo Dizzy,Curse,1,Debuff,Wind,5,Sacrifice,Wind,3,,,,,,,Curse,,,CurseDizzy
+361,,Voodoo Seed,Curse,1,Debuff,Earth,5,Sacrifice,Earth,3,,,,,,,Curse,,,CurseSeed
+362,,Voodoo Blind,Curse,1,Debuff,Light,5,Sacrifice,Light,3,,,,,,,Curse,,,CurseBlind
+363,,Voodoo Depress,Curse,1,Debuff,Dark,5,Sacrifice,Dark,3,,,,,,,Curse,,,CurseDepress
+364,,Voodoo Bleed,Curse,1,Debuff,Bleed,4,Sacrifice,Bleed,2,,,,,,,Curse,,,CurseBleed
+365,,Voodoo Injury,Curse,1,Debuff,Injury,6,Sacrifice,Injury,3,,,,,,,Curse,,,CurseInjury
+366,,Voodoo Venom,Curse,1,Debuff,Venom,8,Sacrifice,Venom,5,,,,,,,Curse,,,CurseVenom
+367,,Voodoo Restrain,Curse,1,Debuff,Restrain,8,Sacrifice,Restrain,5,,,,,,,Curse,,,CurseRestrain
+368,,Voodoo Insane,Curse,1,Debuff,Insane,8,Sacrifice,Insane,5,,,,,,,Curse,,,CurseInsane
+369,,Midas Gold,Curse,0,Sacrifice,MaxHP,1,Heal,Null,35,,,,,,,Curse,,,GoldBar
+370,,Eldritch Seed,Curse,1,Debuff,Insane,10,Curse,Insane,5,Sacrifice,Insane,5,,,,Curse,,,NoodleBall
+371,,Dazing,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+372,Do nothing.,Ignore,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+373,,Standby,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+374,,Wait,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+375,,Hahahaha,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+376,,Noooo Don't Kill Me,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+377,,Please...,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+378,,I Give You Crystals,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+379,,Ahhh I Can't See,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+380,,Hey There,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+381,,Wanna Play,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+382,,Howdy Fellow Gamers,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+383,,It's Me,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+384,,AEkashics o0 v 0o,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+385,,o0 v 0o,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+386,,On AEkashics Librarium!,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+387,,Hihihihi,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+388,,Ahoy!,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+389,,Spare Me Bucko,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+390,,Booty Is Yours,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+391,,Yo Ho Ho,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+392,,Stand Still,Null,0,Null,Null,0,,,,,,,,,,,,,Silence
+393,,I Am Mad,Null,0,Buff,Element,3,Buff,Strength,3,Buff,Agility,3,Buff,Intelligence,3,,,,Silence
+394,,Please Visit Me,Null,0,Buff,Element,0,Null,Null,0,,,,,,,,,,Silence
+395,,Please Dont Hurt Me,Null,0,Protect,Protect,0,Null,Null,0,,,,,,,,,,Silence
+396,,Waaarg it burns,Null,0,Sacrifice,Fire,1,,,,,,,,,,,,,Silence
+397,,o0 v 0o Cya,Null,0,Sacrifice,Null,0,,,,,,,,,,,,,Silence
+398,,Please Visit Her,Null,0,Sacrifice,Null,0,,,,,,,,,,Exhaust,,,Silence
+399,,Jokes!,Null,0,Buff,Agility,2,Heal,Agility,7,,,,,,,Exhaust,,,Silence
+400,,No Fire In The Forest!,Null,0,Protect,Fire,0,Heal,MaxHP,5,,,,,,,,,,Silence
+401,Apply 3 Elements on self.,Librarium Arts,Null,0,Buff,Element,3,,,,,,,,,,,,,PencilBrush
+402,Deal 100% of Intelligence damage to the opponent. Apply 1 Dizzy and 3 Venom to the opponent.,Injection,Null,1,Damage,Intelligence,5,Debuff,Wind,1,Debuff,Venom,4,,,,,,,NeedleInject
+403,Recover 20% / 45% of MaxHP health.,Honey,Null,1,Heal,MaxHP,4,,,,,,,,,,Exhaust,,,Honey
+404,,Dragon Roar,Null,1,Sacrifice,MaxHP,1,InstantBoost,Charge,0,Buff,Charge,0,,,,Combo,,,Shout
+405,,Dragon Shield,Null,1,Sacrifice,MaxHP,1,InstantBoost,Guard,0,Buff,Guard,0,,,,Combo,,,ShieldComb
+406,Deal 150% of Strength damage to the opponent. Apply 1 Blind to the opponent. ,Dragon Leap,Null,1,Damage,Strength,6,Debuff,Light,1,,,,,,,,,,UpArrow
+407,Apply 2 Strength Action Buff on self. Deal 150% of Strength damage to the opponent.,Dragon Slash,Null,1,InstantBoost,Strength,2,Damage,Strength,6,,,,,,,Creature,,,SpiralThrust
+408,"Deal 70% of Agility, 40% of Agility and 25% of Agility damage to the opponent. Apply 2 Restrain to the opponent.",Golden Dragon Palm,Null,1,Damage,Agility,4,Damage,Agility,3,Damage,Agility,2,Debuff,Restrain,2,Action,,,GlowingHands
+409,Apply 2 Agility Vulnerable to the opponent. Deal 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Dragon Claw,Null,0,Vulnerable,Agility,2,Damage,Agility,3,Debuff,Bleed,1,,,,,,,SteelClaw
+410,Apply 2 Agility Vulnerable to the opponent. Deal 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent.,Dragon Breath,Null,2,Buff,Element,1,Damage,Element,3,Debuff,Injury,4,,,,,,,DragonBreath
+411,Deal 200% of Strength damage to the opponent. Apply 10 Restrain to the opponent.,Dragon Seal,Null,2,Vulnerable,Restrain,0,Damage,Strength,7,Debuff,Restrain,8,,,,Creature,Exhaust,,CursedStar
+412,"Deal 25% of agility, 25% of Agility, 25% of Agility and 40% of Agility damage to the opponent.",Dragon Ultimate,Null,2,Damage,Agility,4,Damage,Agility,4,,,,,,,Agility,Draw,Exhaust,SpikeDragon
+413,"Apply 1 Element on self. Recover 40% of Strength, 40% of Agility and 40% of Intelligence health.",Dragon Elements,Null,1,Buff,Element,1,Heal,Strength,3,Heal,Agility,3,Heal,Intelligence,3,Combo,,,DragonOrb
+414,Next turn Draw +1 and Next turn Action +1. Apply 3 Elements on self. Double the stacks of self Stat Buffs,Soul Bond,Null,2,Buff,Element,3,Buff,Multiply,0,Buff,Draw,1,Buff,Action,1,Exhaust,,,RingedOrb
+415,Deal 150% of Intelligence damage to the opponent. Apply 2 Restrain and 2 Venom to the opponent.,Monster Trap,Null,1,Damage,Intelligence,6,Debuff,Restrain,2,Debuff,Venom,2,,,,Creature,,,MineExplosion
+416,"Apply 2 MaxHP Debuff, 2 Strength Debuff, 2 Agility Debuff and 2 Intelligence Debuff to the opponent.",King's Pressure,Null,1,Debuff,MaxHP,2,Debuff,Strength,2,Debuff,Agility,2,Debuff,Intelligence,2,Combo,Exhaust,,Power
+417,(Player only) While this card is in your deck start every combat with 2 Blind. Apply 10 Strength Action Buff on self. Deal 150% of Strength damage to the opponent.,Iai Strike,Null,1,Curse,Light,2,InstantBoost,Strength,10,Damage,Strength,6,,,,,,,Katana
+418,"Deal 25% of Intelligence, 25% of Intelligence, 25% of Intelligence and 25% of Intelligence damage to the opponent.",Meteors Strike,Null,1,Damage,Intelligence,2,Damage,Intelligence,2,Damage,Intelligence,2,Damage,Intelligence,2,Intelligence,Multiply,Exhaust,Meteor
+419,,Short Circuit,Null,0,Damage,Intelligence,5,,,,,,,,,,Thunder,Matter,,ElectricalResistance
+420,"Apply 4 Strength Action Buff, 4 Agility Action Buff and 4 Intelligence Action Buff on self. ",War Rhythm,Null,0,InstantBoost,Strength,4,InstantBoost,Agility,4,InstantBoost,Intelligence,4,,,,Combo,,,MusicNotes
+421,"Remove all Depress and Dark Vulnerable from self. Recover 40% of Strength, 40% of Agility and 40% of Intelligence damage to the opponent. ",Peace Rhythm,Null,0,Protect,Dark,0,Heal,Strength,3,Heal,Agility,3,Heal,Intelligence,3,Combo,,,MusicNotes
+422,,Venom Spit,Null,1,Damage,Intelligence,5,Debuff,Venom,6,,,,,,,,,,ChemicalBolt
+423,"Apply 1 Chill, 1 Agility Debuff and 5 Restrain to the opponent.",Powder Snow,Null,1,Debuff,Water,1,Debuff,Agility,1,Debuff,Restrain,5,,,,,,,Snowing
+424,Deal 10% / 15% of MaxHP damage to the opponent. Apply 5 Injury to the opponent.,Sky Drop,Null,1,Damage,MaxHP,2,Debuff,Injury,5,,,,,,,,,,Falling
+425,Apply 2 Strength Buff and 2 Agility Buff on self.,Amazon!,Null,0,Buff,Strength,2,Buff,Agility,2,,,,,,,Exhaust,,,Shout
+426,Apply 2 Water Vulnerable to the opponent. Deal 150% of Intelligence damage to the opponent.,Aqua Trident,Null,1,Vulnerable,Water,2,Damage,Intelligence,6,,,,,,,Water,,,Trident
+427,,Lightning Blitz,Null,1,InstantBoost,Thunder,2,InstantBoost,Agility,3,Damage,Agility,6,,,,Thunder,,,FocusedLightning
+428,Deal 100% of Strength damage to the opponent. Apply 2 Paralysis to the opponent.,Zap,Null,1,Damage,Strength,5,Debuff,Thunder,2,,,,,,,Thunder,,,ThunderStruck
+429,Apply2 Wind Vulnerable to the opponent. Deal 150% of Strength damage to the opponent.,Valkyrie Spear,Null,1,Vulnerable,Wind,2,Damage,Strength,6,,,,,,,Wind,,,SpearHook
+430,,The Flood,Null,3,Damage,Intelligence,3,Damage,Intelligence,3,Damage,Agility,4,Damage,Agility,4,Water,Draw,Exhaust,BigWave
+431,"Deal 40% of Strength, 40% of Strength, 70% of Agility and 70% of Agilityto the opponent.",Ragnarok,Null,3,Damage,Strength,3,Damage,Strength,3,Damage,Agility,4,Damage,Agility,4,Wind,Draw,Exhaust,ExplodingPlanet
+432,Apply 2 MaxHP Action Buff on self. Apply 3 MaxHP Vulnerable to the opponent. Deal 15% / 25% of MaxHP damage to the opponent,Viking Smash,Null,1,InstantBoost,MaxHP,2,Vulnerable,MaxHP,2,Damage,MaxHP,3,,,,,,,HeavyFall
+433,Deal 100% of Strength and 25% of Strength damage to the opponent.,Dark Blade,Null,0,Damage,Strength,5,Damage,Strength,2,,,,,,,Dark,,,DrippingSword
+434,Next turn Action +1.  Apply 3 Strength Buff on self. Apply 12 Insane to the opponent. Apply 5 Insane on self.,Abyss Gate,Null,2,Buff,Strength,3,Buff,Action,1,Debuff,Insane,12,Sacrifice,Insane,5,Exhaust,,,ShiningOmega
+435,"Double the stacks of your opponent's Stat Debuffs. Remove all Insane from the opponent, deal 15% damage for each removed based on opponent's Intelligence. Apply 2 Despair to the opponent.",Bottomless Despair,Null,2,Debuff,Dark,2,Debuff,Multiply,0,Damage,Insane,0,,,,Exhaust,,,Terror
+436,Recover 200% of Intelligence health.,Majestic Cure,Null,2,Heal,Intelligence,7,,,,,,,,,,Intelligence,,,Healing
+437,,Aftermath,Null,1,Protect,Debuff,0,Protect,Draw,1,,,,,,,,,,Gloves
+438,Recover 1 Ability from the discard pile. Remove all Insane from self. Apply 1 Intelligence Buff on self.,Stargazing,Null,1,Protect,Draw,1,Protect,Insane,0,Buff,Intelligence,1,,,,,,,SolarSystem
+439,Lose 20% of current Max Health. Apply 6 Insane and 2 Depress to the opponent.,Dark Secrets,Null,1,Sacrifice,MaxHP,2,Debuff,Insane,6,Debuff,Dark,2,,,,Exhaust,,,SecretBook
+440,"Farewell, deal 99999 damage to self. Deal 40% / 70% of MaxHP damage to the opponent",Suicide Attack,Null,1,Sacrifice,Null,0,Damage,MaxHP,7,,,,,,,Exhaust,,,BrightExplosion
+441,,Lucky Survive,Null,1,Protect,Guard,1,InstantBoost,MaxHP,2,Buff,MaxHP,2,,,,Exhaust,,,FishEscape
+442,Lose 20% of current Max Health. Deal 150% of Strength and 100% of Strength damage to the opponent. Apply 5 Insane on self.,Berserking,Null,1,Sacrifice,MaxHP,1,Damage,Strength,6,Damage,Strength,5,Sacrifice,Insane,8,,,,Enrage
+443,,Elemental Barrier,Null,1,Protect,Element,0,InstantBoost,Guard,0,Protect,MaxHP,2,,,,,,,StoneSphere
+444,"Lose 20% of current Max Health. Deal 70% of Strength, 70% of Agility and 70% of Intelligence damage to the opponent.",Arcane Energy,Null,1,Sacrifice,MaxHP,2,Damage,Strength,4,Damage,Agility,4,Damage,Intelligence,4,Combo,,,Orbs
+445,"Lose 10% of current Max Health. Apply 1 Strength Buff, 1 Agility Buff and 1 Intelligence Buff on self.",Arcane Power,Null,1,Sacrifice,MaxHP,1,Buff,Strength,1,Buff,Agility,1,Buff,Intelligence,1,Combo,,,Charge
+446,,Arcane Thrust,Null,2,Damage,Strength,4,Damage,Agility,4,Damage,Intelligence,4,,,,Buff,Combo,,Divert
+447,"Deal 10% / 15% of MaxHP, 40% of Strength, 40% of Agility and 40% of ntelligence damage to the opponent.",PSControl,Null,0,Damage,MaxHP,1,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,,,,ConsoleController
+448,"Recover 5% / 10% of MaxHP, 40% of Strength, 40% of Agility and 40% ofIntelligence health",YBAX,Null,0,Heal,MaxHP,1,Heal,Strength,3,Heal,Agility,3,Heal,Intelligence,3,,,,ConsoleController
+449,"Apply 5 MaxHP Action Buff, 5 Stremgth Action Buff, 5 Agility Action Buff and 5 Intelligence Action Buff on self.",Portable Device,Null,0,InstantBoost,MaxHP,5,InstantBoost,Strength,5,InstantBoost,Agility,5,InstantBoost,Intelligence,5,,,,Phone
+450,Apply 1 Second Chance on self. Recover 350 HP. (Exhaust),Restart,Null,0,Protect,Guard,1,Heal,Null,350,,,,,,,Exhaust,,,PowerButton
+451,,Stomp,Null,0,Vulnerable,MaxHP,2,Damage,MaxHP,2,Debuff,Wind,1,,,,,,,Stomp
+452,Deal 100% of Agility damage to the opponent. Apply 1 Burn to the opponent.,Fire Arrow,Null,0,Vulnerable,Fire,1,Damage,Agility,5,Debuff,Fire,1,,,,Fire,,,FlammingArrow
+453,Deal 70% of Agility damage to the opponent. Apply 1 Chill to the opponent.,Ice Arrow,Null,0,Vulnerable,Water,1,Damage,Agility,4,Debuff,Water,1,,,,Water,,,IceSpear
+454,Deal 100% of Agility damage to the opponent. Apply 1 Paralysis to the opponent.,Thunder Arrow,Null,0,Vulnerable,Thunder,1,Damage,Agility,5,Debuff,Thunder,1,,,,Thunder,,,LightningArrow
+455,Deal 100% of Agility damage to the opponent. Apply 1 Seed to the opponent.,Earth Arrow,Null,0,Vulnerable,Earth,1,Damage,Agility,5,Debuff,Earth,1,,,,Earth,,,BranchArrow
+456,Deal 100% of Agility damage to the opponent. Apply 1 Dizzy to the opponent.,Wind Arrow,Null,0,Vulnerable,Wind,1,Damage,Agility,5,Debuff,Wind,1,,,,Wind,,,WingedArrow
+457,Deal 100% of Agility damage to the opponent. Apply 4 Venom  to the opponent.,Poison Arrow,Null,0,Vulnerable,Agility,1,Damage,Agility,5,Debuff,Venom,4,,,,,,,ChemicalArrow
+458,Deal 100% of Strength damage to the opponent. Apply 2 Depress and 6 Insane to the opponent. ,Black Engulf,Null,1,Damage,Strength,2,Damage,Strength,5,Debuff,Dark,2,Debuff,Insane,6,Dark,Draw,Exhaust,Swallow
+459,Protect 70% Strength damage from attacks. Deal 70% of Strength damage to the opponent,Shadow Wall,Null,1,Protect,Strength,4,Damage,Strength,4,,,,,,,Dark,,,TwoShadows
+460,Apply 1 Protect Boost on self. Protect 10% / 15% MaxHP damage from attacks. Deal 70% of Protect damage to the opponent.,Hallowed Blow,Null,1,InstantBoost,Protect,1,Protect,MaxHP,2,Damage,Protect,4,,,,Light,,,SerratedSlash
+461,Lose 20% of current Max Health. Apply 1 Dark Element on self. Deal 200% of Strength damage to the opponent. Apply 2 Depress to the opponent.,Soul Eater Slash,Null,2,Sacrifice,MaxHP,2,Buff,Dark,2,Damage,Strength,7,Debuff,Dark,3,Dark,Spirit,LifeSteal,GooeySword
+462,Apply 1 Light element on self. Recover 20/35% of maxHP. Deal 25/40% of maxHP damage. Apply 1 blind to opponent.,Shining Bash,Null,2,Buff,Light,1,Heal,MaxHP,4,Damage,MaxHP,5,Debuff,Light,1,Light,,,HeavyFall
+463,"Lose 40% current Max Health. Consume all Fire Elements, for each element consumed, deal 70% Fire damage based on your strongest attribute [Fire Finale at Max Stacks]",Ultimate Fire Blast,Null,3,Sacrifice,MaxHP,3,Damage,Fire,4,Sacrifice,Injury,5,Sacrifice,Bleed,1,Fire,,,CelebrationFire
+464,"Lose 40% current Max Health. Consume all Water Elements, for each element consumed, deal 70% Water damage based on your strongest attribute [Water Finale at Max Stacks]. Apply 1 Chill and 1 Bleed on self.",Ultimate Water Blast,Null,3,Sacrifice,MaxHP,3,Damage,Water,4,Sacrifice,Injury,5,Sacrifice,Bleed,1,Water,,,WaterSplash
+465,"Lose 40% current Max Health. Consume all Wind Elements, for each element consumed, deal 70% Wind damage based on your strongest attribute [Wind Finale at Max Stacks]. Apply 2 Dizzy and 1 Bleed on self.",Ultimate Wind Blast,Null,3,Sacrifice,MaxHP,3,Damage,Wind,4,Sacrifice,Injury,5,Sacrifice,Bleed,1,Wind,,,WindHole
+466,Apply 4 Protect Pierce to the opponent. Protect 100% Strength damage from attacks. Deal 100% of Strength damage to the opponent.,Dig & Drill,Null,2,Vulnerable,Protect,4,Protect,Strength,5,Damage,Strength,5,,,,Earth,Matter,,Drill
+467,,Fire Ring,Null,2,Damage,Agility,4,Damage,Agility,4,Damage,Agility,4,Debuff,Fire,1,Fire,,,FireRing
+468,Deal 150% of Intelligence damage to the opponent. Apply 2 Paralysis to te opponent.,Electro Slash,Null,2,Damage,Intelligence,6,Debuff,Thunder,2,,,,,,,Thunder,Matter,,ElectricWhip
+469,Deal 100% of Agility and 100% of Agility damage to the opponent.. Apply 1 Bleed to the opponent.,Aero Cutter,Null,2,Damage,Agility,5,Damage,Agility,5,Debuff,Bleed,1,,,,Wind,Creature,,CrossAir
+470,Protect 40% Agility damage from attacks. Deal 70% of Agility damage to the opponent.,Barrels & Cannons,Null,1,Protect,Agility,3,Damage,Agility,4,,,,,,,Water,,,BarrelAndCannon
+471,Deal 70% of Agility and 70% of Agility damage to the opponent.,Guns & Sabers,Null,1,Damage,Agility,4,Damage,Agility,4,,,,,,,Earth,,,SaberAndPistol
+472,Apply 1 Agility Buff on self. Deal 70% of Agility Damage to the opponent.,Grapple & Bombs,Null,1,Buff,Agility,1,Damage,Agility,4,,,,,,,Wind,,,GrappleAndBomb
+473,"Deal 40% of Agility, 25% of Agility and 25% of Agility damage to the opponent. Apply 1 Injury to the opponent.",King Kong Fist,Null,1,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,Debuff,Injury,1,Action,,,Punch
+474,,Iron Head,Null,1,Vulnerable,Protect,5,Damage,Strength,6,,,,,,,Matter,,,Headband
+475,Apply 1 Agility Buff and 3 Agility Action Buff on self.,Lightness Skill,Null,0,Buff,Agility,1,InstantBoost,Agility,3,,,,,,,,,,Sprint
+476,Deal 200% of Agility damage to the opponent.,Palm Of Rulai,Null,1,Damage,Agility,7,,,,,,,,,,Action,,,Hand
+477,Remove all Restrain from self. Apply 2 Strength and 2 Agility Buff on self. Recover 150% Agility health.,Muscle Tendon Change,Null,2,Buff,Strength,2,Buff,Agility,2,Protect,Restrain,0,Heal,Agility,6,Humanoid,,,Strong
+478,"Apply 2 Strength Buff, 2 Agility Buff, 2 Intelligence Buff and 1 Light Element on self.",God's Blessing,Null,2,Buff,Strength,2,Buff,Agility,2,Buff,Intelligence,2,Buff,Light,1,Light,,,AngelOutfit
+479,Apply 2 Element on self. Deal 150% of Intelligence damage to the opponent. Apply 2 rando Elemental Statuses Effect to the opponent.,Elemental Magic,Null,2,Buff,Element,2,Damage,Intelligence,6,Debuff,Element,2,,,,,,,TripleYin
+480,"Consume all Elements, for each element consumed, deal 40% of damage based on your strongest attribute [Elemental Finale at Max stacks]",Elemental Strike,Null,2,Buff,Element,2,Damage,Element,3,,,,,,,,,,TriplePlier
+481,"Deal 70% of Strength, 70% of Strength, 70% of Agility and 70% of Agility damage to the opponent.",Quadro Blade,Null,2,Damage,Strength,4,Damage,Strength,4,Damage,Agility,4,Damage,Agility,4,,,,FourSword
+482,"Deal 40% of agility, 40% of Agility, 40% of Intelligence and 40% of Intelligence damage to the opponent.",Swarm Attacks,Null,1,Damage,Agility,3,Damage,Agility,3,Damage,Intelligence,3,Damage,Intelligence,3,,,,Dozen
+483,"Deal 40% of Agility, 25% of Agility, 25% of Agility and 25% of Agility damage to the opponent. ",Feather Strikes,Null,1,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,Damage,Agility,2,Wind,,,TwoFeathers
+484,Apply 2 MaxHP Buff on self. Protect 70% Strengthdamage from attacks. Recover 15% / 25% of MaxHP health.,Rock Cover,Null,1,Buff,MaxHP,2,Protect,Strength,4,Heal,MaxHP,3,,,,,,,Rock
+485,Lose 20% of current Max Health. Apply Guard and Stack Guard on self. Protect 10% / 15% MaxHP damage from attacks,Shell Defend,Null,1,Sacrifice,MaxHP,2,InstantBoost,Guard,0,Buff,Guard,0,Protect,MaxHP,2,,,,TurtleShell
+486,Remove all Paralysis and Thunder Vulnerable from self. Apply 2 MaxHP Buff and 4 MaxHP Action Buff on self.,Slime Split,Null,1,Protect,Thunder,0,Buff,MaxHP,2,InstantBoost,MaxHP,4,,,,,,,TransparentSlime
+487,Apply 2 Bleed Vulnerable to the opponent. Deal 40% of Agility and 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent. ,Crystal Twister,Null,2,Vulnerable,Bleed,2,Damage,Agility,3,Damage,Agility,3,Debuff,Bleed,1,,,,CrystalBars
+488,,Jade Crystal Miracle,Null,2,Protect,Element,2,Protect,Debuff,0,Heal,Intelligence,6,,,,Exhaust,,,Gem
+489,Apply Charge on self. Apply 2 Depress to the opponent.,Intruder Detected,Null,0,InstantBoost,Charge,0,Debuff,Dark,2,,,,,,,Exhaust,,,Gaze
+490,Deal 15% / 25% and 15% / 25% of MaxHP damage to the opponent. Apply 2 Injury to the opponent.,Drive Over,Null,1,Damage,MaxHP,2,Damage,MaxHP,2,Debuff,Injury,2,,,,,,,TankTread
+491,"Deal 100% of Strength, 70% of Agility and 70% of Agility damage to the opponent.",Triple Blast,Null,2,Damage,Strength,5,Damage,Agility,4,Damage,Agility,4,,,,,,,Blaster
+492,Deal 300% of Strength damage to the opponent. Apply 2 Strength Debuff and 2 Dizzy on self.,Cannon Blast,Null,2,Damage,Strength,8,Sacrifice,Strength,2,Sacrifice,Wind,2,,,,,,,CannonShoot
+493,"Deal 70% ofStrength, 40% of Strength and 25% of Strength damage to the opponent. Apply 1 Burn to the opponent.",Bombing Raids,Null,1,Damage,Strength,4,Damage,Strength,3,Damage,Strength,2,Debuff,Fire,1,Charge,,,BombingRun
+494,Deal 15% / 25% of MaxHP damage to the opponent.,Move & Take,Null,0,Damage,MaxHP,3,,,,,,,,,,Matter,,,ChessPawn
+495,Deal 20% / 35% of MaxHP damage to the opponent,Straight Move,Null,1,Damage,MaxHP,4,,,,,,,,,,Matter,,,ChessRook
+496,Recover 20% / 35% of Max HP health.,Elephant Move,Null,1,Heal,MaxHP,4,,,,,,,,,,Matter,,,ChessBishop
+497,,L Jump,Null,1,Vulnerable,MaxHP,3,Damage,MaxHP,3,,,,,,,Matter,,,ChessKnight
+498,Protect 20% / 35% MaxHP damage from attacks.,Castling,Null,1,Protect,MaxHP,4,,,,,,,,,,Exhaust,,,ChessKing
+499,Recover 10% / 15% of MaxHP health. Deal 15% / 25% of MaxHP damage to the opponent.,Cross Move,Null,1,Heal,MaxHP,2,Damage,MaxHP,3,,,,,,,Matter,,,ChessQueen
+500,Apply 2 MaxHP Buff on self. Protect 70% MaxHP damage from attacks. Recover 100% of MaxHP health.,Ace of Spades,Null,2,Buff,Strength,2,Protect,Strength,4,Heal,Strength,5,,,,Exhaust,,,AceSpade
+501,Apply 2 Strength Buff on self. Protect 70% Strength damage from attacks. Recover 100% of Strength health.,Ace of Hearts,Null,2,Buff,MaxHP,2,Protect,MaxHP,2,Heal,MaxHP,2,,,,Exhaust,,,AceHeart
+502,Apply 2 Strength Buff on self. Protect 70% Strength damage from attacks. Recover 100% of Strength health.,Ace of Clubs,Null,2,Buff,Agility,2,Protect,Agility,4,Heal,Agility,5,,,,Exhaust,,,AceClub
+503,Apply 2 Intelligence Buff on self. Protect 70% Intelligence damage from attacks. Recover 100% of Intelligence health.,Ace of Diamonds,Null,2,Buff,Intelligence,2,Protect,Intelligence,4,Heal,Intelligence,5,,,,Exhaust,,,AceDiamond
+504,Deal 100% of Strength amd 70% of Strength to the opponent.,Cross Axe,Null,1,Damage,Strength,5,Damage,Strength,4,,,,,,,,,,CrossAxe
+505,Deal 15% / 25% of MaxHP damage to the opponent. Apply 2 Depress and 1 Bleed to the opponent.,Scyther Blade,Null,1,Damage,MaxHP,3,Debuff,Dark,2,Debuff,Bleed,1,,,,,,,Scythe
+506,,Is That All You Got,Null,0,Debuff,Dark,2,,,,,,,,,,,,,ThumbDown
+507,Deal 100% of Strength and 100% of Strength damage to the opponent.,Champion Whack,Null,1,Damage,Strength,5,Damage,Strength,5,,,,,,,,,,PunchBlast
+508,Deal 100% of Agility and 100% of Agility damage to the opponent. ,Champion Kapow,Null,1,Damage,Agility,5,Damage,Agility,5,,,,,,,,,,PunchBlast
+509,,I Acknowledge You,Null,3,Buff,Strength,3,Buff,Agility,3,InstantBoost,Charge,0,,,,,,,ThumbUp
+510,,Arrr Arrgh Die!,Null,2,InstantBoost,Strength,10,Debuff,Agility,2,Debuff,Intelligence,2,,,,,,,PirateHook
+511,Deal 40% of Agility and 40% of Agility damage to the opponent.,Fury Cutter,Null,1,Damage,Agility,3,Damage,Agility,3,,,,,,,Multiply,,,ActionAttack
+512,Apply 1 Intelligence Debuff and2 Dizzy to the opponent.,Screech,Null,1,Debuff,Intelligence,1,Debuff,Wind,2,,,,,,,,,,SonicScreech
+513,Deal 150% of Intelligence damage to the opponent. Apply 2 Dizzy to the opponent.,Hyper Voice,Null,1,Damage,Intelligence,6,Debuff,Wind,2,,,,,,,,,,LightningShout
+514,,Living Organism Detected,Null,1,Buff,Charge,0,Debuff,Dark,2,,,,,,,Exhaust,,,Gaze
+515,,System Damaged,Null,0,Sacrifice,Strength,2,Sacrifice,Agility,2,Sacrifice,Intelligence,2,Sacrifice,Element,3,Exhaust,,,CrackedDisc
+516,"Remove all Stat Debuffs, Stat Vulnerables, Elemental Status Effects and Elemental Vulnerables from self.  Recover 300% of Intelligence health",Giga Reboot,Null,3,Protect,Debuff,0,Protect,Element,2,Heal,Intelligence,8,Sacrifice,Slack,1,Exhaust,,,PowerButton
+517,Deal 150% of Agility damage to the opponent. Apply 1 Paralysis to the opponent.,Cyber Slash,Null,1,Damage,Agility,6,Debuff,Thunder,1,,,,,,,,,,LightSabers
+518,Deal 150% of Intelligence damage to the opponent. Apply 1 Paralysis to the opponent. ,Cyber Laser,Null,1,Damage,Intelligence,6,Debuff,Thunder,1,,,,,,,,,,LaserBlast
+519,Deal 150% of Strength damage to the opponent. Apply 1Paralysis to the opponent.,Cyber Cannon,Null,1,Damage,Strength,6,Debuff,Thunder,1,,,,,,,,,,IonCannonBlast
+520,Appl 5 Wind Boost on self. Deal 150% of Strength damage to the opponent,Wing Swipe,Null,1,InstantBoost,Wind,5,Damage,Strength,6,,,,,,,,,,FluffyWing
+521,Apply 3 Fire Vulnerable to the opponent. Deal 150% of Strength damage to the opponent. Apply 1 Depress to the opponent.,Dark Combustion,Null,1,Vulnerable,Fire,3,Damage,Strength,6,Debuff,Dark,1,,,,Fire,Dark,,Burn
+522,,Deadly Howl,Null,1,InstantBoost,Strength,6,Buff,Charge,0,,,,,,,,,,WolfHowl
+523,,Shapeshift,Null,2,Buff,Strength,3,Buff,Agility,3,Buff,Intelligence,3,,,,,,,Werewolf
+524,Deal 150% of Strength damage to the opponent. Apply 2 Bleed and 3 Injury to the opponent.,Brutal Devour,Null,2,Damage,Strength,6,Debuff,Bleed,2,Debuff,Injury,3,,,,Dark,Exhaust,,SharpSmile
+525,Lose 20% of Current Max Health. Deal 100% of Intelligence damage to the opponent. Apply 2 MaxHP Debuff to the opponent,Dark Ritual,Null,2,Sacrifice,MaxHP,2,Damage,Intelligence,5,Debuff,MaxHP,2,,,,Exhaust,,,CursedStar
+526,"Apply 1 Dark Element on self. Consume all Dark Elements, for each element consumed, deal 25% Dark damage based on your strongest attribute [Dark Finale at Max Stacks]. Deal 25% of Intelligence damage to the opponent. Apply 1Depress to the opponent. ",Dark Magic,Null,1,Buff,Dark,1,Damage,Dark,2,Damage,Intelligence,2,Debuff,Dark,1,Dark,,,MagicPalm
+527,Deal 150% of Intelligence damage to the opponent. Apply 1 Bleed to the opponent.,Blood Feast,Null,1,Damage,Intelligence,6,Debuff,Bleed,1,,,,,,,LifeSteal,,,NeckBite
+528,Apply 3 Protect Pierce to the opponent. Deal 100% of Strength and 25% of Strength damage to the opponent.,Charging Horn,Null,1,Vulnerable,Protect,3,Damage,Strength,5,Damage,Strength,2,,,,Charge,,,BullHorn
+529,,Positive Charges,Null,1,Heal,Intelligence,5,,,,,,,,,,Thunder,Matter,,Plus
+530,,Negative Charges,Null,1,Damage,Intelligence,5,,,,,,,,,,Thunder,Matter,,Minus
+531,Protect 150% Intelligence damage from attacks,Magnetic Force,Null,2,Protect,Intelligence,5,Debuff,Restrain,5,,,,,,,,,,Magnet
+532,,Stone Gaze,Null,2,Debuff,Thunder,3,Debuff,Water,1,Debuff,Restrain,7,,,,,,,MedusaHead
+533,,Do You,Null,0,Buff,Element,4,,,,,,,,,,Water,Exhaust,,Silence
+534,,Want To,Null,0,Protect,Element,2,,,,,,,,,,Exhaust,,,Silence
+535,,Plant A Tree,Null,0,Debuff,Earth,2,,,,,,,,,,,,,Sprout
+536,,Build A Snowman,Null,0,Debuff,Water,1,,,,,,,,,,,,,Snowman
+537,Deal 200% of Strength damage to the opponent. Apply 1 Chill to the opponent.,Giant Snowball,Null,2,Damage,Strength,7,Debuff,Water,1,,,,,,,Water,,,BoulderDash
+538,Apply 1 Water Element on self. Recover 40% of Agility health. Deal 40% of Agility and 40% of Agility damage to the opponent.,Icicles Dance,Null,1,Buff,Water,1,Heal,Agility,3,Damage,Agility,3,Damage,Agility,3,Multiply,Exhaust,,IciclesFence
+539,Apply 4 Strength Debuff and 4 Strength Debuff to the opponent.,Strength Seal,Null,2,Debuff,Strength,3,Debuff,Strength,2,,,,,,,Exhaust,,,DebuffS
+540,Apply 4 Agility Debuff and 4 Agility Debuff to the opponent.,Agility Seal,Null,2,Debuff,Agility,3,Debuff,Agility,2,,,,,,,Exhaust,,,DebuffA
+541,Apply 4 Intelligence Debuff and 4 Intelligence Debuff to the opponent.,Intelligence Seal,Null,2,Debuff,Intelligence,3,Debuff,Intelligence,2,,,,,,,Exhaust,,,DebuffI
+542,"Apply 4 Strength Debuff, 4 Agility Debuff and 4 Intellgence Debuff to the opponent.",Spirit Seal,Null,3,Vulnerable,Restrain,0,Debuff,Strength,5,Debuff,Agility,5,Debuff,Intelligence,5,Exhaust,,,Heptagram
+543,Apply 5 Intelligence Action Buff on self. Deal 100% of Intelligence damage to the opponent,Enchanted Spell,Null,1,InstantBoost,Intelligence,5,Damage,Intelligence,5,,,,,,,Buff,,,SpellBook
+544,"Next Turn Action Point +1. Apply 1 Intelligence Buff, 4 Intelligence Action Buff and 1 Element on self.",Spell Recharge,Null,1,Buff,Intelligence,1,InstantBoost,Intelligence,4,Buff,Element,1,Buff,Action,1,,,,MagicSwirl
+545,Deal 150% of Agility damage to the opponent. Apply 3 Depress and 3 Restrain to the opponent.,Dark Trident,Null,1,Vulnerable,Agility,2,Damage,Agility,6,Debuff,Dark,3,Debuff,Restrain,3,Dark,LifeSteal,,Trident
+546,Deal 70% of Intelligence  and 70% of Strength damage to the opponent.,Spell Blade,Null,1,Damage,Intelligence,4,Damage,Strength,4,,,,,,,LifeSteal,Buff,Combo,RuneSword
+547,Apply 1 Strength Buff on self.,Strength Buff,Low,0,Buff,Strength,1,,,,,,,,,,,,,BuffS
+548,Apply 1 Agility Buff on self,Agility Buff,Low,0,Buff,Agility,1,,,,,,,,,,,,,BuffA
+549,Apply 1 Intelligence Buff on self.,Intelligence Buff,Low,0,Buff,Intelligence,1,,,,,,,,,,,,,BuffI
+550,,Hugo Shot,Null,2,Buff,Strength,2,Damage,Strength,6,,,,,,,,,,Gunshot
+551,Apply 1 Agility Buff on self. Deal 150% of Agility damage to the opponent.,Carl Slash,Null,2,Buff,Agility,2,Damage,Agility,6,,,,,,,,,,SpinningSword
+552,,Strength Absorb,High,0,Debuff,Strength,2,Buff,Strength,1,,,,,,,Exhaust,,,BuffS
+553,,Agility Absorb,High,0,Debuff,Agility,2,Buff,Agility,1,,,,,,,Exhaust,,,BuffA
+554,,Intelligence Absorb,High,0,Debuff,Intelligence,2,Buff,Intelligence,1,,,,,,,Exhaust,,,BuffI
+555,Lose 40% of current Max Health. Apply 2 MaxHP Buff and 5 MaxHP Action Buff on self. Apply 2 Insane on self.,Self Harm,Null,0,Sacrifice,MaxHP,3,Buff,MaxHP,2,InstantBoost,MaxHP,5,Sacrifice,Insane,3,Exhaust,,,CutPalm
+556,"Recover 50% / 100% MaxHP Health. Apply 3 Strength Debuff, 3 Agility Debuff and 3 Intelligence Debuff on self.",Surrender,Null,0,Heal,MaxHP,6,Sacrifice,Strength,3,Sacrifice,Agility,3,Sacrifice,Intelligence,3,Exhaust,,,Flag
+557,Apply 4 Intelligence Action Buff on self. Deal 200% of Intelligence damage to the opponent.,Headshot,Null,2,InstantBoost,Intelligence,4,Damage,Intelligence,7,,,,,,,Humanoid,Creature,,Headshot
+558,Deal 70% of Agility damage to the opponent. Apply 2 Injury and one Dizzy to the opponent.,Knee Strike,Null,0,Damage,Agility,4,Debuff,Injury,2,Debuff,Wind,1,,,,,,,Sprint
+559,Apply 3 MaxHP Vulnerable to the opponent. Deal 10% / 15% of MaxHP damage to the opponent. Apply 1 Injury to the opponent. ,Double Leg Takedown,Null,1,Vulnerable,MaxHP,3,Damage,MaxHP,2,Debuff,Injury,1,,,,,,,MuscleUp
+560,Deal 10% / 15% of MaxHP damage to the opponent. Apply 1 Paralysis and 3 Restrain to the opponent,Rear Naked Choke,Null,1,Damage,MaxHP,2,Debuff,Thunder,1,Debuff,Restrain,3,,,,Humanoid,,,Grab
+561,"Deal 40% of Strength, 40% of Agility and 40% of Agility damage to the opponent.",Fast Jabs,Null,0,Damage,Strength,3,Damage,Agility,3,Damage,Agility,3,,,,,,,Punch
+562,Apply 2 Strength Action Buff on self. Deal 150% of Strength damage to the opponent,Cross Punch,Null,1,InstantBoost,Strength,2,Damage,Strength,6,,,,,,,,,,HighPunch
+563,Apply 5 Protect Pierce to the opponent. Deal 100% of Agility damage to the opponent.,Right Hook,Null,0,Vulnerable,Protect,5,Damage,Agility,5,,,,,,,,,,Revolt
+564,Deal 100% of Agility and 100% of Strength damage to the opponent. apply 2 Dizzy to the opponent.,Uppercut,Null,1,Damage,Agility,5,Damage,Strength,5,Debuff,Wind,2,,,,,,,Revolt
+565,"Apply 1 Element on self. Deal 40%of Strength, 40% of Agility and 40% of Intelligence damage to the opponent.",Hero's Power,Null,0,Buff,Element,1,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,Combo,,,PowerRevolt
+566,"Deal 40% of Strength, 40% of Agility and 40% of Intelligence damage to the opponent.",Villain's Power,Null,0,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,Debuff,Element,1,Combo,,,PowerRevolt
+567,"Apply Stack Charge, 3 Strength Action Buff, 3 Agility Action Buff and 3 Intelligence Action Buff on self.",Hero's Journey,Null,1,Buff,Charge,0,InstantBoost,Strength,3,InstantBoost,Agility,3,InstantBoost,Intelligence,3,Combo,,,Journey
+568,,Villain's Journey,Null,1,InstantBoost,Charge,0,InstantBoost,Strength,3,InstantBoost,Agility,3,InstantBoost,Intelligence,3,Combo,,,Journey
+569,"ApplyStack Guard, 1 Strength Buff, 1 Agility Buff and 1 Intelligence Buff on self.",Hero's Destiny,Null,0,Buff,Guard,0,Buff,Strength,1,Buff,Agility,1,Buff,Intelligence,1,Combo,,,EmbrassedEnergy
+570,,Villain's Destiny,Null,0,InstantBoost,Guard,0,Buff,Strength,1,Buff,Agility,1,Buff,Intelligence,1,Combo,,,EmbrassedEnergy
+571,"Apply 1 MaxHP Buff, 1 Strength Buff, 1 Agility Buff and 1 Intelligence Buff on self.",Forsaken Destiny,Null,0,Buff,MaxHP,1,Buff,Strength,1,Buff,Agility,1,Buff,Intelligence,1,Combo,,,EmbrassedEnergy
+572,,Chosen Finale,Null,3,Buff,MaxHP,2,Damage,Strength,5,Damage,Agility,5,Damage,Intelligence,5,Combo,,,Implosion
+573,,Boss Finale,Null,3,Protect,MaxHP,2,Damage,Strength,5,Damage,Agility,5,Damage,Intelligence,5,Combo,,,Implosion
+574,"Apply 6 MaxHP Action Buff on self. Deal 100% of Strength, 100% of Agility and 100% of Intelligence damage to the opponent.",Dramatic Finale,Null,3,InstantBoost,MaxHP,6,Damage,Strength,5,Damage,Agility,5,Damage,Intelligence,5,Combo,,,Implosion
+575,Apply Stack Guard on self. Protect 70% of Intelligence and 70% of Intelligence damage from attacks. Recover 70% of Strength health.,King Barrier,Null,2,Buff,Guard,0,Protect,Intelligence,4,Protect,Intelligence,4,Heal,Strength,4,,,,StoneSphere
+576,Deal 150% of Intelligence damage to the opponent. Apply 1 Blind to the opponent.,Goblin Cannon,Null,0,Damage,Intelligence,6,Sacrifice,Light,1,,,,,,,,,,CannonShoot
+577,,Goblin Smash,Null,0,Damage,Strength,6,Sacrifice,Thunder,1,,,,,,,,,,HeavyFall
+578,,Mega Goblin Cannon,Null,1,Damage,Intelligence,7,Sacrifice,Light,1,,,,,,,,,,CannonShoot
+579,,Mega Goblin Smash,Null,1,Damage,Strength,7,Sacrifice,Thunder,1,,,,,,,,,,HeavyFall
+580,"Remove all Stat Debuffs, Stat Vulnerable, Elemental Status Effects and Elemental Vulnerable from self. Revocer 50% / 100% MaxHP health.",Creation Magic,Null,3,Protect,Debuff,0,Protect,Element,0,Heal,MaxHP,8,,,,Exhaust,,,ShiningHeart
+581,Apply Stack Guard on self. Protect 40% / 70% MaxHP damage from attacks.,Absolute Defense,Null,2,Buff,Guard,0,Protect,MaxHP,7,,,,,,,Exhaust,,,GuardTower
+582,Apply3 Fire Boost and 1 Fire Element on self.,Fire Charge,High,0,Buff,Fire,1,InstantBoost,Fire,3,,,,,,,,,,BuffFire
+583,Apply3 Water Boost and 1 Water Element on self.,Water Charge,High,0,Buff,Water,2,InstantBoost,Water,2,,,,,,,,,,BuffWater
+584,,Ice Charge,High,0,Buff,Water,1,InstantBoost,Water,3,,,,,,,,,,BuffIce
+585,,Thunder Charge,High,0,Buff,Thunder,3,InstantBoost,Thunder,1,,,,,,,,,,BuffThunder
+586,Apply3 Earth Boost and 1 Earth Element on self.,Earth Charge,High,0,Buff,Earth,1,InstantBoost,Earth,3,,,,,,,,,,BuffEarth
+587,,Wind Charge,High,0,Buff,Wind,1,InstantBoost,Wind,3,,,,,,,,,,BuffWind
+588,Apply3 Light Boost and 1 Light Element on self.,Light Charge,High,0,Buff,Light,1,InstantBoost,Light,3,,,,,,,,,,BuffLight
+589,Apply3 Dark Boost and 1 Dark Element on self.,Dark Charge,High,0,Buff,Dark,1,InstantBoost,Dark,3,,,,,,,,,,BuffDark
+590,Deal 200% of Intelligence damage to the opponent.,Comet,Null,2,Damage,Intelligence,7,,,,,,,,,,Intelligence,,,Comet
+591,Deal 200% of Strength damage to the opponent.,Gigantic Smash,Null,2,Damage,Strength,7,,,,,,,,,,Strength,,,HeavyFall
+592,Deal 1500 damge to the opponent.,Excalibur,Null,2,Damage,Null,1500,,,,,,,,,,Strength,Agility,Intelligence,RelicBlade
+593,Apply 1 Element on self. Deal 70% of Intelligence damage to the opponent. Apply 1 random Elemental Status Effect to the opponent.,Summon . Elemental Fairies,Null,1,Buff,Element,1,Damage,Intelligence,4,Debuff,Element,1,,,,,,,TripleYin
+594,"Deal 25% of Intelligence, 25% of Intelligence and 25% of Intelligence damage to the opponent. Apply 2 Restrain to the opponent.",Summon . Skeletons,Null,1,Damage,Intelligence,2,Damage,Intelligence,2,Damage,Intelligence,2,Debuff,Restrain,2,Dark,,,RaiseSkeleton
+595,,Summon . Siren,Null,2,Buff,Null,0,Debuff,Agility,2,Debuff,Intelligence,2,Debuff,Wind,3,Exhaust,,,Harp
+596,"Apply 2 Strength Debuff, 2 Intelligence Debuff and 3 Dizzy to the opponent.",Siren Song,Null,2,Buff,Null,0,Debuff,Strength,2,Debuff,Intelligence,2,Debuff,Wind,3,Exhaust,,,Harp
+597,,Summon . Simurgh,Null,0,Protect,Debuff,0,Protect,Element,2,Heal,Agility,6,Sacrifice,Fire,2,Fire,Exhaust,,Feather
+598,"Remove all Stat Debuffs, Stat Vulnerables, Elemental Status Effects and Elemental Vulnerables from self. Recover 100% of Agility Health. Apply 1 Burn on self.",Priceless Feather,Null,0,Protect,Debuff,0,Protect,Element,2,Heal,Agility,6,Sacrifice,Fire,2,Fire,Exhaust,,Feather
+599,,Summon . Phoenix,Null,1,Protect,Guard,1,Buff,Intelligence,1,Heal,Intelligence,6,,,,Fire,Exhaust,,Phoenix
+600,Apply 1 Second Chance and 5 Intelligence Action Buff on self. Recover 150% of Intelligence health. ,Rebirth Flame,Null,1,Protect,Guard,1,InstantBoost,Intelligence,5,Heal,Intelligence,6,,,,Fire,Exhaust,,Phoenix
+601,,Summon . Huanglong,Null,3,Damage,Thunder,3,Debuff,Thunder,3,,,,,,,Thunder,Buff,Exhaust,LightningDissipation
+602,"Consume all Thunder Elements, for each element consumed, deal 40% Thunder damage based on your strongest attribute [Thunder Finale at Max Stacks].",Dragon Thunder,Null,2,Damage,Thunder,3,Debuff,Thunder,2,,,,,,,Thunder,Buff,Exhaust,LightningDissipation
+603,,Summon . Leviathan,Null,2,Damage,Intelligence,5,Damage,Intelligence,4,Debuff,Injury,7,Debuff,Wind,3,Water,Draw,Exhaust,BigWave
+604,Deal 100% of Agility and 70% of Agility damage to the opponent. Apply 4 Injury and 3 Dizzy to the opponent. ,Tsunami,Null,2,Damage,Agility,5,Damage,Agility,4,Debuff,Injury,7,Debuff,Wind,3,Water,Draw,Exhaust,BigWave
+605,Deal 150% of Intelligence damage to the opponent. Apply 10 Insane to the opponent.,Summon . The Lich King,Null,2,Damage,Intelligence,6,Debuff,Insane,10,,,,,,,Dark,Debuff,Exhaust,CrownedSkull
+606,Deal 150% of Strength damage to the opponent. Apply 10 Insane to the opponent.,Eternal Entomb,Null,2,Damage,Strength,6,Debuff,Insane,10,,,,,,,Dark,Debuff,Exhaust,CrownedSkull
+607,Apply 1 Element on self. Deal 70% of Intelligence damage to the opponent. Apply 1 random Elemental Status Effect to the opponent.,Summon . Ifrit,Null,2,Damage,Intelligence,6,Damage,Intelligence,5,Debuff,Fire,2,Debuff,Dark,2,Fire,Exhaust,,FlameTunnel
+608,Deal 150% of Strength damage to the opponent. Apply 2 Burn and 2 Depress to the opponent,Hellfire,Null,2,Damage,Strength,6,Damage,Strength,5,Debuff,Fire,2,Debuff,Dark,2,Fire,Exhaust,,FlameTunnel
+609,Apply 6 Water Vulnerable to the opponent. Deal 100% of Intelligence and 100% of Intelligence damage to the opponent. Apply 1 Chill to the opponent.,Summon . Shiva,Null,2,Vulnerable,Water,6,Damage,Intelligence,5,Damage,Intelligence,5,Debuff,Water,1,Water,Exhaust,,Flakes
+610,Apply 6 Water Vulnerable to the opponent. Deal 70% of Intelligence and 70% of Intelligence damage to the opponent. Apply 1 Chill to the opponent.,Crystal Dust,Null,1,Vulnerable,Water,6,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Water,1,Water,Exhaust,,Flakes
+611,"Remove all Elemental Status Effects, Elemental Vulnerables, Bleed, Bleed Vulnerables , Injury and Injury Vulnerables from self. Recover 200% of Intelligence health.",Summon . Carbuncle,Null,2,Protect,Element,1,Protect,Bleed,0,Protect,Injury,0,Heal,Intelligence,7,Wind,Exhaust,,Emerald
+612,"Remove all Elemental Status Effects, Elemental Vulnerables, Bleed, Bleed Vulnerables , Injury and Injury Vulnerables from self. Recover 200% of Agility health.",Emerald Light,Null,2,Protect,Element,1,Protect,Bleed,0,Protect,Injury,0,Heal,Agility,7,Wind,Exhaust,,Emerald
+613,,Summon . Alicon,Null,1,InstantBoost,Thunder,8,Buff,Thunder,1,Heal,Intelligence,6,,,,Thunder,Exhaust,,UnicornHorn
+614,Apply 8 Thunder Boost and 1 Thunder Element on self. Recover 150% of Agility health.,Healing Horn,Null,1,InstantBoost,Thunder,8,Buff,Thunder,1,Heal,Agility,6,,,,Thunder,Exhaust,,UnicornHorn
+615,Protect 150% Intelligence damage from attacks. Deal 150% of Intelligence damage to the opponent. Apply 2 Seed to the opponent,Summon . Rukkha,Null,2,Protect,Intelligence,6,Damage,Intelligence,6,Debuff,Earth,2,,,,Earth,LifeSteal,Exhaust,Forest
+616,Protect 100% Intelligence damage from attacks.Deal 100% of Intelligence damage to the opponent. Apply 2 Seed to the opponent.,Living Forest,Null,1,Protect,Intelligence,5,Damage,Intelligence,5,Debuff,Earth,2,,,,Earth,LifeSteal,Exhaust,Forest
+617,"Deal 100% of Intelligence, 100% of Intelligence, 70% of Agility and 70% of Agility damage to the opponent.",Summon . Behemoth,Null,2,Damage,Intelligence,6,Damage,Intelligence,3,Damage,Agility,6,Damage,Agility,3,Dark,Exhaust,,SpikyExplosion
+618,"Deal100% of Strength, 100% of Strength, 70% of Agilityand 70% of Agility damage to the opponent.",Chaos Rage,Null,2,Damage,Strength,6,Damage,Strength,3,Damage,Agility,6,Damage,Agility,3,Dark,Exhaust,,SpikyExplosion
+619,Deal 300% of Intelligence damage to the opponent,Summon . Bahamut,Null,2,Damage,Intelligence,8,,,,,,,,,,Light,Charge,Exhaust,ExplosionRay
+620,,Mega Flare,Null,2,Damage,Strength,8,,,,,,,,,,Light,Charge,Exhaust,ExplosionRay
+621,,Summon . Odin,Null,2,Curse,Light,3,Vulnerable,Protect,5,InstantBoost,Intelligence,5,Damage,Intelligence,8,Exhaust,,,Zantetsuken
+622,Apply 5 Strength Action Buff on self. Deal 100% of Strength damage to the opponent,Zantetsuken,Null,2,Curse,Light,3,Vulnerable,Protect,5,InstantBoost,Strength,5,Damage,Strength,8,Exhaust,,,Zantetsuken
+623,Apply 4 Venom to the opponent.,Poison Herb,Null,0,Debuff,Venom,4,,,,,,,,,,,,,HerbsBundle
+624,Remove all Bleed and B;eed Vulnerable from self. Recover 450 health.,Healing Herb,Null,0,Protect,Bleed,0,Heal,Null,450,,,,,,,Earth,,,HerbsBundle
+625,Apply 10 Protect Boost on self.,Barrier Burst,Null,0,InstantBoost,Protect,10,,,,,,,,,,Combo,,,BuffP
+626,,Forbidden Runes,Null,2,Buff,Strength,1,Buff,Intelligence,1,Buff,Multiply,0,,,,,,,RuneStone
+627,"Consume all Fire Elements, for each element consumed, deal 25% Fire damage based on your strongest attribute [Fire Finale at Max Stacks]. Apply 1 Burn to the opponent,",Kitsunebi,Null,0,Damage,Fire,2,Debuff,Fire,1,,,,,,,Fire,,,SmallFire
+628,"Deal 70% of Agility, 40% of Agility and 40%of Agility damage to the opponent. Apply 2 Paralysis to the opponent.",Nine Tail Thunder,Null,2,Damage,Agility,5,Damage,Agility,3,Damage,Agility,3,Debuff,Thunder,2,Thunder,Draw,Exhaust,FoxTail
+629,Next turn draw +1 and next turn action  +1. Apply 1 Blind to the opponent,Bunshin,Null,1,Sacrifice,MaxHP,3,Buff,Action,1,Sacrifice,Multiply,1,Debuff,Light,1,Exhaust,,,TwoShadows
+630,Draw 1 ability. Apply 4 Agility action Buff on self.,Death Blossom,Null,2,Damage,Agility,4,Damage,Agility,4,Damage,Agility,3,Damage,Agility,3,Humanoid,,,ReaperScythe
+631,,Katon,Null,1,Vulnerable,Fire,1,Damage,Agility,2,Damage,Agility,3,Damage,Agility,2,Fire,,,Ho
+632,,Suiton,Null,1,Vulnerable,Water,1,Damage,Agility,2,Damage,Agility,3,Damage,Agility,2,Water,,,Mizu
+633,,Raiton,Null,1,Vulnerable,Thunder,1,Damage,Agility,2,Damage,Agility,3,Damage,Agility,2,Thunder,,,Rai
+634,"Apply 1 Wind Vulnerable to the opponent. Deal 25% of Agility, 40% of Agility and 25% of Agility damage to the opponent.",Huton,Null,1,Vulnerable,Wind,1,Damage,Agility,2,Damage,Agility,3,Damage,Agility,2,Wind,,,Kaze
+635,,Doton,Null,1,Vulnerable,Earth,1,Damage,Agility,2,Damage,Agility,3,Damage,Agility,2,Earth,,,Tsuchi
+636,,Great Fire Annihilation,Null,2,InstantBoost,Fire,2,Damage,Agility,5,Damage,Agility,4,Damage,Agility,4,Fire,,,Ho
+637,,Water Dragon Whirlpool,Null,2,InstantBoost,Water,2,Damage,Agility,5,Damage,Agility,4,Damage,Agility,4,Water,,,Mizu
+638,,Chidori,Null,2,InstantBoost,Thunder,2,Damage,Agility,5,Damage,Agility,4,Damage,Agility,4,Thunder,,,Rai
+639,"Apply 2 Wind Boost on self. Deal 100% of Agility, 70% of Agility and 70% of Agility damage to the opponent.",Rasengan,Null,2,InstantBoost,Wind,2,Damage,Agility,5,Damage,Agility,4,Damage,Agility,4,Wind,,,Kaze
+640,,Added-Weight Rock Technique,Null,2,InstantBoost,Earth,2,Damage,Agility,5,Damage,Agility,4,Damage,Agility,4,Earth,,,Tsuchi
+641,Next turn draw +2. Apply 2 Intelligence Buff on self. Protect 70% Intelligence  damage from attacks.,Prophecy,Null,2,Buff,Intelligence,2,Buff,Draw,2,Protect,Intelligence,4,,,,,,,StoneTablet
+642,Remove all Depress and Dark Vulnerables from self. Recover 100% of Intelligence health.,Worship,Null,0,Protect,Dark,0,Heal,Intelligence,5,,,,,,,Light,,,Harp
+643,Next turn Action +1. Apply 1 Intelligence Buff and 4 Intelligence Action Buff on self.,Devotion,Null,1,Buff,Action,1,Buff,Intelligence,1,InstantBoost,Intelligence,4,,,,,,,Book
+644,Apply Guard on self. Apply 1 Blind to the opponent. ,Predict,Null,0,InstantBoost,Guard,0,Debuff,Light,1,,,,,,,Combo,,,SemiClosedEye
+645,"Apply 1 Intelligence Buff, 6 Intellience Action Buff, 1 Agility Buff and 5 Agility Action Buff on self..",Observation & Inference,Null,1,Buff,Intelligence,1,InstantBoost,Intelligence,6,Buff,Agility,1,InstantBoost,Agility,5,,,,MagnifyingGlass
+646,,Case Exposed,Null,1,InstantBoost,Action,2,Vulnerable,Agility,3,Vulnerable,Intelligence,3,,,,Exhaust,,,MagnifyingGlass
+647,,Lightning Resolve,Null,1,InstantBoost,Thunder,2,Damage,Thunder,3,,,,,,,Thunder,,,BoltEye
+648,"Deal 25% of Agility, 25% of Intelligence, 25% of Agility and 25% of Intelligence damage to the opponent. ",Space Gun,Null,0,Damage,Agility,2,Damage,Intelligence,2,Damage,Agility,2,Damage,Intelligence,2,Charge,,,RayGun
+649,"Force turn pass by 1, Inflict 3 Insane on self.",Time Travel,Null,0,InstantBoost,Direct,1,Sacrifice,Insane,2,,,,,,,Multiply,Exhaust,,BackwardTime
+650,Force turn pass by 1. Apply1 Agility Buff on self. Protect 70% Agility damage from attacks. Recover 70% of Agility Health.,Cosmic Artifact,Null,2,InstantBoost,Direct,1,Buff,Agility,1,Protect,Agility,4,Heal,Agility,4,Light,Dark,,Saphir
+651,"Apply 3 Light Boost on self. Consule all Light Elements, for each element consumed, Light heal 40% based on your strongest attribute. [Light Enhance at max stacks]. Deal 750 damage to the opponent",Miracle,Null,2,InstantBoost,Light,3,Heal,Light,3,Damage,Null,750,,,,Light,Exhaust,,Sparkles
+652,Apply 2 Intelligence Buff and 1 Intelligence Action Buff on self.  Recover 100% Intelligence health. ,Providence Conquer,Null,0,Buff,Intelligence,2,InstantBoost,Intelligence,1,Heal,Intelligence,5,,,,Light,Draw,Exhaust,AllSeeingEye
+653,Apply 2 Intelligence Vulnerable and 2 Agility Vulnerable to the opponent. Deal 70% of Intelligence and 70% of Agility damage to the opponent.,Lightsaber,Null,1,Vulnerable,Intelligence,2,Vulnerable,Agility,2,Damage,Intelligence,4,Damage,Agility,4,,,,LightSabers
+654,Apply Stack Guard and Guard on self. Protect 20% / 35% MaxHP damage from attacks. Deal 100% of strength damage to the opponent,Galactic Barrier,Null,2,Buff,Guard,0,InstantBoost,Guard,0,Protect,MaxHP,4,Damage,Strength,5,Charge,Exhaust,,StoneSphere
+655,Apply 8 Agility Action Buff and 8 Strength Action Buff on self,Iaijutsu,Null,1,InstantBoost,Agility,8,InstantBoost,Strength,8,,,,,,,,,,Katana
+656,"Remove all Injury and Injury Vulnerable from self. Protect 40% Strength damage from attacks, Recover 100% of Strength health.",Grand Escort,Null,1,Protect,Injury,0,Protect,Strength,3,Heal,Strength,4,,,,Humanoid,,,Guards
+657,Deal 30% / 50% of MaxHP damage to the opponent.Apply 4 Depress to the opponent.,Final Destination,Null,2,Damage,MaxHP,6,Debuff,Dark,4,,,,,,,Exhaust,,,GrimReaper
+658,,Champion Battle Cry,Null,2,Buff,Strength,4,Buff,Charge,0,,,,,,,,,,Shout
+659,Protect 70% of Agility damage from attacks. Recover 70% Agility Health. Deal 100% of Agility damage to the opponent.,Trinity Strike,Null,2,Protect,Agility,4,Heal,Agility,4,Damage,Agility,5,,,,,,,AllForOne
+660,"Protect 40% Agility damage from attacks, Deal 40% of Agility, 25% of Agility and 25% of Agility damage to the opponent.",Rain Blades,Null,2,Protect,Agility,3,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,Multiply,Exhaust,,Blades
+661,Protect 70% of Agility and 70% of Strength damage from attacks,Swords Shield,Null,1,Protect,Agility,4,Protect,Strength,4,,,,,,,,,,CrossSword
+662,Deal 400 damage to the opponent. Apply 3 Restrain and 1 Paralysis to the opponent.,Force Choke,Null,1,Vulnerable,Protect,2,Damage,Null,500,Debuff,Restrain,4,Debuff,Thunder,1,Dark,,,Grab
+663,Remove all Stat Debuffs and Stat Vulnerables from self. Protect 70% Intelligence and 40% intelligence damage from attacks.,Force Maelstrom,Null,2,Protect,Agility,2,Damage,Agility,2,Damage,Agility,4,Debuff,Injury,2,Multiply,Exhaust,,StompTornado
+664,Apply 1 Intelligence Buff on self. Deal 100% of Intelligence damage to the opponent. Apply 1 Intelligence Debuff and 2 Insane to the opponent.,Drain Knowledge,Null,1,Buff,Intelligence,1,Damage,Intelligence,5,Debuff,Intelligence,1,Debuff,Insane,2,LifeSteal,,,Focus
+665,Apply 10 Strength Action Buff on self. Deal 70% of Strength damage to the opponent.,Force Push,Null,0,InstantBoost,Strength,10,Damage,Strength,4,,,,,,,,,,Hand
+666,"Apply 2 Strength Buff, 5 Strength Action Buff, 2 Agility Buff and 5 Agility Action Buff on self.",Force Fury,Null,2,Buff,Strength,2,InstantBoost,Strength,5,Buff,Agility,2,InstantBoost,Agility,5,,,,Power
+667,"Deal 70% of Agility, and 40% of Agility damage to the opponent. Apply 1 Paralysis and 5 Restrain to the opponent.",Force Lightning,Null,1,Damage,Agility,3,Damage,Agility,5,Debuff,Thunder,1,Debuff,Restrain,5,Thunder,Draw,,LightningElectron
+668,"Apply 5 Agility Buff on self. Apply 3 Insane, 1 Dizzy and 1 Despair on self.",Phantom Dance,Null,1,Buff,Agility,5,Sacrifice,Insane,3,Sacrifice,Wind,1,Sacrifice,Dark,1,,,,SwordsPower
+669,"Deal 70% of Agility, 40% of Agility and 40% of Agility damage to the opponent. Apply 7 Insane to the opponent.",Phantom Rush,Null,2,Damage,Agility,4,Damage,Agility,3,Damage,Agility,3,Debuff,Insane,7,Debuff,,,LaserSparks
+670,,Focus Flame,Null,1,Damage,Fire,3,Debuff,Fire,4,,,,,,,Fire,Buff,,SmallFire
+671,Lose 20% of current Max Health. Apply Stack Charge and Stack Guard on self.,Call To Arms,Null,1,Sacrifice,MaxHP,2,Buff,Charge,0,Buff,Guard,0,,,,,,,Backup
+672,"Lose 20% of current Max Health. Apply Stack Charge, Guard  and 2 Earth Boost on self.",Ground Forces Call,Null,1,Sacrifice,MaxHP,1,Buff,Charge,0,InstantBoost,Guard,0,InstantBoost,Earth,3,,,,ArmyBadge
+673,"Lose 20% of current Max Health. Apply Charge, Stack Guard  and 2 Wind Boost on self.",Air Forces Call,Null,1,Sacrifice,MaxHP,1,InstantBoost,Charge,0,Buff,Guard,0,InstantBoost,Wind,3,,,,AirForceBadge
+674,"Lose 20% of current Max Health. Apply Charge, Guard and 2 Water Boost on self.",Marine Forces Call,Null,1,Sacrifice,MaxHP,1,InstantBoost,Charge,0,InstantBoost,Guard,0,InstantBoost,Water,3,,,,MarineBadge
+675,"Lose 50% of current Max Health. Consume all Elements, for each element consumed deal 70% damage based on your strongest attribute [Elemental Final at Max Stacks]",Command & Conquer,Null,3,Sacrifice,MaxHP,4,Damage,Element,4,,,,,,,Exhaust,,,Conqueror
+676,"Apply 3 Strength Buff, 3 Agility Buff and 3 Intelligence Buff on self. Protect 25% / 40% MaxHP damage from attacks.",Power Released,Null,3,Buff,Strength,3,Buff,Agility,3,Buff,Intelligence,3,Protect,MaxHP,5,Exhaust,,,Power
+677,"Deal 70% of Strength, 70% of Agility and 70% of Intelligence damage to the opponent. Apply 1 Injuryto the opponent.",Destroy,Null,1,Damage,Strength,4,Damage,Agility,4,Damage,Intelligence,4,Debuff,Injury,5,,,,LaserSparks
+678,Apply 3 random Elemental Status Effect to the opponent. Apply 2 random Elemental status Effects on self. ,Curse Of The Elements,Null,0,Debuff,Element,3,Sacrifice,Element,2,,,,,,,Curse,,,CursedStar
+679,"Apply 1 MaxHP Debuff, 6 Insane and 8 Venom to the opponent.",Acid Boneyard,Null,2,Debuff,MaxHP,1,Debuff,Insane,6,Debuff,Venom,8,,,,,,,PirateGrave
+680,,Dread Magic,Null,1,Damage,Intelligence,5,Debuff,Intelligence,1,Debuff,Dark,1,Debuff,Insane,4,,,,Dread
+681,Deal 70% of Intelligence damage to the opponent. Apply 1 Bleed and 4 random Elemental Status Effects to the opponent.,Anima Magik,Null,2,Damage,Intelligence,4,Debuff,Bleed,1,Debuff,Element,4,,,,Exhaust,,,PlantsAndAnimals
+682,Recover 70% of Intelligence health. Deal 70% of Strength damage to the opponent.,Healing Hammer,Null,1,Heal,Intelligence,4,Damage,Strength,4,,,,,,,Light,Charge,,Hammer
+683,Apply 1 Strength Action Buff and 2 MaxHP Action Buff on self. Protect 100% of Strength damage from attacks.,Cannon Block,Null,1,InstantBoost,Strength,1,Protect,Strength,5,InstantBoost,MaxHP,2,,,,,,,Shield
+684,"Deal 40% of Agility, 40% of Agility and 35% of Agility damage to the opponent. Apply 2 Bleed to the opponent",Rapid Rapier,Null,1,Damage,Agility,3,Damage,Agility,3,Damage,Agility,2,Debuff,Bleed,2,,,,SwordHilt
+685,"Deal 10% of Strength, 10% of Strength, 10% of Strength and 10% of Strength damage to the opponent",Musket Shot,Null,0,Damage,Strength,1,Damage,Strength,1,Damage,Strength,1,Damage,Strength,1,,,,Musket
+686,Next turn Draw +1 and Next turn Action +1. Apply 2 Strength Buff on self. ,Royal Duel,Null,1,Buff,Draw,1,Buff,Action,1,Buff,Strength,2,,,,,,,Duel
+687,,Rapid Shot,Null,2,Damage,Agility,4,Damage,Agility,4,Damage,Agility,4,Damage,Agility,4,,,,ArrowFlights
+688,Apply 4 Agility Action Buff onself. Deal 200% of Agility damage to the opponent. ,Bulleyes,Null,2,InstantBoost,Agility,4,Damage,Agility,7,,,,,,,Humanoid,Creature,Matter,Bulleyes
+689,Apply 3 Protect Pierce and 3 Agility Vulnerable to the opponent. Deal 100% of Agility damage to the opponent. ,Pierce Shot,Null,1,Vulnerable,Protect,3,Vulnerable,Agility,3,Damage,Agility,5,,,,,,,PierceSkull
+690,Apply 12 Agility Action Buff on self.,Lock On,Null,1,InstantBoost,Agility,9,,,,,,,,,,Exhaust,,,Aim
+691,,Exorcism,Null,1,Damage,MaxHP,3,Damage,MaxHP,1,Sacrifice,Insane,1,,,,Spirit,Exhaust,,Crucifix
+692,,Holy Water,Null,0,Protect,Dark,0,Heal,MaxHP,4,Damage,MaxHP,3,,,,Light,Spirit,Exhaust,HolyWater
+693,Deal 450 damage to the opponent. Apply 5 Injury to the opponent,Bribe Or Eliminate,Null,0,Damage,Null,450,Debuff,Injury,5,,,,,,,Humanoid,,,ReceiveMoney
+694,Lose 30% of current Max Health. Apply 2 Second Chance on self,Revival Herb,Null,1,Sacrifice,MaxHP,3,Protect,Guard,2,,,,,,,Exhaust,,,HerbsBundle
+695,Deal 300 damage to the opponent. apply 2 Seed and 3 Venom to the opponent.,Vine Herb,Null,1,Damage,Null,300,Debuff,Earth,2,Debuff,Venom,3,,,,,,,VineWhip
+696,Lose 30% of current Max Health and Action +1. Apply 3 MaxHP Action Buff on self. Apply 1 random Elemental Status Effect to the opponent.,Sacrifice,Null,0,Sacrifice,MaxHP,3,InstantBoost,Action,1,InstantBoost,MaxHP,3,Debuff,Element,1,Curse,,,Bleed
+697,Lose 20% of current Max Health. Deal 25% / 40%  of MaxHP damage to the opponent. Apply 1 Bleed on self. ,Sinister Power,Null,1,Damage,MaxHP,5,Sacrifice,MaxHP,2,Sacrifice,Bleed,1,,,,Curse,Dark,,EvilWings
+698,"Lose 10% of curret MaxHP. Deal 15% / 25% of MaxHP, 10% / 15% of MaxHP and 10% / 15% of MaxHP damage to the opponent",Raiding Snatch,Null,2,Vulnerable,MaxHP,1,Damage,MaxHP,2,Damage,MaxHP,2,Damage,MaxHP,1,,,,Snatch
+699,Apply 6 Wiind Boost on self. Deal 150% of Intelligence damage to the opponent.,Sky Dive,Null,2,InstantBoost,Wind,6,Damage,Intelligence,6,,,,,,,,,,CrowDive
+700,"Remove all Paralysis, Thunder Vulnerables, Restrain, Chill and Water Vulnerables from self. Apply 1 Second chance on self.",Freedom,Null,0,Protect,Thunder,0,Protect,Restrain,0,Protect,Water,0,Protect,Guard,1,Exhaust,,,FreedomDove
+701,"Remove all Injury, Injury Vulnerable, Bleed, Bleed Vulnerable and Venom from self. Recover 200% of Intelligence health.",Surgery,Null,1,Protect,Injury,0,Protect,Bleed,0,Protect,Venom,0,Heal,Intelligence,7,Exhaust,,,DoctorFace
+702,Apply 4 Paralysis to the opponent.,Full Anaesthetic,Null,1,Debuff,Thunder,4,,,,,,,,,,Exhaust,,,NeedleInject
+703,Apply 3 random Elemental Status Effects to the opponent.,Fault Diagnosis,Null,0,Debuff,Element,3,,,,,,,,,,Exhaust,,,SpectacleLenses
+704,Apply Charge on self. Recover 15% / 25% and 5% / 10% of MaxHP health.,Medical Diagnosis,Null,1,InstantBoost,Charge,0,Heal,MaxHP,3,Heal,MaxHP,1,,,,,,,SpectacleLenses
+705,,Force Addiction,Null,2,Debuff,Venom,10,Debuff,Insane,5,,,,,,,Exhaust,,,Overdose
+706,Deal 150%  of Strength and 100% of Intelligence damage to the opponent. Apply 5Injury to the opponent.,Dead Or Alive,Null,2,Damage,Strength,6,Damage,Intelligence,5,Debuff,Injury,5,,,,Exhaust,,,Wanted
+707,Deal 2500 damage to the opponent.,Death Star,Null,2,Damage,Null,2500,,,,,,,,,,Exhaust,,,ExplodingPlanet
+708,"Apply 2 Intelligence Action Buff on self. Apply 2 Insane, 3 Restrain and 1 Intelligence Debuff to theopponent",Brain Wash,Null,1,InstantBoost,Intelligence,2,Debuff,Insane,2,Debuff,Restrain,3,Debuff,Intelligence,1,,,,HiveMind
+709,"Deal 40% of Agility, 25% of Agility and 40% of Agility damage to the opponent. Appl 1 Bleed to the opponent.",Arrow Storm,Null,2,Damage,Agility,3,Damage,Agility,2,Damage,Agility,3,Debuff,Bleed,1,Multiply,Exhaust,,ArrowFlights
+710,Apply 4 Agility Action Buff on self. Apply 2 Blind to the opponent. ,Invisible,Null,1,InstantBoost,Agility,4,Debuff,Light,2,,,,,,,,,,Invisible
+711,Deal 300% of Agility damage to the opponent.,Phantom Blitz,Null,2,InstantBoost,Agility,5,Damage,Agility,7,,,,,,,Debuff,Delay,,EvilComet
+712,Apply 5 Agility Action Buff on self. Apply 3 Agility Vulnerable and 3 Protect Pierce to the opponent. ,Expose Weakness,Null,0,InstantBoost,Agility,5,Vulnerable,Agility,3,Vulnerable,Protect,3,Debuff,Injury,3,,,,AchillesHeel
+713,,Moon Stealer,Null,2,Buff,Strength,2,Buff,Agility,2,Buff,Intelligence,2,Debuff,Multiply,0,Combo,,,MoonBats
+714,Remove all Chill and Water Vulnerable from self. Apply 1 Fire Element and Stack Guard on self. Protect 100% Strength damage from attacks.,Lava Armor,Null,1,Protect,Water,0,Buff,Guard,0,InstantBoost,Fire,3,Protect,Strength,4,,,,Armor
+715,"Consume all Fire elements,for each element consumed deal 70% Fire damage based on your strongest attribute. [Fire finale at Max Stacks]. Apply 3 Burn to the opponent.",Magma Storm,Null,4,Damage,Fire,4,Debuff,Fire,3,,,,,,,Fire,,,Eruption
+716,,Fairy Heal,Null,1,Heal,Agility,5,Heal,Agility,4,,,,,,,Wind,,,Fairy
+717,Deal 40% of Agility and 25% of Agility damage to the opponent. Apply 1 Paralysis and 2 Venom to the opponent. ,Fury Stings,Null,1,Damage,Agility,3,Damage,Agility,2,Debuff,Thunder,1,Debuff,Venom,2,Multiply,,,ScropionTail
+718,Apply 2 Earth Element and 3 Earth Boost on self. Protect 10% / 15% MaxHP damage from attacks. Apply 1 Blind to the opponent.,Dryad Dance,Null,1,Buff,Earth,2,InstantBoost,Earth,3,Protect,MaxHP,2,Debuff,Light,1,,,,VineWhip
+719,,Thorn Vines,Null,0,Damage,Intelligence,2,Damage,Intelligence,2,Debuff,Restrain,3,Debuff,Earth,1,Earth,,,ThornyTriskelion
+720,Recover 20% / 35% of MaxHP health. Deal 205% of MaxHP damage to the opponent.,Nine Gates,Null,2,Heal,MaxHP,4,Damage,MaxHP,4,,,,,,,Earth,Buff,Debuff,HolyOak
+721,Protect 70% of Agility damage from attacks. Deal 100% of Agility and 100% of Intelligence damage to the opponent. Apply 2 Seed to the opponent.,Forest Fairies,Null,2,Protect,Agility,4,Damage,Agility,5,Damage,Intelligence,5,Debuff,Earth,2,Earth,,,Fairy
+722,"Deal 40% of Strength, 25%  of Strength and 40% of Strength to the opponent. Apply 1 Venom to the opponent.",Thorn Spikes,Null,2,Damage,Strength,3,Damage,Strength,2,Damage,Strength,3,Debuff,Venom,1,Earth,Multiply,Exhaust,SpikedTail
+723,Deal 100% of Agility damage to the opponent. Apply 1 Paralysis and 2 Venom to the opponent.,Paralysis Sting,Null,1,Damage,Agility,5,Debuff,Thunder,1,Debuff,Venom,2,,,,,,,WaspSting
+724,Recover 100% of Strength and 70% of Strength health. Deal 100% of Strength and 70% of strength damage to the opponent.,Fusion Thunder,Null,3,Heal,Strength,5,Heal,Strength,4,Damage,Strength,5,Damage,Strength,4,Thunder,,,LightningElectron
+725,Apply 2 Water Element and 3 Water Boost on self. Recover 70% of Agility health. Apply 1 Blind to the opponent. ,Aqua Dance,Null,1,Buff,Water,2,InstantBoost,Water,3,Heal,Agility,4,Debuff,Light,1,,,,Algae
+726,Apply 1 Element on self. Deal 5% / 10% of MaxHP damage to the opponent.,Titan Force,Null,0,Buff,Element,1,Damage,MaxHP,1,,,,,,,,,,Atlas
+727,Remove all Elemental Status Effects and Elemental Vulnerables from self. Apply 1 Secnd Chance on self. Recover 10% / 15% of MaxHP health. Deal 10% / 15% of MaxHP damage to the opponent. ,Life Force,Null,2,Protect,Element,2,Protect,Guard,1,Heal,MaxHP,2,Damage,MaxHP,2,,,,ShiningHeart
+728,Deal 70% of Agility and 40% of Agility damage to the opponent. Apply 1 Bleed to the opponent. ,Diamond Cut,Null,0,Damage,Agility,4,Damage,Agility,3,Debuff,Bleed,1,,,,,,,Diamond
+729,,Stare,Null,0,Debuff,Dark,1,,,,,,,,,,,,,SemiClosedEye
+730,Apply 3 Protect Pierce to the opponent. Deal 70% of Strength and 70% of Strength damage to the opponent,Moon Blade,Null,1,Vulnerable,Protect,3,Damage,Strength,4,Damage,Strength,4,,,,Charge,,,CircleClaws
+731,,Chain Blade,Null,0,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,Debuff,Restrain,5,,,,Restrain
+732,Apply 4 Strength Action Buff om self. Deal 200% of Strength damage to the opponent. ,Buster Shot,Null,2,InstantBoost,Strength,4,Damage,Strength,7,,,,,,,Matter,,,ScreenImpact
+733,"Deal 40% of Agility, 40% of Agility, 40% of Agility and 40% of Agility damage to the opponent.",Bullets Blitz,Null,1,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,,,,SupersonicBullet
+734,"Apply 8 Protect Pierce, 4 Intelligence Vulnerable and 4 Agility Vulnerable to the opponent.",Power Dismantle,Null,1,Vulnerable,Protect,8,Vulnerable,Intelligence,4,Vulnerable,Agility,4,,,,,,,Tinker
+735,Deal 10% / 15% of MaxHP damage to the opponent. Apply 5 Venom to the opponent.,Zombie Bites,Null,1,Damage,MaxHP,2,Debuff,Venom,5,,,,,,,LifeSteal,,,FrontTeeth
+736,Lose 30% of current Max Health. Deal 300% of Strength damage to the opponent. Apply 2 Bleed to the opponent,Night Decapitate,Null,2,Sacrifice,MaxHP,3,Damage,Strength,8,Debuff,Bleed,2,,,,Exhaust,,,Decapitation
+737,Apply 2 Paralysis and 1 Depress to the opponent.,Paralyzing Gaze,Null,0,Debuff,Thunder,1,Debuff,Dark,1,Debuff,Restrain,2,,,,,,,Gaze
+738,"Consume all Dark Elements, for each element consumed, deal 40% Dark damage based on your strongest attribute [Dark Finale at Max Stacks]. Apply 7 Venom and 2 Depress to the opponent.",Acid Breath,Null,2,Damage,Dark,3,Debuff,Venom,7,Debuff,Dark,2,Sacrifice,Venom,3,Dark,,,EnergyBreath
+739,"Deal 70% of Agility, 40% of Agility and 40% of Agility to the opponent.",Ghost Slash,Null,1,Damage,Agility,4,Damage,Agility,3,Damage,Agility,3,,,,Dark,,,WaveStrike
+740,"Apply 2 Strength Buff, 2 Agility Buff, 2 Intelligence Buff and Guard on self.",Guardian's Spirit,Null,2,Buff,Strength,2,Buff,Agility,2,Buff,Intelligence,2,InstantBoost,Guard,0,,,,AngelWings
+741,,Power Chords,Null,1,Damage,Intelligence,4,Damage,Intelligence,4,Debuff,Wind,2,,,,,,,Harp
+742,Deal 70% of Agility and 70% of Agility damage to the opponent. ,Sacred Slash,Null,1,Damage,Agility,4,Damage,Agility,4,,,,,,,Light,Buff,,PointySword
+743,Remove all Elemental Status Effects and Elemental Vulnerable from self. Double the stacks of self action buffs/boost. Protect 20% / 35% MaxHP damage from attacks. Recover 15% / 25% of MaxHP health.,Trinity Safeguard,Null,2,Protect,Element,2,InstantBoost,Multiply,0,Protect,MaxHP,4,Heal,MaxHP,3,Exhaust,,,Triquetra
+744,,Smite,Null,1,Damage,Strength,7,,,,,,,,,,Light,,,Power
+745,"Consume all Light Elements, for each element consumed, deal 25% Light damage to the opponent based on your strongest attribute [Light Finale at Max Stacks]",Divine Finale,Null,3,Damage,Light,3,,,,,,,,,,Light,Draw,Exhaust,CrossFlare
+746,"Apply 4 Protect Pill to the opponent. Deal 70% of Strength, 70% of Strength and 70% of Strength damage to the opponent.",Mega Drill,Null,2,Vulnerable,Protect,4,Damage,Strength,4,Damage,Strength,4,Damage,Strength,4,Matter,,,Drill
+747,Deal 70% of Strength and 40% of Strength damage to the opponent. ,X Fist,Null,0,Damage,Strength,4,Damage,Strength,3,,,,,,,Charge,,,MailedFist
+748,Deal 70% of Intelligence and 40% of Intelligence damage to the opponent.,Y Wing,Null,0,Damage,Intelligence,4,Damage,Intelligence,3,,,,,,,Charge,,,LibertyWing
+749,,Z Blade,Null,0,Damage,Agility,4,Damage,Agility,3,,,,,,,Charge,,,CrocSword
+750,"Deal 70% of Strength, 70% of Intelligence and 70% of Agility damage to the opponent.",XYZ Ultimate,Null,2,Damage,Strength,4,Damage,Intelligence,4,Damage,Agility,4,,,,Debuff,Charge,Combo,AllForOne
+751,Apply 2 Water Elements and 4 Water Boost on self.,Ice Spirit,High,1,Buff,Water,2,InstantBoost,Water,4,,,,,,,,,,BuffWater
+752,Lose 10% of current Max Health. Apply 1 Element and Guard on self. Protect 10% / 15% damage from attacks.,Elemental Runes,Null,1,Sacrifice,MaxHP,1,Buff,Element,1,InstantBoost,Guard,0,Protect,MaxHP,2,,,,RuneStone
+753,"Remove all Venom, Restrain and Insane from Self. Recover 20% / 35% of Max HP health.",Inner Recycle,Master,1,Protect,Venom,0,Protect,Restrain,0,Protect,Insane,0,Heal,MaxHP,4,Exhaust,,,WaterRecycling
+754,Deal 300% of Strength damage to the opponent.,One Punch,Null,2,Damage,Strength,8,,,,,,,,,,,,,PunchBlast
+755,Apply 2 MaxHP Action Buff on self. Apply 2 MaxHP Vulnerable to the opponent. Deal 10% / 15% of MaxHP damage to the opponent.,Hadouken,Null,0,Vulnerable,MaxHP,2,InstantBoost,MaxHP,2,Damage,MaxHP,2,,,,,,,GlowingHands
+756,Apply 6 Agility Action Buff on self. Deal 100% of Agility damage to the opponent. Apply 1 Burn to the opponent,Shoryuken,Null,1,InstantBoost,Agility,6,Damage,Agility,5,Debuff,Fire,1,,,,,,,PowerRevolt
+757,"Deal 40% of Strength, 25% of Strength, 25% of Strength and 40% of Strength damage to the opponent",Shun Goku Satsu,Null,2,Damage,Strength,3,Damage,Strength,2,Damage,Strength,2,Damage,Strength,3,Multiply,Action,,LaserSparks
+758,Apply 5 Protect Pierce to the opponent. Apply 4 MaxHP debuff and 2 Depress to the opponent.,Soul Harvest,Null,3,Vulnerable,Protect,6,Debuff,MaxHP,4,Debuff,Dark,3,,,,,,,SoulHarvest
+759,,No Escape,Null,1,Discard,Buff,5,Vulnerable,Protect,5,Debuff,Dark,2,Debuff,MaxHP,3,Exhaust,,,GrimReaper
+760,Apply 10 Agility Action Buff on self. Deal 100% of Agility damage to the opponent.,Burst Shot,Null,1,InstantBoost,Agility,10,Damage,Agility,5,,,,,,,,,,SupersonicArrow
+761,Apply 2 Light Element and Stack Guard on self. Protect 15% / 25% MaxHP damage from attacks.,Divine Aura,Null,1,Buff,Light,2,Buff,Guard,0,Protect,MaxHP,3,,,,,,,Ring
+762,,Spirit Stage,Null,5,Protect,Element,2,Protect,Direct,0,,,,,,,Exhaust,,,Ring
+763,,Forbidden Book,Null,2,Heal,Intelligence,1,Damage,Intelligence,5,Debuff,Element,5,,,,,,,SecretBook
+764,Recover 40% of Agility and 25%of Agility health,Reuseable Pill,High,0,Heal,Agility,3,Heal,Agility,2,,,,,,,,,,Medicines
+765,,Witch Curse,Null,1,InstantBoost,Intelligence,1,Vulnerable,Dark,2,Debuff,Element,2,,,,,,,Curse
+766,,Mega Elixir,Null,0,Protect,Element,0,Protect,Debuff,0,Heal,Null,1200,,,,Combo,Exhaust,,Elixir
+767,,Voodoo Life,Curse,1,Sacrifice,Null,0,Damage,Null,2500,Sacrifice,Bleed,1,,,,Curse,Exhaust,,Curse
+768,,Blasphemy,Null,0,Sacrifice,MaxHP,3,InstantBoost,Action,1,Damage,MaxHP,2,,,,Curse,,,Silenced
+769,,Toxic Potion,Curse,0,Heal,Null,2000,Sacrifice,Venom,20,,,,,,,Curse,Exhaust,,PoisonBottle
+770,,Xmas Party,Null,2,Buff,MaxHP,2,Protect,Strength,5,Heal,Agility,5,Damage,Intelligence,5,Combo,Exhaust,,CandyCanes
+771,,Xmas Present,Null,1,Protect,Element,0,InstantBoost,Guard,0,Heal,MaxHP,5,,,,Combo,Exhaust,,Present
+772,,Ornament Bomb,Null,0,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,,,,Charge,Action,Combo,Balls
+773,,Merry Christmas!,Null,0,Vulnerable,Strength,10,Vulnerable,Agility,10,Vulnerable,Intelligence,10,,,,Combo,Exhaust,,CandyCanes
+774,,Self Bite,Null,1,Sacrifice,MaxHP,3,Buff,Charge,0,Buff,Guard,0,Protect,Guard,1,Exhaust,,,Bite
+775,,Puk Puk Pukaak,Null,2,Buff,Dark,5,Buff,MaxHP,2,Heal,MaxHP,4,,,,,,,Rooster
+776,,Omelette,Null,0,Heal,MaxHP,3,,,,,,,,,,,,,RawEgg
+777,,I will defeat u!,Null,1,InstantBoost,MaxHP,4,InstantBoost,Strength,4,InstantBoost,Agility,4,InstantBoost,Intelligence,4,,,,Rooster
+778,,Crazy Peck,Null,0,Damage,Strength,2,Damage,Strength,2,Damage,Strength,2,Debuff,Bleed,1,Action,,,Peck
+779,,I mma Chicken,Null,1,Heal,MaxHP,4,Sacrifice,Strength,2,Sacrifice,Agility,2,Sacrifice,Intelligence,2,Curse,,,Rooster
+780,,Laters Bai Bai,Null,0,Sacrifice,Null,0,Sacrifice,Null,0,Sacrifice,Null,0,Sacrifice,Null,0,,,,Silence
+781,,Congrats,Null,0,Protect,Null,1,,,,,,,,,,,,,Silence
+782,,You're Champ,Null,0,Heal,Null,1,,,,,,,,,,,,,Silence
+783,,Glad You had Fun,Null,0,Damage,Null,1,,,,,,,,,,,,,Silence
+784,,Really Appreciate This,Null,0,Protect,Direct,0,,,,,,,,,,,,,Silence
+785,,?I Didn't Plan,Null,5,InstantBoost,Charge,0,Buff,Charge,0,InstantBoost,Guard,0,Buff,Guard,0,,,,Silence
+786,,To Make This,Null,5,Protect,Direct,0,Protect,Null,99999,Buff,Element,10,Debuff,Element,10,,,,Silence
+787,,Possible?,Null,5,InstantBoost,MaxHP,15,InstantBoost,Strength,15,InstantBoost,Agility,15,InstantBoost,Intelligence,15,,,,Silence
+788,,Bruh,Null,5,Damage,MaxHP,8,Damage,Strength,8,Damage,Agility,8,Damage,Intelligence,8,,,,Silence
+789,,Rift Energy,Null,1,Heal,Strength,3,Protect,Intelligence,3,Debuff,Insane,5,Sacrifice,Insane,2,Curse,Combo,,Portal
+790,,Lasso Of Truth,Null,1,Damage,Agility,3,Damage,Agility,4,Debuff,Restrain,5,Debuff,Fire,1,,,,Lasso
+791,,Bracelets Of Sub.,Null,1,Buff,Charge,0,Protect,Agility,2,Protect,Agility,3,,,,,,,Bracer
+792,,Exploding Arrow,Null,2,Damage,Agility,7,Debuff,Fire,2,Debuff,Injury,5,,,,Fire,,,Squib
+793,,Hail Arrows,Null,2,Damage,Agility,4,Damage,Agility,4,Damage,Agility,4,Debuff,Water,1,Water,,,IceSpear
+794,,Voltage Arrows,Null,2,Protect,Draw,1,Damage,Agility,4,Damage,Agility,4,Debuff,Thunder,2,Thunder,,,LightningArrow
+795,,Mountain Arrows,Null,2,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,Earth,Action,,ArrowFlights
+796,,Sonic Arrow,Null,2,Protect,Wind,0,Damage,Agility,8,,,,,,,Wind,,,SupersonicArrow
+797,,Pierce Bomb,Null,1,Sacrifice,MaxHP,1,Vulnerable,Protect,4,Damage,Strength,6,,,,,,,SparkyBomb
+798,,Remote Bomb,Null,2,Damage,Strength,8,,,,,,,,,,Delay,,,Remote
+799,,Peace Speech,Null,0,Debuff,Strength,1,Debuff,Agility,1,Debuff,Intelligence,1,Debuff,Insane,2,Combo,,,PeaceDove
+800,,Peace Treaty,Null,2,Heal,Buff,3,Debuff,MaxHP,2,Debuff,Restrain,7,,,,Exhaust,,,PeaceDove
+801,,Ranger Punch,Null,1,Damage,Strength,3,Damage,Strength,3,Damage,Strength,3,,,,Direct,Action,,Punch
+802,,Ranger Kick,Null,1,Damage,Agility,4,Damage,Agility,4,,,,,,,Direct,,,Kick
+803,,Ranger Pose,Null,1,Buff,Protect,5,Damage,Intelligence,5,,,,,,,Direct,,,SpikyExplosion
+804,,Combine Weapon Blast,Null,3,Vulnerable,Protect,8,Damage,Strength,4,Damage,Agility,4,Damage,Intelligence,4,Combo,Draw,Exhaust,TeslaTurret
+805,,Team Work,Null,2,Protect,MaxHP,3,Buff,Charge,0,Buff,Guard,0,InstantBoost,Action,1,Exhaust,,,ThreeFriends
+806,,Never Give Up,Null,2,Protect,Bleed,0,Protect,Injury,0,Heal,MaxHP,4,,,,,,,Silence
+807,,Activate Battle Mode,Null,5,InstantBoost,Draw,1,Buff,Element,3,InstantBoost,Charge,0,Protect,Direct,0,Exhaust,,,Power
+808,,Red Ultimate,Null,2,Buff,Strength,4,Damage,Strength,7,Debuff,Fire,1,,,,Exhaust,,,Ultimate
+809,,Black Ultimate,Null,2,Buff,Strength,4,Damage,Strength,7,Debuff,Injury,3,,,,Exhaust,,,Ultimate
+810,,White Ultimate,Null,2,Buff,Agility,4,Damage,Agility,7,Debuff,MaxHP,1,,,,Exhaust,,,Ultimate
+811,,Green Ultimate,Null,2,Buff,Agility,4,Damage,Agility,7,Debuff,Restrain,4,,,,Exhaust,,,Ultimate
+812,,Blue Ultimate,Null,2,Buff,Intelligence,4,Damage,Intelligence,7,Debuff,Bleed,1,,,,Exhaust,,,Ultimate
+813,,Tyranids Army,Null,2,Debuff,Venom,5,Damage,Intelligence,2,Damage,Intelligence,2,Sacrifice,Venom,3,Multiply,,,DarkSquad
+814,,Long Thick Gun,Null,2,InstantBoost,Agility,3,Damage,Agility,7,Debuff,Injury,3,,,,Delay,,,ThompsonM1928
+815,,Big Fat Punch,Null,2,InstantBoost,Strength,3,Damage,Strength,7,Debuff,Injury,3,,,,Delay,,,PunchBlast
+816,,Create Iron,Null,1,Protect,Guard,1,Heal,Agility,3,Heal,Agility,3,,,,Combo,,,MetalPlate
+817,,Create Brimstone,Null,1,Protect,Guard,1,Heal,Intelligence,3,Heal,Intelligence,3,,,,Combo,,,MetalPlate
+818,,Symbiote Shield,Null,1,Sacrifice,MaxHP,1,Vulnerable,MaxHP,4,Protect,MaxHP,2,Heal,MaxHP,3,,,,AlienFire
+819,,Symbiote Strike,Null,1,Sacrifice,MaxHP,1,Vulnerable,Agility,4,Damage,Agility,3,Damage,Agility,4,,,,AlienFire
+820,,Symbiote Arcane,Null,1,Sacrifice,MaxHP,1,Vulnerable,Intelligence,4,Heal,Intelligence,3,Damage,Intelligence,4,,,,AlienFire
+821,,Heat Blade,Null,1,Damage,Strength,5,Damage,Strength,1,Debuff,Fire,2,,,,Matter,Creature,,SerratedSlash
+822,,Stun Saber,Null,1,Damage,Agility,5,Damage,Agility,1,Debuff,Thunder,2,,,,Matter,Creature,,LightSaber
+823,,LN2 Beam,Null,1,Damage,Intelligence,5,Damage,Intelligence,1,Debuff,Water,1,,,,Matter,Creature,,RingedBeam
+824,,Rip And Tear,Null,1,Vulnerable,Bleed,1,Damage,Strength,4,Damage,Agility,5,Debuff,Bleed,1,LifeSteal,,,Bite
+825,,Dragon Smash,Null,1,Vulnerable,Strength,3,Damage,Strength,6,,,,,,,,,,HeavyFall
+826,,Dragon Bullets,Null,1,Damage,Agility,3,Damage,Agility,2,Damage,Agility,2,,,,Direct,Action,,BulletImpacts
+827,,Dragon Beam,Null,1,Damage,Intelligence,4,Damage,Intelligence,4,,,,,,,Direct,Combo,,RingedBeam
+828,,Death Hat,Null,2,Buff,MaxHP,2,Heal,MaxHP,3,Debuff,Dark,5,,,,,,,TopHat
+829,,Recall,High,0,Protect,Draw,1,,,,,,,,,,Exhaust,,,Idea
+830,,Fancy Talk,High,0,Debuff,Strength,1,Debuff,Agility,1,Debuff,Intelligence,1,,,,Combo,,,Convince
+831,,Nanjo Rage,Null,1,InstantBoost,Charge,0,Buff,Charge,0,Buff,Agility,1,,,,Exhaust,,,Power
+832,,Elemental Fang,High,1,Damage,Agility,5,Damage,Strength,3,Debuff,Bleed,1,Debuff,Element,2,,,,Bite
+833,,Create Bacon,Null,1,Protect,Guard,1,Heal,Strength,3,Protect,Strength,3,,,,Combo,,,Bacon
+834,,Create Bread,Null,1,Protect,Guard,1,Heal,MaxHP,2,Protect,MaxHP,2,,,,Combo,,,SlicedBread
+835,,Corrode,Null,0,Debuff,Fire,1,Debuff,Venom,5,,,,,,,,,,GooExplosion
+836,,Feathers Opening,Null,1,Protect,Guard,1,InstantBoost,Certain,1,Sacrifice,Light,,,,,Exhaust,,,LibertyWing
+837,,Desire Impale,Null,2,Damage,Restrain,0,Debuff,Restrain,5,Sacrifice,Restrain,7,,,,LifeSteal,,,FastArrow
+838,,Guilty Or Innocent,Null,2,Debuff,Strength,3,Debuff,Agility,3,Debuff,Intelligence,3,Debuff,Element,4,Exhaust,,,Scales
+839,,Seduce,Null,0,Debuff,Strength,1,Debuff,Intelligence,1,Debuff,Confuse,1,Debuff,Insane,2,,,,FemaleLegs
+840,,Lust Unleash,Null,2,Damage,Insane,0,Debuff,Fire,2,Debuff,Confuse,2,Debuff,Insane,5,,,,Power
+841,,Unreasonable Confidence,Null,2,Protect,Element,2,Buff,Charge,0,InstantBoost,Charge,0,InstantBoost,Certain,1,,,,EmbrassedEnergy
+842,,Dignity Thunder,Null,2,Damage,Intelligence,3,Damage,Intelligence,5,Debuff,Thunder,2,Debuff,Fire,1,Thunder,Buff,Draw,LightningDissipation
+843,,Endless Wrath,Null,3,Vulnerable,Fire,2,Discard,Strength,3,,,,,,,Sacrifice,,,Enrage
+844,,Fate Swap,Null,1,Sacrifice,MaxHP,1,Sacrifice,Buff,0,Sacrifice,Debuff,0,Buff,Guard,0,,,,CardExchange
+845,,Mad Feast,Null,1,Damage,MaxHP,1,Damage,MaxHP,1,Damage,MaxHP,1,Debuff,Insane,3,LifeSteal,Creature,,MouthWatering
+846,,Bad Breath,Null,0,Debuff,Dark,1,Debuff,Earth,1,Debuff,Venom,4,,,,,,,BadBreath
+847,,Self Pity,Null,1,Heal,MaxHP,4,Sacrifice,Injury,5,Sacrifice,Restrain,8,Sacrifice,Insane,6,,,,Depress
+848,,Contagious Snore,Null,0,Protect,Injury,0,Debuff,Slack,1,Debuff,Restrain,3,,,,,,,Sleepy
+849,,Blue Wisp,Null,1,Damage,Intelligence,4,Debuff,Fire,2,Debuff,Confuse,1,Debuff,Insane,4,,,,AlienFire
+850,,Void Sphere,Curse,1,Buff,Element,1,Debuff,Insane,10,Sacrifice,Element,3,,,,Curse,,,CagedBall
+851,,Let's Play A Game,Null,2,Debuff,Strength,5,Debuff,Agility,5,Debuff,Intelligence,5,Debuff,MaxHP,3,,,,Silence
+852,,Cut Throat,Null,1,Vulnerable,Bleed,1,Damage,Agility,4,Debuff,Bleed,2,,,,,,,Decapitation
+853,,Cruel Mock,Null,1,Vulnerable,Injury,2,Debuff,Dark,3,Sacrifice,Dark,1,Sacrifice,Insane,4,,,,SharpSmile
+854,,Fancy Tricks,Null,1,Protect,Intelligence,3,Debuff,Wind,1,Debuff,Confuse,1,,,,Multiply,,,MagicTrick
+855,,Ambush,High,1,Vulnerable,Protect,3,Damage,MaxHP,2,Damage,MaxHP,2,,,,,,,EvilHand
+856,,Psychic,Master,2,Damage,Intelligence,8,Sacrifice,Dark,2,Sacrifice,Wind,1,,,,,,,Focus
+857,,Vorpal Thrust,Medium,1,Vulnerable,Protect,5,Damage,Agility,5,Damage,Bleed,1,,,,,,,PiercedBody
+858,,Anime Love,Null,1,InstantBoost,Strength,5,InstantBoost,Agility,5,InstantBoost,Intelligence,5,,,,,,,Charm
+859,,Refuse Working,Null,0,Protect,Element,1,Debuff,Slack,1,Sacrifice,Slack,1,,,,Exhaust,,,Silence
+860,,All Element Gift,Null,1,Buff,Element,2,Damage,Null,500,Debuff,Element,3,,,,,,,EmbrassedEnergy
+861,,Auto Recovery Gift,Null,1,Buff,Element,2,Protect,Null,100,Heal,Element,2,,,,,,,ActionHeal
+862,,Weapon Master GIft,Null,1,Damage,MaxHP,1,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,Combo,,,SwitchWeapon
+863,,Unkillable Gift,Null,4,Sacrifice,MaxHP,5,Protect,Direct,0,Protect,Null,350,,,,Exhaust,,,EvilWings
+864,,Chaos Power Gift,Null,2,Damage,Element,3,Debuff,Venom,4,Debuff,Restrain,4,Debuff,Insane,4,,,,BrightExplosion
+865,,Investigation Report,Null,3,Protect,Null,600,Damage,Debuff,4,,,,,,,Delay,Exhaust,,Files
+866,,Disinformation,Null,1,Sacrifice,Restrain,6,Debuff,Confuse,1,Debuff,Intelligence,1,Debuff,Wind,1,,,,Convince
+867,,Paintblade Style,Null,2,Damage,Strength,5,Damage,Restrain,0,Debuff,Restrain,5,,,,Combo,,,PaintBrush
+868,,Drakeblood Greatsword,Null,3,Damage,MaxHP,1,Damage,Strength,4,Damage,Intelligence,4,Damage,Agility,4,Combo,Draw,Exhaust,DrippingKnife
+869,,Seductive Kiss,Null,1,Debuff,Wind,2,Debuff,Insane,6,Debuff,Confuse,2,,,,,,,Charm
+870,,Monsters Bane,Null,1,Sacrifice,MaxHP,2,Vulnerable,Protect,3,Damage,Strength,7,,,,Charge,,,ScreenImpact
+871,,Scarlet Execution,Null,2,Sacrifice,MaxHP,4,Damage,Strength,7,Damage,Agility,7,,,,Exhaust,,,CrossMark
+872,,Pile Bunker,Null,1,Vulnerable,Fire,2,Damage,Strength,6,Debuff,Fire,2,,,,,,,CoiledNail
+873,,Fusion Sword: Burtgang,Null,2,Damage,Element,2,,,,,,,,,,Strength,Intelligence,Combo,TrinityBlades
+874,,Demonic Gaze,Null,2,Sacrifice,MaxHP,2,Debuff,Thunder,3,Debuff,Dark,2,Debuff,Water,2,Curse,,,Gaze
+875,,Dragon Creations,Null,1,Damage,Intelligence,2,Damage,Intelligence,2,Debuff,Insane,4,,,,Multiply,Action,,CosmicEgg
+876,,Funky Aroma,Null,2,Debuff,Thunder,3,Debuff,Slack,1,,,,,,,,,,Incense
+877,,Lucky Coin,Null,0,InstantBoost,Dice,2,Protect,Intelligence,3,Vulnerable,Intelligence,2,Damage,Intelligence,3,Dice,,,CoinFlip
+878,,~help,Null,1,InstantBoost,Certain,1,InstantBoost,Guard,1,Heal,MaxHP,3,,,,Action,Charge,,Discord
+879,,~chars Queen Slime,Null,1,Buff,Element,2,Debuff,Element,2,,,,,,,Dice,Combo,,Discord
+880,,Tentacles Massage,Null,1,Damage,Strength,3,Damage,Agility,3,Damage,Intelligence,3,Debuff,Slack,1,Combo,,,Tentacles
+881,,PTSD,Curse,1,Curse,Dark,3,Debuff,Dark,3,,,,,,,Curse,,,Depress
+882,,Time Warp,Null,1,InstantBoost,Direct,1,InstantBoost,Agility,1,Sacrifice,Insane,4,Sacrifice,Thunder,1,,,,Run
+883,,Ligament Cut,Null,1,Vulnerable,Bleed,1,Damage,Agility,2,Debuff,Bleed,1,,,,,,,DrippingKnife
+884,,Dragonborne,Null,1,Sacrifice,MaxHP,2,Damage,Element,2,,,,,,,Agility,Combo,Exhaust,HypersonicBolt
+885,,Incoherent Mumbling,Medium,0,Debuff,Insane,3,Sacrifice,Insane,1,,,,,,,,,,Mute
+886,,Summon . Eldritch Abomination,Null,3,Sacrifice,MaxHP,2,Damage,Intelligence,6,Debuff,Insane,15,Sacrifice,Insane,15,Debuff,Draw,Exhaust,MagicPortal
+887,,Eldritch Sorcery,Null,1,Damage,Intelligence,2,Damage,Intelligence,2,Debuff,Insane,4,Sacrifice,Insane,4,Curse,,,MagicPalm
+888,,Danse Macabre,Null,1,Heal,Strength,4,Heal,Agility,4,Heal,Intelligence,4,Sacrifice,Insane,5,,,,Run
+889,,Clear Blue Sky,Null,2,Damage,Agility,4,Damage,Agility,4,Damage,Agility,5,,,,Fire,LifeSteal,Exhaust,FlameSpin
+890,,Thunderclap and Flash,Null,1,InstantBoost,Agility,6,Damage,Agility,5,,,,,,,Thunder,Action,Direct,FocusedLightning
+891,,Waterfall Basin,Null,1,Vulnerable,Protect,1,Protect,Agility,4,Damage,Agility,3,,,,Water,,,BigWave
+892,,Slice 'n' Dice,Null,0,Damage,Strength,3,Damage,Strength,3,Debuff,Injury,2,,,,Action,,,CrossSlash
+893,,Fire Infuse,Master,2,Buff,Fire,5,,,,,,,,,,,,,Fire
+894,,Water Infuse,Master,2,Buff,Water,5,,,,,,,,,,,,,Water
+895,,Thunder Infuse,Master,2,Buff,Thunder,5,,,,,,,,,,,,,Thunder
+896,,Earth Infuse,Master,2,Buff,Earth,5,,,,,,,,,,,,,Earth
+897,,Wind Infuse,Master,2,Buff,Wind,5,,,,,,,,,,,,,Wind
+898,,Light Infuse,Master,2,Buff,Light,5,,,,,,,,,,,,,Light
+899,,Dark Infuse,Master,2,Buff,Dark,5,,,,,,,,,,,,,Dark
+900,,Power Snatch,Master,0,Sacrifice,MaxHP,1,Buff,Strength,1,Vulnerable,Protect,2,Debuff,Strength,1,,,,Grab
+901,,Hexenbane,Null,2,Damage,Null,1500,,,,,,,,,,Buff,Debuff,,RelicBlade
+902,,Fast Attack,Null,0,Damage,Agility,3,Damage,Agility,2,Damage,Agility,1,,,,Action,,,DoubleSlash
+903,,Strong Attack,Null,1,Damage,Strength,6,,,,,,,,,,Action,,,Slash
+904,,Elemental Signs,Null,1,Vulnerable,Protect,2,Vulnerable,Intelligence,1,Damage,Intelligence,4,Debuff,Element,1,,,,RuneStone
+905,,Dodging and Rolling,Null,0,InstantBoost,Guard,0,InstantBoost,MaxHP,1,InstantBoost,Strength,1,InstantBoost,Agility,1,Combo,,,Run
+906,,Nullify Lamp,Null,1,Protect,Element,1,Vulnerable,Restrain,0,Debuff,Slack,1,,,,Exhaust,,,LanternFlame
+907,,Fish Bone Cleave,Null,1,Vulnerable,Multiply,0,Damage,Strength,4,Damage,Agility,4,Debuff,Bleed,1,Combo,,,SerratedSlash
+908,,Fork Thrust,Null,1,Vulnerable,Protect,5,Damage,Agility,4,Damage,Intelligence,4,Debuff,Injury,3,Combo,,,ScreenImpact
+909,,Newspaper Smash,Null,1,Damage,Strength,4,Damage,Intelligence,4,Debuff,Wind,2,Debuff,Insane,6,Combo,,,HeavyFall
+910,,Burning Stake,Null,1,Vulnerable,Protect,3,Debuff,Fire,1,Debuff,Restrain,5,,,,,,,StakeHammer
+911,,Mallues Maleficarum,Null,2,Vulnerable,Protect,7,Vulnerable,Restrain,0,Debuff,Restrain,10,,,,Exhaust,,,Book
+912,,Immolation,Null,1,Buff,Fire,1,Damage,MaxHP,2,Debuff,Fire,2,Sacrifice,Dark,2,Fire,,,FlameTunnel
+913,,Inquisition,Null,1,Debuff,Dark,2,Debuff,Insane,5,Debuff,Restrain,5,Debuff,Bleed,2,,,,Scales
+914,,Justice Bash,Null,2,Damage,MaxHP,1,Damage,MaxHP,1,Damage,MaxHP,2,Damage,MaxHP,2,Light,Charge,,HeavyFall
+915,,Black Nova,Null,3,Damage,Dark,3,,,,,,,,,,Dark,Draw,Exhaust,UnstableOrb
+916,,Play Dumb,Null,0,Sacrifice,MaxHP,1,Damage,Intelligence,3,Debuff,Confuse,1,,,,Exhaust,,,Uncertainty
+917,,Key Vote,Null,1,Damage,Intelligence,6,,,,,,,,,,Buff,Charge,Exhaust,Vote
+918,,Awake & Action,Null,1,Protect,Debuff,0,Heal,Intelligence,2,Damage,Intelligence,4,,,,Dice,Buff,Charge,SemiClosedEye
+919,,Job Craft,Null,2,Buff,Element,1,Damage,Intelligence,5,Damage,Strength,5,,,,Dice,Delay,,GlowingHands
+920,,Ability Craft,Null,2,Buff,Element,1,Damage,Strength,5,Damage,Intelligence,5,,,,Dice,Delay,,GlowingHands
+921,,Dimension Slash,Null,1,Sacrifice,MaxHP,1,Vulnerable,Protect,10,Damage,Null,700,,,,,,,SerratedSlash
+922,,Dimension Seal,Null,1,Sacrifice,MaxHP,1,Vulnerable,Restrain,0,Debuff,Restrain,7,Debuff,Light,1,Exhaust,,,MagicPortal
+923,,Thousand Swords Storm,Null,2,Damage,MaxHP,1,Damage,Strength,2,Damage,Agility,2,Damage,Intelligence,2,Multiply,LifeSteal,,MultiSword
+924,,Move Copy,Null,1,Sacrifice,MaxHP,2,Sacrifice,Multiply,1,,,,,,,,,,ShadowFollower
+925,,Focused Thrust,Null,1,Vulnerable,Agility,5,Damage,Agility,5,,,,,,,,,,ScreenImpact
+926,,Lethal Strike,Null,2,Damage,Null,500,,,,,,,,,,Draw,Charge,,Fission
+927,,You're tough,Null,1,Protect,Element,2,Protect,Injury,0,Vulnerable,Protect,5,Vulnerable,Strength,4,Exhaust,,,Silence
+928,,I like you,Null,1,InstantBoost,Charge,0,Sacrifice,Multiply,0,,,,,,,Exhaust,,,Silence
+929,,Puppet Control,Null,1,Damage,Agility,3,Damage,Agility,3,Debuff,Restrain,2,Debuff,Injury,2,,,,Puppet
+930,,Poisonous Fog,Null,1,Debuff,Wind,2,Debuff,Light,1,Debuff,Venom,5,,,,,,,Venom
+931,,Performance of Hundred Puppets,Null,2,Damage,Agility,3,Damage,Agility,3,Damage,Venom,2,Debuff,Bleed,1,Multiply,Exhaust,,BackUp
+932,,Emperor's Mind Game,Null,1,Protect,Debuff,0,Damage,MaxHP,1,Debuff,Confuse,1,,,,,,,SemiClosedEye
+933,,All for Me,Null,3,Protect,Null,500,Heal,Buff,4,Damage,Debuff,4,Sacrifice,Thunder,2,Exhaust,,,AllForOne
+934,,Gentle Touch,Null,0,InstantBoost,Protect,2,InstantBoost,MaxHP,2,Damage,Null,1,,,,,,,Pointing
+935,,Softness Overcome Hardness,Null,1,Buff,Guard,0,Heal,MaxHP,2,Damage,MaxHP,2,,,,Delay,,,Hand
+936,,Eight Trigrams Palms,Null,1,Damage,MaxHP,1,Damage,MaxHP,1,Debuff,Restrain,3,,,,Multiply,,,YinYang
+937,,Elegant Strike,Null,1,InstantBoost,Strength,3,Damage,Strength,6,,,,,,,Strength,,,HeavyFall
+938,,Banana,Null,0,Buff,Strength,1,Buff,Agility,1,Buff,Intelligence,1,Heal,Null,350,,,,Banana
+939,,Monkey Business,Null,1,InstantBoost,Agility,4,Debuff,Light,1,Debuff,Confuse,1,,,,,,,Clown
+940,,Immobilizing Skill,Null,0,Vulnerable,Protect,3,Debuff,Restrain,5,Debuff,Thunder,1,,,,,,,Seal
+941,,Samadhi Fire,Null,2,Damage,Strength,4,Damage,Strength,4,Damage,Strength,3,Debuff,Fire,3,Fire,,,FlameLeaf
+942,,Piercing Eyes,Null,1,Protect,Light,0,InstantBoost,Certain,1,InstantBoost,Charge,0,Vulnerable,Protect,3,,,,Gaze
+943,,Jingu Bang,Null,3,Vulnerable,Agility,4,Damage,Agility,8,Debuff,Injury,4,,,,Combo,,,HeavyFall
+944,,Three Pointed Double Edged Blade,Null,1,Vulnerable,Protect,5,Damage,Strength,6,Debuff,Injury,5,Debuff,Bleed,3,,,,HarpoonTrident
+945,,Phantom Blade Aura,Null,2,Protect,Agility,2,Damage,Agility,3,Damage,Agility,3,Damage,Agility,2,Dark,Multiply,Exhaust,GooeySword
+946,,Phantom Blades Realm,Null,3,Damage,Agility,5,Damage,Agility,4,Damage,Agility,3,,,,Dark,Draw,Exhaust,TrinityBlades
+947,,Suki! Aishiteru!,Null,3,Debuff,Element,6,Debuff,Wind,1,Debuff,Confuse,1,,,,,,,MusicNotes
+948,,Panda EDM,Null,1,Protect,Intelligence,3,Heal,Intelligence,3,Debuff,Injury,3,,,,Multiply,Exhaust,,Panda
+949,,I Gonna Sing!,Null,1,Buff,Draw,1,Buff,Action,1,Debuff,Slack,1,Sacrifice,Slack,1,Dice,,,MusicNotes
+950,,Grudge Assault,Null,2,Sacrifice,MaxHP,2,Damage,Debuff,4,,,,,,,Sacrifice,,,Grab
+951,,Burning Glare,Null,1,Vulnerable,Light,2,Debuff,Fire,1,Debuff,Light,1,Debuff,Insane,4,,,,EclipseFlare
+952,,Supper!,Null,1,Vulnerable,Bleed,1,Debuff,Dark,3,,,,,,,,,,RabbitHead
+953,,Slaughter Mode,Null,1,InstantBoost,Charge,0,Buff,Strength,1,Buff,Agility,2,,,,,,,RabbitHead
+954,,Behead With Teeth,Null,2,Vulnerable,Bleed,1,Damage,Strength,4,Damage,Agility,5,Debuff,Bleed,2,Humanoid,,,Decapitation
+955,,Summary Execution,Null,3,Discard,MaxHP,1,Debuff,Injury,5,,,,,,,Humanoid,Exhaust,,PowerRevolt
+956,,Force Arrest,Null,1,Vulnerable,Restrain,0,Debuff,Restrain,4,Debuff,Thunder,1,,,,,,,Restrain
+957,,Sudden Invitation,Null,1,Vulnerable,Protect,5,Debuff,Confuse,1,Debuff,Thunder,3,,,,,,,Scroll
+958,,Tea Not Wine,Null,0,Protect,Dark,0,Buff,Strength,2,Buff,Intelligence,3,Heal,Null,500,Exhaust,,,WineGlass
+959,,Party Is Over!,Null,2,Damage,MaxHP,3,Debuff,Dark,3,Debuff,Slack,1,,,,Buff,,,ShatteredGlass
+960,,Heaven Earth Split,Null,3,Vulnerable,MaxHP,1,Damage,MaxHP,3,Debuff,Injury,6,,,,Draw,,,Earth
+961,,Nature's Rage,Null,1,Vulnerable,Earth,1,Discard,Intelligence,1,Debuff,Earth,1,,,,Earth,,,EarthCrack
+962,,Super Remedy,Null,0,Protect,Element,2,Protect,Null,800,,,,,,,Combo,Exhaust,,Remedy
+963,,Great Axe Sweep,Null,2,Buff,Strength,1,InstantBoost,Certain,1,Damage,Strength,7,Debuff,Injury,4,,,,BattleAxe
+964,,Earth Temblor,Null,3,Damage,Strength,5,Damage,Strength,5,Damage,MaxHP,2,Debuff,Wind,3,Earth,Charge,,EarthCrack
+965,,Banana Leaf Fan,Null,2,Discard,Buff,2,InstantBoost,Agility,4,Damage,Agility,7,Debuff,Wind,2,Wind,,,WindSlap
+966,,Howling Wind,Null,3,Buff,Wind,2,Damage,Wind,3,Debuff,Injury,2,Debuff,Bleed,2,Wind,Buff,,WindHole
+967,,Bet,Medium,0,InstantBoost,Dice,2,,,,,,,,,,,,,Token
+968,,Double Down,High,1,InstantBoost,Dice,4,,,,,,,,,,,,,TwoCoins
+969,,Gambler's Fallacy,Null,1,Sacrifice,MaxHP,1,Buff,Draw,1,InstantBoost,Dice,2,,,,Dice,,,PokerHand
+970,,Hot Hands Fallacy,Master,1,InstantBoost,Element,1,InstantBoost,Dice,2,Vulnerable,Protect,2,Damage,Agility,4,Dice,Combo,,PokerHand
+971,,Cold Hands Fallacy,Master,1,InstantBoost,Direct,1,InstantBoost,Dice,2,Protect,Intelligence,2,Heal,Intelligence,2,Dice,Combo,,PokerHand
+972,,Jackpot,Null,3,InstantBoost,Dice,10,Heal,Null,1000,Damage,Null,1000,,,,Exhaust,,,ManyCoins
+973,,All-In,Null,3,Sacrifice,MaxHP,2,Sacrifice,Null,0,InstantBoost,Dice,5,Damage,MaxHP,8,Dice,Exhaust,,ManyCoins
+974,,Ruthless Beat Up,Null,2,Damage,Strength,3,Damage,Strength,3,Damage,Strength,3,Damage,Strength,3,Strength,Action,,Punches
+975,,Beg Me,Null,1,Buff,Strength,2,Vulnerable,Protect,4,Debuff,Dark,2,,,,,,,Silence
+976,,Trick Or Treat,Null,0,Damage,Strength,2,Damage,Agility,2,Damage,Intelligence,2,,,,Combo,Dice,,PumpkinLantern
+977,,Pumpkin Pie,Null,1,Protect,Element,1,InstantBoost,Charge,0,Heal,MaxHP,5,,,,Combo,Exhaust,,PieSlice
+978,,Paralyzing Lick,Null,0,Damage,Agility,2,Debuff,Thunder,1,,,,,,,,,,Tongue
+979,,Pumpkin Cannon,Null,3,Vulnerable,Strength,4,Damage,Strength,7,Debuff,Injury,5,Debuff,Confuse,1,,,,PumpkinLantern
+980,,Plasma Punch,Null,3,Vulnerable,Multiply,0,Protect,Intelligence,6,Damage,Strength,7,Debuff,Thunder,1,Thunder,Combo,,PunchBlast
+981,,Trio Hand Drill,Null,1,Vulnerable,Protect,5,Damage,Protect,5,Damage,Strength,3,Damage,Strength,2,Action,Matter,,Drill
+982,,Soul Stealer Sword,Null,1,Vulnerable,Agility,2,Damage,Agility,6,Debuff,Bleed,1,Debuff,Water,1,LifeSteal,,,DrippingSword
+983,,Hanauta Sancho: Yahazu Giri,Null,3,Damage,Bleed,0,Damage,Agility,7,Debuff,Bleed,2,Debuff,Water,1,Fire,Buff,Exhaust,CrossSlash
+984,,Runic Love Spell,Null,1,Debuff,Element,3,Debuff,Insane,3,Debuff,Restrain,3,Debuff,Confuse,1,Dice,,,SelfLove
+985,,Mega Paw Zone,Null,4,InstantBoost,Direct,1,Protect,Direct,0,Sacrifice,Restrain,10,Sacrifice,Slack,1,Exhaust,,,PawPrint
+986,,Meow Meow Ultimate,Null,3,Vulnerable,Protect,3,Damage,Debuff,3,Debuff,Element,2,Sacrifice,Slack,1,Dark,Draw,Exhaust,PawPrint
+987,,Happy Halloween!,Null,0,Debuff,Element,10,,,,,,,,,,Combo ,Exhaust,,Silence
+988,,Free Charge,Null,0,InstantBoost,Charge,0,,,,,,,,,,Exhaust,,,Charge
+989,,Free Guard,Null,0,InstantBoost,Guard,0,,,,,,,,,,Exhaust,,,Guard
+990,,Free Block,Null,0,Protect,MaxHP,2,,,,,,,,,,Exhaust,,,HandShield
+991,,Relic Craft,Null,2,Buff,Element,1,Damage,Strength,4,Damage,Agility,4,Damage,Intelligence,4,Dice,Delay,,GlowingHands
+992,,Blood Offering,Curse,1,Sacrifice,MaxHP,2,Buff,Element,2,Debuff,Element,2,Sacrifice,Bleed,1,Curse,Dice,,Bleed
+993,,Voodoo Magic,Curse,1,Sacrifice,MaxHP,1,Damage,Intelligence,6,Debuff,Element,1,,,,Curse,,,Curse
+994,,Ebony & Ivory,Null,0,Damage,Agility,2,Damage,Agility,2,Damage,Agility,1,Damage,Agility,1,,,,Dual Gun
+995,,Stinger,Null,1,Vulnerable,Protect,2,Vulnerable,Agility,2,Vulnerable,Strength,2,Damage,Strength,6,Combo,,,PointySword
+996,,Devil Trigger,Null,2,Buff,Strength,2,Buff,Agility,2,InstantBoost,Strength,8,InstantBoost,Agility,8,Combo,Exhaust,,Power
+997,,Voodoo End,Null,3,Sacrifice,Null,0,Discard,Curse,3,,,,,,,Curse,Exhaust,,Curse
+998,,Repeater Crossbow,High,0,Damage,Agility,3,Damage,Agility,3,Debuff,Bleed,1,,,,,,,Crossbow
+999,,Miniature Bombs,High,1,Vulnerable,Strength,4,Damage,Strength,3,Damage,Strength,3,,,,,,,Bomb
+1000,,Cannon Arm,Null,2,Damage,Strength,8,Debuff,Wind,1,,,,,,,Exhaust,,,IonCannonBlast
+1001,,Dragon Slayer Sword,Null,2,InstantBoost,Strength,5,Damage,Strength,8,,,,,,,Creature,,,PiercingSword
+1002,,Dragon Fang,High,1,Damage,Agility,5,Damage,Strength,4,Debuff,Bleed,3,,,,,,,Bite
+1003,,Extreme Starved,Null,1,Sacrifice,MaxHP,2,InstantBoost,Action,1,Debuff,Venom,8,Sacrifice,Venom,5,Exhaust,,,Swallow
+1004,,Perfect Calculation,Null,1,InstantBoost,Draw,1,Buff,Agility,1,InstantBoost,Intelligence,3,,,,Combo,,,Processor
+1005,,Deathtrap,Null,3,Vulnerable,Agility,3,Damage,Agility,5,Debuff,Venom,10,Debuff,Restrain,10,Draw,Exhaust,,DeathZone
+1006,,Celestial Flame,Null,1,Buff,Fire,1,Vulnerable,Fire,4,InstantBoost,Dice,2,,,,Dice,,,Fire
+1007,,Celestial Rock,Null,1,Buff,Earth,1,Vulnerable,Earth,4,InstantBoost,Dice,2,,,,Dice,,,Earth
+1008,,Celestial Wind,Null,1,Buff,Wind,1,Vulnerable,Wind,4,InstantBoost,Dice,2,,,,Dice,,,Wind
+1009,,Celestial Water,Null,1,Buff,Water,1,Vulnerable,Water,4,InstantBoost,Dice,2,,,,Dice,,,Water
+1013,,Balance of Judgment,Null,2,Discard,Buff,4,Heal,Buff,3,,,,,,,Wind,Fire,Buff,Scales
+1014,,Aqua Restraint,Null,1,Vulnerable,Water,3,Vulnerable,Agility,3,Damage,Agility,4,Debuff,Restrain,7,Water,,,Restrain
+1015,,Heart Piercing Arrow,Null,2,Vulnerable,Protect,8,Vulnerable,Agility,5,Damage,Strength,7,,,,Fire,Combo,,PiercedBody
+1016,,Violent Dance,Null,3,Damage,Earth,2,Damage,Agility,2,Damage,Agility,2,Damage,Agility,2,Earth,Agility,,CrossSlash
+1017,,Aurora Execution,Null,1,Damage,Strength,5,Damage,Intelligence,5,Debuff,Thunder,2,Debuff,Water,1,Wind,Thunder,Charge,Amphora
+1018,,Piranha Waves,Null,1,Damage,Intelligence,3,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Bleed,1,Water,LifeSteal,,Piranha
+1019,,For Athena,Null,3,Buff,Strength,3,Buff,Agility,3,Buff,Intelligence,3,Protect,Guard,1,Exhaust,,,Silence
+1020,,The Strongest Potion,Null,0,Sacrifice,Null,0,Protect,Guard,1,Protect,Null,1000,Heal,Null,1000,Buff,Combo,Exhaust,Elixir
+1021,,Shield Boomerang,Null,0,Protect,MaxHP,1,Damage,Protect,5,,,,,,,Action,,,RoundShield
+1022,,Sabotage,Null,1,Discard,Buff,1,Debuff,Element,3,,,,,,,,,,EvilHand
+1023,,The Power Of Memes,Null,4,Sacrifice,Draw,1,Protect,Direct,0,InstantBoost,Draw,1,Vulnerable,Protect,10,Exhaust,,,Idea
+1024,,Bad Kids Punishment,Null,2,Damage,Strength,8,Damage,Strength,1,Debuff,Dark,1,,,,Debuff,Sacrifice,Exhaust,PowerRevolt
+1025,,Summon . Snowmen,Null,1,Heal,Intelligence,3,Damage,Intelligence,3,Damage,Intelligence,3,Debuff,Water,1,,,,Snowman
+1026,,Touch Gently,Null,1,Damage,Strength,6,Debuff,Insane,2,Debuff,Confuse,1,,,,,,,Hand
+1027,,Good Kids Reward,Null,2,Heal,Agility,8,Debuff,Slack,1,Sacrifice,Slack,1,,,,Buff,Full,Exhaust,Present
+1028,,Psychokinesis Dance,Null,2,Buff,Strength,3,Buff,Agility,3,InstantBoost,Guard,0,Damage,Agility,5,Water,Action,Combo,Sparkles
+1029,,Lightning Flame,Null,2,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,Damage,Agility,3,Fire,Agility,Dice,FocusedLightning
+1030,,Treasures Of Heavens,Null,3,Protect,MaxHP,1,Heal,MaxHP,3,Debuff,Restrain,3,,,,Earth,Multiply,,Lotus
+1031,,We Know The Truth,Null,5,Buff,Strength,2,Buff,Agility,2,Buff,Intelligence,2,Protect,Direct,1,Exhaust,,,Silence
+1032,,Headache Spell,Null,0,Vulnerable,Protect,2,Debuff,Strength,1,Debuff,Agility,1,Debuff,Restrain,3,Combo,,,Dizzy
+1033,,Boundless Dharma,Null,3,Protect,Element,2,Discard,Intelligence,3,Debuff,Slack,1,,,,Light,Full,Exhaust,Lotus
+1034,,Naughty Monkey!,Null,3,Debuff,MaxHP,3,Debuff,Strength,3,Debuff,Agility,3,Debuff,Intelligence,3,Exhaust,,,Silence
+1035,,Build,Null,1,Protect,MaxHP,3,Protect,Strength,2,Protect,Agility,2,Protect,Intelligence,2,Combo,,,ConcreteBag
+1036,,United Strike,Null,2,Damage,Protect,7,,,,,,,,,,Sacrifice,,,BackUp

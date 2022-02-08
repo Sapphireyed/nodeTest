@@ -1,4 +1,5 @@
 const Job = require('./../models/jobModel');
+const Ability = require('./../models/abilityModel');
 const APIFeatures = require('./../utils/apiFeatures')
 
 // const abils5 = abilities.find(ab => ab['Ability Name'] == j['5 Abilities'])
@@ -42,7 +43,9 @@ exports.getAllJobs = async (req, res) => {
 
 exports.getJob = async (req, res) => {
     try {
-        const job = await Job.find({ Job: req.params.name.replace('-', ' ')})
+        const job = await Job.find(({ Job: req.params.name.replace('-', ' ')}))
+                             .populate({path: 'Abilities1', select: '-0 -_id -iconImage'})
+                             .populate({path: 'Abilities5', select: '-0 -_id -iconImage'})
         res.status(200)
            .json({
                status: "success",
