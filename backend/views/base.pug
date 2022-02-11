@@ -1,0 +1,16 @@
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    //-<link rel="stylesheet" href="css/style.css" /> for pug single quotes
+    //-we can use regular html too
+    link(rel='stylesheet' href='css/style.css') 
+    title JOBMANIA | #{title}
+
+
+  body
+    // HEADER
+    include _header
+
+    // CONTENT
+    block content

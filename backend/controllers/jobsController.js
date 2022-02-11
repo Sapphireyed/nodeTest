@@ -1,20 +1,5 @@
 const Job = require('./../models/jobModel');
-const Ability = require('./../models/abilityModel');
 const APIFeatures = require('./../utils/apiFeatures')
-
-// const abils5 = abilities.find(ab => ab['Ability Name'] == j['5 Abilities'])
-// const abils3 = abilities.find(ab => ab['Ability Name'] == j['3 Abilities'])
-// const abils2 = abilities.find(ab => ab['Ability Name'] == j['2 Abilities'])
-// const abils1 = abilities.find(ab => ab['Ability Name'] == j['1 Abilities'])
-// const sSkill = abilities.find(ab => ab['Ability Name'] == j['Switch Skill'])
-// //try updateMany to convert names to ids...
-// let job = ({...j._doc, 
-//     '5 Abilities Id': abils5 ? [abils5._id] : '',
-//     '3 Abilities': abils3 ? [abils3._id] : '',
-//     '2 Abilities': abils2 ? [abils2._id] : '',
-//     '1 Abilities': abils1 ? [abils1._id] : '',
-//     'Switch Skill': sSkill ? [sSkill._id] : '',
-// })
 
 exports.getAllJobs = async (req, res) => {
     try {
@@ -24,7 +9,11 @@ exports.getAllJobs = async (req, res) => {
         .limit()
         .paginate()
 
-        const jobs = await  features.query
+        let jobs = await features.query
+   
+        // if (req.query['SwitchSkill.Cost']) {
+        //     jobs = jobs.filter(j => j.SwitchSkill && j.SwitchSkill.Cost == req.query['SwitchSkill.Cost'])
+        // }
         res.status(200)
            .json({
                status: "success",
@@ -44,8 +33,6 @@ exports.getAllJobs = async (req, res) => {
 exports.getJob = async (req, res) => {
     try {
         const job = await Job.find(({ Job: req.params.name.replace('-', ' ')}))
-                             .populate({path: 'Abilities1', select: '-0 -_id -iconImage'})
-                             .populate({path: 'Abilities5', select: '-0 -_id -iconImage'})
         res.status(200)
            .json({
                status: "success",
@@ -73,16 +60,49 @@ exports.createJob = async (req, res) => {
         }
     })
    } catch(err) {
-    console.log('err', err)
     res.status(400).json({
         status: "fail",
         message: err
     })
    }
+}
 
+exports.getFiltered= async (req, res) => {
+    try {
+        const query = req.query
+        console.log(query, req.params.filterBy)
+        const filteredJobs = await Job.aggregate(
 
-    // tours.push(newTour)
-    // fs.writeFile(`${__dirname}/dev-data/data/tours-simple.json`, JSON.stringify(tours), er => {
-
-    //})
+            // Pipeline
+            [
+                // Stage 1
+                {
+                    $lookup: {
+                        from: "abilities",
+                        localField: "SwitchSkill",
+                        foreignField: "_id",
+                        as: "switchSkill_info"
+                    }
+                },
+                {
+                    $match: {'switchSkill_info.Cost': '1' }
+                }
+                // {
+                //     $project: {
+                //         Job: 1,
+                //         _id: 0
+                //     }
+                // }
+        
+            ]
+        
+        );
+        res.status(200).json({
+            status: 'success1',
+            results: filteredJobs.length,
+            data: {
+                filteredJobs
+            }
+        })
+    } catch (err) {}
 }

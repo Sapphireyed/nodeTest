@@ -14,10 +14,9 @@ class APIFeatures {
         //const tours = await Tour.find(req.query)    // get filtered tours
 
         // 1b) advanced filtering
-        let  queryString = JSON.stringify(queryObj)
+        let queryString = JSON.stringify(queryObj)
         queryString = queryString.replace(/\b(gte|gt|lte|lt)\b/g, match => `$${match}`) //we add & to req.query to make it match mongo filtering
         this.query = this.query.find(JSON.parse(queryString))       // get filtered tours
-
         // SOME EXPLANATION
         // Tour.find(queryObj) returns object. If we await it straight away we won't be able to use some of it's functions later om
         // like sort etc

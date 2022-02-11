@@ -1,4 +1,4 @@
-0,Job,Rarity,Lv10 HP,Lv10 Strength,Lv10 Agility,Lv10 Intelligence,Passive Skill,Switch Skill,5 Abilities,3 Abilities,2 Abilities,1 Abilities,,
+0,job,rarity,hp,strength,agility,intelligence,passive_skill,switch_skill,abilities_5,abilities_3,abilities_2,abilities_1,,
 1,Jobless,1,175,35,35,35,,Block,Tackle,,,Assault,,
 2,Warrior,1,205,43,31,23,,Slash,Slash,,,Bulk,,
 3,Rogue,1,150,33,39,25,,Swift,Stab,,,Swift,,

@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        //-<link rel="stylesheet" href="css/style.css" /> for pug single quotes
+        //-we can use regular html too
+        link(rel='stylesheet' href='css/style.css') 
+        title JOBS
+
+    
+    body
+        h1 The Park Camper
+        p body
+
+        //- 3 ways of writing code in pug:
+        //- 1) Buffer code - will be outputed to website (ex: h1 The Park Camper)
+        //- 2) unbuffer code - contains js that later can be used in  buffer code. Ex
+        - const x = 2 
+        h2= x * 2 
+        //- 3) interpolation: #{variable coming from route rendering this template}
+        //-tag= after '=' everything is js but will be outputed
