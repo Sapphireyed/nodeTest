@@ -1,0 +1,72 @@
+.filters .filters__container {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3% 8px 3%; }
+  .filters .filters__container .filter {
+    padding: 3px 10px; }
+  .filters .filters__container select {
+    font-size: 15px;
+    padding: 3px; }
+  .filters .filters__container .filters__filters .filter.filters--search-in {
+    width: 100%;
+    border-top: 3px solid #2a434a;
+    margin-top: 8px;
+    padding: 10px 0; }
+  .filters .filters__container .filters__filters .filters__buttons-filters {
+    display: flex;
+    justify-content: space-between; }
+    .filters .filters__container .filters__filters .filters__buttons-filters button {
+      width: 35%;
+      color: white; }
+  .filters .filters__container .filters__gerneral-options {
+    padding: 0 0 0 5%; }
+    .filters .filters__container .filters__gerneral-options .filter {
+      display: flex;
+      justify-content: space-between; }
+    .filters .filters__container .filters__gerneral-options .filters__input--search {
+      margin-top: 8px;
+      padding: 10px 0;
+      border-top: 3px solid #2a434a; }
+
+body {
+  background-image: url("../../img/Jobs/BG/inthp.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+button {
+  background-color: #3a5863; }
+
+.filters {
+  color: white; }
+  .filters .header {
+    background-color: #2a434a;
+    padding: 5px 0; }
+  .filters .filters__container {
+    display: flex; }
+    .filters .filters__container .filters__filters {
+      width: 66%; }
+      .filters .filters__container .filters__filters .filter {
+        width: 50%;
+        display: inline-block; }
+        .filters .filters__container .filters__filters .filter select {
+          float: right; }
+          .filters .filters__container .filters__filters .filter select option {
+            background-color: #4d636f;
+            color: white;
+            line-height: 2;
+            padding: 2px 0; }
+
+table.table__main-table {
+  width: 100%; }
+  table.table__main-table thead {
+    background-color: #2a434a;
+    color: white;
+    text-align: center; }
+    table.table__main-table thead th {
+      position: relative; }
+  table.table__main-table tbody tr:nth-child(odd) {
+    background-color: #f5f7f8; }
+  table.table__main-table tbody tr:nth-child(even) {
+    background-color: #9eb1bb; }

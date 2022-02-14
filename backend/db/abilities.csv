@@ -1,4 +1,4 @@
-0,Ability Description,Ability Name,Ability Tier,Cost,Skill Unit 1,,Multiplier,SkillUnit 2,,Multiplier,SkillUnit 3,,Multiplier,SkillUnit 4,,,Apply1,Apply2,Apply3,IconImage
+0,description,name,tier,cost,skill_unit1_skill,skill_unit1_effect,multiplier1,skill_unit2_skill,skill_unit2_effect,mutiplier2,skill_unit3_skill,skill_unit3_effect,multpiplier3,skill_unit4_skill,skill_unit4_effect,multiplier4,apply1,apply2,apply3,icon
 1,,Swap,Low,0,Sacrifice,MaxHP,1,Protect,Draw,1,,,,,,,Exhaust,,,Exchange
 2,,Exchange,Low,0,Sacrifice,Draw,1,InstantBoost,Draw,2,,,,,,,Exhaust,,,Exchange
 3,,Pain Draw,Medium,0,Sacrifice,MaxHP,2,InstantBoost,Draw,2,,,,,,,Exhaust,,,Pick
@@ -1032,3 +1032,14 @@
 1034,,Naughty Monkey!,Null,3,Debuff,MaxHP,3,Debuff,Strength,3,Debuff,Agility,3,Debuff,Intelligence,3,Exhaust,,,Silence
 1035,,Build,Null,1,Protect,MaxHP,3,Protect,Strength,2,Protect,Agility,2,Protect,Intelligence,2,Combo,,,ConcreteBag
 1036,,United Strike,Null,2,Damage,Protect,7,,,,,,,,,,Sacrifice,,,BackUp
+1037,,Firecracker,Null,1,Damage,Null,88,Damage,Null,88,Damage,Null,88,Damage,Null,88,Fire,Multiply,Action,SpikyExplosion
+1038,,Chinese Lantern,Null,0,Buff,MaxHP,1,Protect,Element,1,Heal,MaxHP,1,,,,Combo,,,PaperLantern
+1039,,Happy CNY,Null,3,Buff,Element,5,InstantBoost,Protect,3,,,,,,,Exhaust,,,Silence
+1040,,1 Year Older Now dX,Null,0,Vulnerable,Strength,1,Vulnerable,Agility,1,Vulnerable,Intelligence,1,Debuff,Dark,1,,,,Silence
+1041,,Big Luck Big Profit!,Null,0,Protect,Element,2,Protect,Debuff,0,Sacrifice,Null,0,,,,Exhaust,,,Silence
+1042,,Lightning Tiger Style,Null,0,Vulnerable,Thunder,3,Damage,Agility,3,Damage,Agility,3,Debuff,Restrain,2,Thunder,Action,,FocusedLightning
+1043,,Soul Lightning Claw,Null,3,Vulnerable,Agility,2,Damage,Agility,8,Debuff,Thunder,3,,,,LifeSteal,Thunder,Element,Claws
+1044,,Shunpo,Null,0,InstantBoost,Action,1,Vulnerable,Protect,3,,,,,,,Combo,Exhaust,,TabiBoot
+1045,,Getsuga Tensho,Null,1,InstantBoost,Strength,4,Damage,Strength,6,,,,,,,Light,Dark,Element,GooeySword
+1046,,Bankai,Null,2,Buff,Strength,3,Buff,Agility,3,Buff,Intelligence,3,InstantBoost,Certain,1,Combo,Exhaust,,Power
+1047,,Destruction Hex: Black Coffin,Null,2,Vulnerable,Restrain,0,Damage,Intelligence,8,Debuff,Bleed,3,,,,Curse,Exhaust,,Square

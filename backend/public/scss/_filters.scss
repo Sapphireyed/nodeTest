@@ -1,0 +1,44 @@
+.filters {
+  .filters__container {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3% 8px 3%;
+    .filter {
+      padding: 3px 10px;
+    }
+    select {
+      font-size: 15px;
+      padding: 3px;
+    }
+    .filters__filters {
+        .filter.filters--search-in {
+          width: 100%;
+          border-top: 3px solid $dark-grey;
+          margin-top: 8px;
+          padding: 10px 0;
+        }
+
+      .filters__buttons-filters {
+        display: flex;
+        justify-content: space-between;
+        button {
+          width: 35%;
+          color: white;
+        }
+      }
+    }
+    .filters__gerneral-options {
+      padding: 0 0 0 5%;
+      .filter {
+        display: flex;
+        justify-content: space-between;
+      }
+      .filters__input--search {
+        margin-top: 8px;
+        padding: 10px 0;
+        border-top: 3px solid $dark-grey;
+      }
+    }
+  }
+}

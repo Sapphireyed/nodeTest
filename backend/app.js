@@ -10,7 +10,6 @@ app.use(express.json());  //to have access to body
 
 //serving static files MIDDLEWARE
 app.use(express.static(path.join(__dirname, 'public')));
-console.log('fff', (path.join(__dirname, 'public')))
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));   // ./ is relative path and might not always be root so better to use path variable
 

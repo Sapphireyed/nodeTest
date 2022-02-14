@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
 const abilitySchema = mongoose.Schema({
-    'Ability Name': String,
-    'Ability Tier': String,
+    name: String,
+    tier: String,
     Cost: Number
 })
 

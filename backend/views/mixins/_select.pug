@@ -1,0 +1,5 @@
+mixin select(name, options)
+  label= name
+  select(name=`${name.toLowerCase()}`)
+    each opt in options
+      option= opt

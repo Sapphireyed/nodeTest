@@ -1,4 +1,76 @@
 extends base
 
+include mixins/_table
+include mixins/_input
+include mixins/_pagination
+include mixins/_filtersAll
+
+  block extraCSS
+   link(rel='stylesheet' href='/css/jobs/jobs.css')
+
 block content
-  h1 jobs content
+  section.section.section-body
+    // FILTERS
+    .filters
+      .filters__header
+        h1.header JOBS
+      .filters__container
+        .filters__filters
+          +filtersAll([
+              {name: 'Rarity', options: [1,2,3,4,5]},
+              {name: 'Element', options: ['All', 'Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Light', 'Dark']},
+              {name: 'Attribute', options: ['All', 'HP', 'Strength', 'Agility', 'Intelligence']},
+              {name: 'Type', options: ['All', 'Damage', 'Heal', 'Buff', 'Action Buff']},
+              {name: 'Apply', options: [1,2,3,4,5]},
+              {name: 'Passive', options: [1,2,3,4,5]},
+              {name: 'Search in', options: ['Both', 'Passive', 'Switch']}
+            ])
+          .filters__buttons-filters
+            button.reset-filters(type='button') Reset
+            button.search-filters(type='button') Search...
+        .filters__gerneral-options
+          .filter.filters__input
+            +input('Choose level', 60, 'number')
+          .filter.filters.filters--jobmania-crystal
+            +select('Jobmania crystal', [0, 1, 2, 3, 4, 5])
+          .filter.filters__buttons-gen-options
+            button(type='button') Apply
+            button(type='button') Reset
+          .filter.filters__input--search
+            +input('Search', 150)
+          .filter.filters__pagination
+            +pagination
+
+
+    // TABLE
+    table.table.table__main-table
+      +table('jobs', 'id', 'Icon', 'Name', 'Rarity', 'Passive', 'Switch', 'Deck', 'HP', 'Str', 'Agi', 'Int')
+      tbody.shadow
+        each job in jobs
+          tr
+            td.index= job['0']
+            td.icon= '#'
+            td.job= job.job
+            td.rarity= job.rarity
+            td.passive-kill= job.passive_skill 
+            - if (job.switch_skill)
+              td.switch-skill= job.switch_skill
+            td.deck 
+              - if (job.abilities_5)
+                span= `${job.abilities_5} x5`
+                br
+              - if (job.abilities_3)  
+                span= `${job.abilities_3} x3`
+                br
+              - if (job.abilities_2) 
+                span= `${job.abilities_2} x2` 
+                br
+              - if (job.abilities_1)
+                span= `${job.abilities_1} x1` 
+                br
+            td.hp= job.hp
+            td.str= job.strength
+            td.agi= job.agility
+            td.int= job.intelligence
+
+  script(src='/js/jobs.js')

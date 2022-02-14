@@ -32,7 +32,7 @@ exports.getAllJobs = async (req, res) => {
 
 exports.getJob = async (req, res) => {
     try {
-        const job = await Job.find(({ Job: req.params.name.replace('-', ' ')}))
+        const job = await Job.find(({ job: req.params.name.replace('-', ' ')})).populate('switch_skill_id')
         res.status(200)
            .json({
                status: "success",
@@ -79,13 +79,13 @@ exports.getFiltered= async (req, res) => {
                 {
                     $lookup: {
                         from: "abilities",
-                        localField: "SwitchSkill",
+                        localField: "switch_skill_id",
                         foreignField: "_id",
                         as: "switchSkill_info"
                     }
                 },
                 {
-                    $match: {'switchSkill_info.Cost': '1' }
+                    $match: {'switchSkill_info.cost': '1' }
                 }
                 // {
                 //     $project: {

@@ -1,0 +1,6 @@
+include _select
+
+mixin filtersAll(filters)
+  each filter in filters
+    .filter(class=`filters--${filter.name.toLowerCase().replace(/ /g, '-')}`)
+      +select(filter.name,filter.options)

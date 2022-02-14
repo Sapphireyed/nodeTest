@@ -1,0 +1,70 @@
+@import '../_colors.scss';
+@import '../filters.scss';
+
+body {
+  background-image: url('../../img/Jobs/BG/inthp.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+button {
+  background-color: rgb(58, 88, 99);
+}
+
+.filters {
+  color: white;
+  .header {
+    background-color: $dark-grey;
+    padding: 5px 0;
+  }
+  .filters__container {
+    display: flex;
+    .filters__filters {
+      width: 66%;
+      .filter {
+        width: 50%;
+        display: inline-block;
+        select {
+          float: right;
+          option {
+            background-color: $main-grey;
+            color: white;
+            line-height: 2;
+            padding: 2px 0
+          }
+        }
+      }
+
+      .filters__general-options {
+
+      }
+    }
+  }
+
+}
+
+//FILTER STYLES
+
+
+// TABLE STYLES
+table.table__main-table {
+  width: 100%;
+
+  thead{
+    background-color: $dark-grey;
+    color: white;
+    text-align: center;
+    th {
+      position: relative;
+    }
+  }
+  tbody {
+    tr:nth-child(odd) {
+      background-color: #f5f7f8;
+    }
+    tr:nth-child(even) {
+      background-color: #9eb1bb
+    }
+  }
+}
