@@ -7,7 +7,7 @@ router.route('/')
         .get(jobsController.getAllJobs)
         .post(jobsController.createJob)
 
-router.route('/search').get(jobsController.getFiltered)
+router.route('/searchSwitch').get(jobsController.getFiltered)
 router.route('/:name').get(jobsController.getJob)
 
 module.exports = router

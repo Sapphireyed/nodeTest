@@ -6,7 +6,7 @@ const createTd = (name, val) =>{
 }
 export default function createTable(jobs, i){
     let tr = document.createElement('tr')
-    let index = createTd('#', jobs[i]['0'])
+    let index = createTd('#', i + 1)
     let icon = createTd('icon', '#')
     let jobName = createTd('job', jobs[i].job)
     let rar = document.createElement("td")

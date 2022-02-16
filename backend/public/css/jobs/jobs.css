@@ -32,6 +32,8 @@
         margin-top: 8px;
         padding: 10px 0;
         border-top: 3px solid #2a434a; }
+        .filters .filters__container .filters__gerneral-options .filters__input--search input {
+          padding: 4px; }
 
 table.table__main-table {
   width: 100%;
@@ -39,7 +41,8 @@ table.table__main-table {
   table.table__main-table thead {
     background-color: #2a434a;
     color: white;
-    text-align: center; }
+    text-align: center;
+    font-size: 20px; }
   table.table__main-table tr {
     padding: 3px 0; }
     table.table__main-table tr td {
@@ -69,9 +72,7 @@ button {
         float: right; }
         .filters .filters__container .filters__filters .filter select option {
           background-color: #4d636f;
-          color: white;
-          line-height: 2;
-          padding: 2px 0; }
+          color: white; }
 
 table.table__main-table thead {
   background-color: #2a434a; }

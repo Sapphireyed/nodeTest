@@ -42,6 +42,9 @@
         margin-top: 8px;
         padding: 10px 0;
         border-top: 3px solid $dark-grey;
+        input {
+          padding: 5px;
+        }
       }
     }
   }

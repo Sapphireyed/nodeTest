@@ -17,11 +17,16 @@ block content
         .filters__filters
           +filtersAll([
               {name: 'Rarity', options: ['All', 1,2,3,4,5]},
-              {name: 'Element', options: ['All', 'Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Light', 'Dark']},
-              {name: 'Attribute', options: ['All', 'HP', 'Strength', 'Agility', 'Intelligence']},
+              {name: 'Element', options: ['All', 'Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Light', 'Dark'].sort()},
+              {name: 'Attribute', options: ['All', 'MaxHP', 'Strength', 'Agility', 'Intelligence'].sort()},
               {name: 'Type', options: ['All', 'Damage', 'Heal', 'Buff', 'Action Buff', "Debuff", 
-                                      "Vulnerable", "Protect", "Remove Debuff", "Negative", "Other"]},
-              {name: 'Apply', options: ['All', 1,2,3,4,5]},
+                                      "Vulnerable", "Protect", "Remove Debuff", "Negative", "Other"].sort()},
+              {name: 'Apply', options: [ "All",'PracticePerfect', 'Exhaust', 'LifeSteal', 'LastResort', 'TurnCharge',
+                                        'FocusEnergy', 'NegativePower', 'Curse', 'Scheduled', 'AutoFire', 'Gamble',
+                                        'Creature', 'Humanoid', 'Matter', 'Spirit', 'Combo Blend', 'Overloaded',
+                                        'Strength Synergy', 'Agility Synergy', 'MaxHP Synergy', 'Intelligence Synergy',
+                                        'Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Dark', 'Light'
+                                      ].sort(), value: "All"},
               {name: 'Passive', options: ['All', 1,2,3,4,5]},
               {name: 'Search in', options: ['Both', 'Passive', 'Switch']}
             ])
@@ -78,6 +83,5 @@ block content
               td.str= job.strength
               td.agi= job.agility
               td.int= job.intelligence
-
-  script(type="module", src='/js/jobs.js')
   script(type="module", src='/js/pagination.js')
+  script(type="module", src='/js/jobs.js')
