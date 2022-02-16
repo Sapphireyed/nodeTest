@@ -3,6 +3,7 @@ const express = require('express');
 const jobsRouter = require('./routes/jobsRoutes');
 const abilitiesRouter = require('./routes/abilitiesRoutes');
 const viewsRouter = require('./routes/viewsRoutes');
+const imgRouter = require('./routes/imgRoutes');
 const fs = require('fs');
 
 const app = express();
@@ -39,5 +40,7 @@ app.use('/api/v1/jobs', jobsRouter);
 app.use('/api/v1/abilities', abilitiesRouter);
 
 app.use('/', viewsRouter);
+
+app.use('/api/v1/imgs', imgRouter)
 
 module.exports = app
