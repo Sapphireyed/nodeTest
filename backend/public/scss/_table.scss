@@ -1,0 +1,16 @@
+table.table__main-table {
+  width: 100%;
+  border-collapse: collapse;
+  thead{
+    background-color: $dark-grey;
+    color: white;
+    text-align: center;
+  }
+  tr {
+    padding: 3px 0;
+    td {
+      padding: 5px;
+      font-size: 18px;
+    }
+  }
+}

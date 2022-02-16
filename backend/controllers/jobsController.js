@@ -10,7 +10,7 @@ exports.getAllJobs = async (req, res) => {
         .paginate()
 
         let jobs = await features.query
-   
+
         // if (req.query['SwitchSkill.Cost']) {
         //     jobs = jobs.filter(j => j.SwitchSkill && j.SwitchSkill.Cost == req.query['SwitchSkill.Cost'])
         // }
@@ -48,12 +48,12 @@ exports.getJob = async (req, res) => {
     }
 }
 
-exports.createJob = async (req, res) => {  
-   try {  
+exports.createJob = async (req, res) => {
+   try {
     const newJob = await Job.create(req.body)
     res
     .status(201) // 201 = created; 204 = for delete, no data;
-    .json({ 
+    .json({
         status: 'success',
         data: {
             job: newJob
@@ -70,7 +70,77 @@ exports.createJob = async (req, res) => {
 exports.getFiltered= async (req, res) => {
     try {
         const query = req.query
-        console.log(query, req.params.filterBy)
+        let rarity = Object.entries(query).find(q => q[0] === 'rarity') || []
+        let rarity2 = rarity.length === 0 ? {$gte: '1'} :  rarity[1]
+        let type = Object.entries(query).find(q => q[0] === 'type') || 'null'
+        // if (type) {
+        //   let inElems = { $in: ["Fire", "Water", "Earth", "Wind", "Thunder", "Dark", "Light", "Element"] }
+        //   switch (type[1]) {
+        //     case 'RemoveDebuff':
+        //       type = [
+        //         {'switchSkill_info.skill_unit1_skill': 'Protect'},
+        //         {'switchSkill_info.skill_unit2_skill': 'Protect'},
+        //         {'switchSkill_info.skill_unit3_skill': 'Protect'},
+        //         {'switchSkill_info.skill_unit4_skill': 'Protect'}
+        //       ]
+        //       break
+        //   }
+        // }
+        let inType = { $in: ["Damage", "Heal", "Buff", "InstantNerf", "Discard",
+                              "InstantBoost", "Debuff", "Vulnerable", "Protect", "Curse", "Sacrifice", "Mark", "Null"] }
+        let type2 = type === 'null' ?
+          [
+            {'switchSkill_info': []},
+            {'switchSkill_info.skill_unit1_skill': inType},
+            {'switchSkill_info.skill_unit2_skill': inType},
+            {'switchSkill_info.skill_unit3_skill': inType},
+            {'switchSkill_info.skill_unit4_skill': inType}
+          ]
+          : [
+            {'switchSkill_info.skill_unit1_skill': type[1]},
+            {'switchSkill_info.skill_unit2_skill': type[1]},
+            {'switchSkill_info.skill_unit3_skill': type[1]},
+            {'switchSkill_info.skill_unit4_skill': type[1]}
+          ]
+        let attr = Object.entries(query).find(q => q[0] === 'attribute') || 'null'
+        let inTypesAll = { $in: [ "Strength", "MaxHP", "Agility", "Intelligence",
+                              "Fire", "Water", "Earth", "Wind", "Thunder", "Dark", "Light", "Element",
+                              "Venom", "Restrain", "Insane", "Bleed", "Injury", "Confuse", "Slack", "Certain",
+                              "Charge", "Guard", "Dark", "Draw", "Protect", "Multiply", "Draw", "Action", "Direct", "Dice",
+                              "Curse", "Null"] }
+        let attr2 = attr === 'null' ?
+        [
+          {'switchSkill_info': []},
+          {'switchSkill_info.skill_unit1_effect': inTypesAll},
+          {'switchSkill_info.skill_unit2_effect': inTypesAll},
+          {'switchSkill_info.skill_unit3_effect': inTypesAll},
+          {'switchSkill_info.skill_unit4_effect': inTypesAll}
+        ]
+        : [
+            {'switchSkill_info.skill_unit1_effect': attr[1]},
+            {'switchSkill_info.skill_unit2_effect': attr[1]},
+            {'switchSkill_info.skill_unit3_effect': attr[1]},
+            {'switchSkill_info.skill_unit4_effect': attr[1]}
+          ]
+        let elem = Object.entries(query).find(q => q[0] === 'element') || 'null'
+
+        let elem2 = elem === 'null' ?
+        [
+          {'switchSkill_info': []},
+          {'switchSkill_info.skill_unit1_effect': inTypesAll},
+          {'switchSkill_info.skill_unit2_effect': inTypesAll},
+          {'switchSkill_info.skill_unit3_effect': inTypesAll},
+          {'switchSkill_info.skill_unit4_effect': inTypesAll}
+        ]
+        : [
+            {'switchSkill_info.skill_unit1_effect': elem[1]},
+            {'switchSkill_info.skill_unit2_effect': elem[1]},
+            {'switchSkill_info.skill_unit3_effect': elem[1]},
+            {'switchSkill_info.skill_unit4_effect': elem[1]}
+          ]
+
+        let apply = Object.entries(query).find(q => q[0] === 'apply')
+        let passive = Object.entries(query).find(q => q[0] === 'passive')
         const filteredJobs = await Job.aggregate(
 
             // Pipeline
@@ -84,19 +154,26 @@ exports.getFiltered= async (req, res) => {
                         as: "switchSkill_info"
                     }
                 },
-                {
-                    $match: {'switchSkill_info.cost': '1' }
-                }
                 // {
-                //     $project: {
-                //         Job: 1,
-                //         _id: 0
+                //     $lookup: {
+                //       from: "abilities",
+                //       localField: "abilities_5id",
+                //       foreignField: "_id",
+                //       as: "abilities5_info"
                 //     }
-                // }
-        
+                // },
+                {
+                  $match: { $and: [
+                    {rarity: rarity2 },
+                    { $or: type2 },
+                    { $or: attr2 },
+                    { $or: elem2}
+                  ]}
+                }
             ]
-        
+
         );
+
         res.status(200).json({
             status: 'success1',
             results: filteredJobs.length,

@@ -1,5 +1,6 @@
 @import '../_colors.scss';
-@import '../filters.scss';
+@import '../_filters.scss';
+@import '../_table.scss';
 
 body {
   background-image: url('../../img/Jobs/BG/inthp.jpg');
@@ -13,10 +14,8 @@ button {
 }
 
 .filters {
-  color: white;
   .header {
     background-color: $dark-grey;
-    padding: 5px 0;
   }
   .filters__container {
     display: flex;
@@ -30,34 +29,18 @@ button {
           option {
             background-color: $main-grey;
             color: white;
-            line-height: 2;
-            padding: 2px 0
           }
         }
-      }
-
-      .filters__general-options {
-
       }
     }
   }
 
 }
 
-//FILTER STYLES
-
-
 // TABLE STYLES
 table.table__main-table {
-  width: 100%;
-
   thead{
     background-color: $dark-grey;
-    color: white;
-    text-align: center;
-    th {
-      position: relative;
-    }
   }
   tbody {
     tr:nth-child(odd) {
@@ -66,5 +49,30 @@ table.table__main-table {
     tr:nth-child(even) {
       background-color: #9eb1bb
     }
+    tr {
+      td {
+        img.star {
+          display: inline-block;
+          margin: auto 0;
+        }
+        &.job {
+          font-weight: bold;
+        }
+        &.hp {
+          background-color: $maxHp;
+        }
+        &.str {
+          background-color: $str;
+        }
+        &.agi {
+          background-color: $agi;
+        }
+        &.int {
+          background-color: $int;
+        }
+      }
+
+    }
+
   }
 }

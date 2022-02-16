@@ -1,7 +1,6 @@
 extends base
 
 include mixins/_table
-include mixins/_input
 include mixins/_pagination
 include mixins/_filtersAll
 
@@ -17,12 +16,13 @@ block content
       .filters__container
         .filters__filters
           +filtersAll([
-              {name: 'Rarity', options: [1,2,3,4,5]},
+              {name: 'Rarity', options: ['All', 1,2,3,4,5]},
               {name: 'Element', options: ['All', 'Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Light', 'Dark']},
               {name: 'Attribute', options: ['All', 'HP', 'Strength', 'Agility', 'Intelligence']},
-              {name: 'Type', options: ['All', 'Damage', 'Heal', 'Buff', 'Action Buff']},
-              {name: 'Apply', options: [1,2,3,4,5]},
-              {name: 'Passive', options: [1,2,3,4,5]},
+              {name: 'Type', options: ['All', 'Damage', 'Heal', 'Buff', 'Action Buff', "Debuff", 
+                                      "Vulnerable", "Protect", "Remove Debuff", "Negative", "Other"]},
+              {name: 'Apply', options: ['All', 1,2,3,4,5]},
+              {name: 'Passive', options: ['All', 1,2,3,4,5]},
               {name: 'Search in', options: ['Both', 'Passive', 'Switch']}
             ])
           .filters__buttons-filters
@@ -30,47 +30,54 @@ block content
             button.search-filters(type='button') Search...
         .filters__gerneral-options
           .filter.filters__input
-            +input('Choose level', 60, 'number')
+            label Choose lvl
+            input.choose-level(style="width: 50px", type="number", min=1, step=10 value=1)
           .filter.filters.filters--jobmania-crystal
             +select('Jobmania crystal', [0, 1, 2, 3, 4, 5])
           .filter.filters__buttons-gen-options
             button(type='button') Apply
             button(type='button') Reset
           .filter.filters__input--search
-            +input('Search', 150)
+            label Search
+            input.choose-level(style="width: 150px", type="text", placeholder="Search...")
           .filter.filters__pagination
-            +pagination
+            +pagination(jobs.length-1)
 
 
     // TABLE
     table.table.table__main-table
       +table('jobs', 'id', 'Icon', 'Name', 'Rarity', 'Passive', 'Switch', 'Deck', 'HP', 'Str', 'Agi', 'Int')
       tbody.shadow
-        each job in jobs
-          tr
-            td.index= job['0']
-            td.icon= '#'
-            td.job= job.job
-            td.rarity= job.rarity
-            td.passive-kill= job.passive_skill 
-            - if (job.switch_skill)
+        each job, i in jobs
+          - if (i < 10)
+            tr
+              td.index= job['0']
+              td.icon= '#'
+              td.job= job.job
+              td.rarity
+                each star, i in [1, 2, 3, 4, 5]
+                  if star <= job.rarity
+                    img.star(src="../../../img/events/starColor1.png", alt="star", width=25)
+                    
+              td.passive-kill= job.passive_skill 
               td.switch-skill= job.switch_skill
-            td.deck 
-              - if (job.abilities_5)
-                span= `${job.abilities_5} x5`
-                br
-              - if (job.abilities_3)  
-                span= `${job.abilities_3} x3`
-                br
-              - if (job.abilities_2) 
-                span= `${job.abilities_2} x2` 
-                br
-              - if (job.abilities_1)
-                span= `${job.abilities_1} x1` 
-                br
-            td.hp= job.hp
-            td.str= job.strength
-            td.agi= job.agility
-            td.int= job.intelligence
+              td.deck 
+                - if (job.abilities_5)
+                  span= `${job.abilities_5} x5`
+                  br
+                - if (job.abilities_3)  
+                  span= `${job.abilities_3} x3`
+                  br
+                - if (job.abilities_2) 
+                  span= `${job.abilities_2} x2` 
+                  br
+                - if (job.abilities_1)
+                  span= `${job.abilities_1} x1` 
+                  br
+              td.hp= job.hp
+              td.str= job.strength
+              td.agi= job.agility
+              td.int= job.intelligence
 
-  script(src='/js/jobs.js')
+  script(type="module", src='/js/jobs.js')
+  script(type="module", src='/js/pagination.js')

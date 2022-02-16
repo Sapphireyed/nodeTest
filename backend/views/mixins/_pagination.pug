@@ -1,10 +1,10 @@
-mixin pagination           
+mixin pagination(max)         
   button.first First
   button.prev Prev
   select
     option 10
     option 50
     option 100
-    option All
+    option= max
   button.next Next 
   button.last Last
