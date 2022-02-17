@@ -57,7 +57,10 @@ block content
           - if (i < 10)
             tr
               td.index= job['0']
-              td.icon= '#'
+              td.icon.icon--job
+                .icon-container
+                  img(src=`../../../img/Jobs/${job.job}.png`, alt=`${job.job}`
+                      style=`background-size: contain; position: relative; background-image: url("../../../img/Jobs/Frames/${job.rarity}.png")`)
               td.job= job.job
               td.rarity
                 each star, i in [1, 2, 3, 4, 5]

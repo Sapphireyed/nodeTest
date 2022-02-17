@@ -7,7 +7,7 @@ const createTd = (name, val) =>{
 export default function createTable(jobs, i){
     let tr = document.createElement('tr')
     let index = createTd('#', i + 1)
-    let icon = createTd('icon', '#')
+    let icon = createTd('icon', `<div class="icon-container"><img width=50 src="../../../img/Jobs/${jobs[i].job}.png" alt="${jobs[i].job}" style="padding: 10px; background-color: lightgrey; background-size: contain; position: relative; background-image: url('../../../img/Jobs/Frames/${jobs[i].rarity}.png')"></div>`)
     let jobName = createTd('job', jobs[i].job)
     let rar = document.createElement("td")
     rar.className= 'Rarity'

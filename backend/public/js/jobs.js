@@ -1,7 +1,7 @@
 import createTable from './createTable.js'
-import { getImgs } from './getImgs.js'
+import { getImgs, buildImg } from './getImgs.js'
 
-console.log('jobimgs', getImgs() )
+console.log('jobimgs', buildImg() )
 Array.from(document.querySelectorAll('.filters__filters select')).map(filter => filter.value = 'All')
 Array.from(document.querySelectorAll('.filters__filters select'))[6].value = 'Both'
 const resetFilters = () => {

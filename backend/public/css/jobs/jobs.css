@@ -33,7 +33,7 @@
         padding: 10px 0;
         border-top: 3px solid #2a434a; }
         .filters .filters__container .filters__gerneral-options .filters__input--search input {
-          padding: 4px; }
+          padding: 5px; }
 
 table.table__main-table {
   width: 100%;
@@ -57,6 +57,13 @@ body {
 
 button {
   background-color: #3a5863; }
+
+.icon-container {
+  width: 50px; }
+  .icon-container .icon.icon--job img {
+    width: 50px;
+    padding: 10px;
+    background-color: lightgray; }
 
 .filters .header {
   background-color: #2a434a; }

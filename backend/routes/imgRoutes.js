@@ -10,7 +10,10 @@ router.route('/').get(async (req, res) => {
   jobsBgs = [...fs.readdirSync(path.join(__dirname, '../public/img/Jobs/BG'))];
   jobsFrames = [...fs.readdirSync(path.join(__dirname, '../public/img/Jobs/Frames'))];
 
-  console.log('dupa', jobsImgs)
+  // jobsImgs = jobsImgs.map(img => {
+  //   let ext = img.indexOf('.')
+  //   return img.substring(0, ext)
+  // })
   res
   .status(200)
   .json({
