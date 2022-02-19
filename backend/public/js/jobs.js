@@ -8,10 +8,6 @@ import { sort } from './utils/sort.js';
 Array.from(document.querySelectorAll('.filters__filters select')).map(filter => filter.value = 'All')
 Array.from(document.querySelectorAll('.filters__filters select'))[6].value = 'Both'
 
-// SORTING
-
-
-
 // EXECUTE FUNCTIONS
 const attrButtons = [
   document.querySelector('th.hp'), 

@@ -1,12 +1,11 @@
 const express = require('express')
-const JobLoc = require('./../models/jobsLocModel');
+const JobLoc = require('../models/locModels');
 
 const router = express.Router()
 
-router.route('/').get(async (req, res) => {
+const getAllLocalized = async (req, res) => {
   try {
     let jobsLoc = await JobLoc.find()
-    console.log('JobLoc',  jobsLoc)
     res
     .status(200)
     .json({
@@ -22,7 +21,8 @@ router.route('/').get(async (req, res) => {
         messege: 'err: ' + err
     })
   }
+}
 
-})
+router.route('/').get(getAllLocalized)
 
 module.exports = router

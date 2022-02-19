@@ -1,8 +1,11 @@
 const Ability = require('./../models/abilityModel');
+const { descrLoc } = require('./../models/locModels');
 const APIFeatures = require('./../utils/apiFeatures')
 
 exports.getAllAbilities = async (req, res) => {
     try {
+      const descritpions = await descrLoc.find()
+      console.log(descritpions)
         const features = new APIFeatures(Ability.find(), req.query)
         .filter()
         .sort()

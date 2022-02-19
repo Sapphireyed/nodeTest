@@ -7,7 +7,7 @@ const imgRouter = require('./routes/imgRoutes');
 const fs = require('fs');
 
 //localization
-const jobsLocRouter = require('./routes/jobsLocRoutes.js');
+const locRouter = require('./routes/locRoutes.js');
 
 const app = express();
 app.use(express.json());  //to have access to body
@@ -47,6 +47,6 @@ app.use('/', viewsRouter);
 app.use('/api/v1/imgs', imgRouter)
 
 // LOCALIZATION
-app.use('/api/v1/jobsLoc', jobsLocRouter);
+app.use('/api/v1/localization', locRouter);
 
 module.exports = app

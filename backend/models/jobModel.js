@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Ability = require('./../models/abilityModel');
-const JobLoc = require('./../models/jobsLocModel');
+const { JobLoc } = require('./../models/locModels');
 
 const jobSchema = mongoose.Schema({
     '0': Number,
