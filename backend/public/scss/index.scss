@@ -50,7 +50,13 @@ nav {
     font: 1em/1 Open Sans, Impact;
 }
 
-
+.lang {
+  position: absolute;
+  right: 10vw;
+  label {
+    display: none;
+  }
+}
 .menu-item--dropdown {
     position: relative
 }

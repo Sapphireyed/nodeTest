@@ -12,14 +12,14 @@ body {
 button {
   background-color: rgb(58, 88, 99);
 }
-.icon-container {
-  width: 50px;
-  .icon.icon--job {
-    img {
-      width:50px;
-      padding:10px;
-      background-color: lightgray;
-    }
+.icon.icon--job {
+  .icon-container {
+    width: 50px;
+  img {
+    width:50px;
+    padding:10px;
+    background-color: lightgray;
+  }
 }
 
 

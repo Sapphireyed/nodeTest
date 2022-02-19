@@ -56,19 +56,22 @@ block content
         each job, i in jobs
           - if (i < 10)
             tr
-              td.index= job['0']
+              td.index= job['index'] * 1
               td.icon.icon--job
                 .icon-container
                   img(src=`../../../img/Jobs/${job.job}.png`, alt=`${job.job}`
                       style=`background-size: contain; position: relative; background-image: url("../../../img/Jobs/Frames/${job.rarity}.png")`)
-              td.job= job.job
+              //- for some reason just job.job_id.lang doesnt' work
+              //- actually it works, it needs to be defined in schema
+              //- let key = Object.entries(job.job_id.toJSON()).find(j => j[0] === lang)[1]
+              td.job= job.job_id[lang]
               td.rarity
                 each star, i in [1, 2, 3, 4, 5]
                   if star <= job.rarity
                     img.star(src="../../../img/events/starColor1.png", alt="star", width=25)
                     
-              td.passive-kill= job.passive_skill 
-              td.switch-skill= job.switch_skill
+              td.passive-kill= job.passive 
+              td.switch-skill= job.switch_skil
               td.deck 
                 - if (job.abilities_5)
                   span= `${job.abilities_5} x5`

@@ -48,7 +48,7 @@ class APIFeatures {
             const sortBy = this.queryString.sort.split(',').join(' ')
             this.query = this.query.sort(sortBy).collation({locale: "en_US", numericOrdering: true})
         } else {
-            this.query = this.query.sort('-createdAt _id')
+            this.query = this.query.sort('rarity job')
         }
         // to sort by multiple criterie, in case of a tie a 2nd one comes 
         // query.sort('price ratingsAvarag')

@@ -1,3 +1,5 @@
+include mixins/_select 
+
 header
   nav
     div
@@ -30,3 +32,5 @@ nav.nav.shadow
       li: a(href='#') GUIDES
   .menu-item |
   .menu-item CREDIT
+  .lang
+    +select('lang', ['English', 'Chinese', 'Chinese_T', 'Russian', 'Portuguese', 'Spanish', 'French', 'Japanese', 'Arabic']) 

@@ -1,4 +1,5 @@
 import createTable from "./createTable.js"
+import { lang } from './lang.js';
 
 const first = document.querySelector('button.first')
 const prev = document.querySelector('button.prev')
@@ -44,7 +45,7 @@ const getLast = () => {
     let jobs = data.data.jobs
     document.querySelector('tbody').innerHTML = ''
     for (let i =0; i<= jobs.length-1; i++) {
-      createTable(jobs, i)
+      createTable(jobs, i, lang)
     }
     page = lastPage
     disableButtons()
@@ -61,7 +62,7 @@ const getFirst = () => {
     let jobs = data.data.jobs
     document.querySelector('tbody').innerHTML = ''
     for (let i = 0; i <= jobs.length -1; i++) {
-      createTable(jobs, i)
+      createTable(jobs, i, lang)
     }
     page = firstPage
     disableButtons()
@@ -80,7 +81,7 @@ const getNext = () => {
     let jobs = data.data.jobs
     document.querySelector('tbody').innerHTML = ''
     for (let i = 0; i <= jobs.length -1; i++) {
-      createTable(jobs, i)
+      createTable(jobs, i, lang)
     }
 
   }).catch(function(err) {
@@ -98,7 +99,7 @@ const getPrev = () => {
     let jobs = data.data.jobs
     document.querySelector('tbody').innerHTML = ''
     for (let i = 0; i <= jobs.length -1; i++) {
-      createTable(jobs, i)
+      createTable(jobs, i, lang)
     }
 
   }).catch(function(err) {
@@ -120,7 +121,7 @@ paginationSelect.addEventListener('change', () => {
     let jobs = data.data.jobs
     document.querySelector('tbody').innerHTML = ''
     for (let i = 0; i <= jobs.length -1; i++) {
-      createTable(jobs, i)
+      createTable(jobs, i, lang)
     }
     disableButtons()
   })

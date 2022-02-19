@@ -1,17 +1,24 @@
 const Job = require('../models/jobModel')
 const Ability = require('../models/abilityModel')
+const APIFeatures = require('./../utils/apiFeatures')
 
 exports.getJobs = async (req, res)=> {
   try {
-  // 1) get data from collection
-  const jobs = await Job.find()
-  console.log('jobs', jobs)
+  let lang = req.params.lang
+  const features = new APIFeatures(Job.find(), req.query)
+  .filter()
+  .sort()
+  .limit()
+  .paginate()
+
+  let jobs = await features.query
   // 2) build template
 
   // 3) render te,plate using data from step 1
   res.status(200).render('jobs', {
     title: 'JOBS',
-    jobs
+    jobs,
+    lang
   })
   } catch (err) {
     console.log('err', err)

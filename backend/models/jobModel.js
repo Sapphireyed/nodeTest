@@ -1,19 +1,25 @@
 const mongoose = require('mongoose')
 const Ability = require('./../models/abilityModel');
+const JobLoc = require('./../models/jobsLocModel');
 
 const jobSchema = mongoose.Schema({
     '0': Number,
+    index: Number,
     job: {
         type: String,
         unique: true
+    },
+    job_id: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'jobsLoc'
     },
     rarity: Number,
     hp: Number,
     strength: Number,
     agility: Number,
     intelligence: Number,
-    passive_skill: String,
-    switch_skill: String,
+    passive: String,
+    switch_skil: String,
     abilities_5: String,
     abilities_3: String,
     abilities_2: String,
@@ -41,7 +47,7 @@ const jobSchema = mongoose.Schema({
 })
 
 jobSchema.pre(/^find/, function(next) { 
-    //  this.populate({path: 'abilities_1', select: '-0 -_id -IconImage'})
+    this.populate({path: 'job_id', select: '-0 -_id'})
     //      .populate({path: 'abilities_5', select: '-0 -_id -IconImage'})
     //      .populate({path: 'switch_skill', select: '-0 -_id -IiconImage'})
     next()
@@ -66,15 +72,19 @@ const Job =  mongoose.model('jobs', jobSchema)
 
 let updateJobs = async () => {
     try {
+      const jobsLoc = await JobLoc.find()
         const abilities = await Ability.find()
-        const jobs = await Job.find()
+        const jobs = await Job.find().sort('rarity job')
         let alljobs = jobs.map(async (j,i) => {
             try {
                 let abils5 = await abilities.find(ab => ab.name == j['abilities_5'])
                 let abils3 = await abilities.find(ab => ab.name == j['abilities_3'])
                 let abils2 = await abilities.find(ab => ab.name == j['abilities_2'])
                 let abils1 = await abilities.find(ab => ab.name == j['abilities_1'])
-                let sSkill = await abilities.find(ab => ab.name == j['switch_skill'])
+                let sSkill = await abilities.find(ab => ab.name == j['switch_skil'])
+                let jobName = await jobsLoc.find(job => job.Key == j.job)
+
+                await Job.updateOne( { job: j.job}, { $set: { job_id: jobName, index: i+1 } } )
 
                 if (j['abilities_5']) {
                     await Job.updateOne( { job: j.job}, { $set: { abilities_5id: abils5 } } )
@@ -88,23 +98,10 @@ let updateJobs = async () => {
                 if (j['abilities_2']){
                     await Job.updateOne( { job: j.job}, { $set: { abilities_2id: abils2 } } )
                 }
-                if (j['switch_skill']){
+                if (j['switch_skil']){
                     await Job.updateOne( { job: j.job}, { $set: { switch_skill_id: sSkill } } )
                 }
-
-                // let rar = j.rarity * 1
-                // let hp = j.hp * 1
-                // let str = j.str * 1
-                // let agi = j.agi * 1
-                // let int = j.int * 1
-                // await Job.updateOne( { job: j.job}, { $set: {
-                //     rarity: rar,
-                //     hp: hp, 
-                //     strength: parseInt(j.strength), 
-                //     agility: agi, 
-                //     int: int 
-                // }})
-            } catch (err) { }
+            } catch (err) { console.log('err', err)}
         })
         Promise.all(alljobs)
     } catch (err) {console.log('errrrr', err)}

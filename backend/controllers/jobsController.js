@@ -80,7 +80,7 @@ exports.getFiltered= async (req, res) => {
                             "Curse", "Null"] }
 
         let rarity = Object.entries(query).find(q => q[0] === 'rarity')
-        let rarity2 = rarity[1] === 'All' ? {$gte: '1'} :  rarity[1]
+        let rarity2 = rarity[1] === 'All' ? {$gte: 1} : rarity[1] * 1
         let type = Object.entries(query).find(q => q[0] === 'type') || 'All'
         let type2
         if (type) {
@@ -119,6 +119,7 @@ exports.getFiltered= async (req, res) => {
                 ]
           }
         }
+        console.log('type', type, type2)
         let attr = Object.entries(query).find(q => q[0] === 'attribute')
 
         let attr2 = attr[1] === 'All' ?
@@ -167,14 +168,14 @@ exports.getFiltered= async (req, res) => {
                         as: "switchSkill_info"
                     }
                 },
-                // {
-                //     $lookup: {
-                //       from: "abilities",
-                //       localField: "abilities_5id",
-                //       foreignField: "_id",
-                //       as: "abilities5_info"
-                //     }
-                // },
+                {
+                    $lookup: {
+                      from: "jobsLoc",
+                      localField: "job_id",
+                      foreignField: "_id",
+                      as: "job_id_info"
+                    }
+                },
                 {
                   $match: { $and: [
                     {rarity: rarity2 },
@@ -185,7 +186,7 @@ exports.getFiltered= async (req, res) => {
                 }
             ]
 
-        );
+        ).sort('rarity job');
 
         res.status(200).json({
             status: 'success1',

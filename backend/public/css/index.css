@@ -49,6 +49,12 @@ nav {
   padding: 5px 0;
   font: 1em/1 Open Sans, Impact; }
 
+.lang {
+  position: absolute;
+  right: 10vw; }
+  .lang label {
+    display: none; }
+
 .menu-item--dropdown {
   position: relative; }
 
