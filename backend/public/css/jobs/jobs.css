@@ -49,6 +49,14 @@ table.table__main-table {
       padding: 5px;
       font-size: 18px; }
 
+td.tooltip {
+  position: relative; }
+  td.tooltip .tooltittext {
+    display: none;
+    position: absolute; }
+  td.tooltip:hover .tooltittext {
+    display: block; }
+
 body {
   background-image: url("../../img/Jobs/BG/inthp.jpg");
   background-size: cover;

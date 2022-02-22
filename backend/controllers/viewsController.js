@@ -12,12 +12,14 @@ exports.getJobs = async (req, res)=> {
   .paginate()
 
   let jobs = await features.query
+  let abilities = await Ability.find()
   // 2) build template
 
   // 3) render te,plate using data from step 1
   res.status(200).render('jobs', {
     title: 'JOBS',
     jobs,
+    abilities,
     lang
   })
   } catch (err) {

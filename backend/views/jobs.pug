@@ -54,7 +54,6 @@ block content
       +table('jobs', 'id', 'Icon', 'Name', 'Rarity', 'Passive', 'Switch', 'Deck', 'HP', 'Str', 'Agi', 'Int')
       tbody.shadow
         each job, i in jobs
-          - if (i < 10)
             tr
               td.index= job['index'] * 1
               td.icon.icon--job
@@ -71,7 +70,12 @@ block content
                     img.star(src="../../../img/events/starColor1.png", alt="star", width=25)
                     
               td.passive-kill= job.passive 
-              td.switch-skill= job.switch_skil
+              td.switch-skill.tooltip= job.switch_skil
+                - let sSkill = abilities.find(abil => abil.name === job.switch_skil)
+                - sSkill = sSkill ? sSkill.description1_Id : ''
+                - sSkill = sSkill && sSkill != '' ? sSkill['english'] : ''
+                span.tooltip.tooltittext= sSkill
+              //- <span class="tooltipMy tooltiptext">Gain 10%/15% <span class="maxhp"><img class="icon" src="https://jobmania.epicgamer.org/503b829fcb9ebcf20cd8.png" alt="hp"> Max HP</span> Protect . <span class="tipApply"></span></span>
               td.deck 
                 - if (job.abilities_5)
                   span= `${job.abilities_5} x5`
@@ -89,5 +93,6 @@ block content
               td.str= job.strength
               td.agi= job.agility
               td.int= job.intelligence
+
   script(type="module", src='/js/utils/pagination.js')
   script(type="module", src='/js/jobs.js')

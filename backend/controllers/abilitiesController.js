@@ -4,8 +4,6 @@ const APIFeatures = require('./../utils/apiFeatures')
 
 exports.getAllAbilities = async (req, res) => {
     try {
-      const descritpions = await descrLoc.find()
-      console.log(descritpions)
         const features = new APIFeatures(Ability.find(), req.query)
         .filter()
         .sort()
@@ -46,4 +44,57 @@ exports.getAbility = async (req, res) => {
             message: `error: ${err}`
         })
     }
+}
+
+exports.getDescription = async (req, res) => {
+  try {
+    const descritpions = await descrLoc.find()
+
+    const descriptions = await Job.aggregate(
+
+      // Pipeline
+      [
+          // Stage 1
+          {
+              $lookup: {
+                  from: "abilities",
+                  localField: "switch_skill_id",
+                  foreignField: "_id",
+                  as: "switchSkill_info"
+              }
+          },
+          {
+              $lookup: {
+                from: "jobsLoc",
+                localField: "job_id",
+                foreignField: "_id",
+                as: "job_id_info"
+              }
+          },
+          {
+            $match: { $and: [
+              {rarity: rarity2 },
+              { $or: type2},
+              { $or: attr2 },
+              { $or: elem2}
+            ]}
+          }
+      ]
+
+  )
+
+    res.status(200)
+       .json({
+           status: "success",
+           results: '',
+           data: {
+            descriptions
+           }
+       })
+  } catch (err) {
+      res.status(404).json({
+          status: 'fail',
+          message: `error: ${err}`
+      })
+  }
 }

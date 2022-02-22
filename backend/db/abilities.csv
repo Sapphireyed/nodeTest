@@ -1,4 +1,4 @@
-0,description,name,tier,cost,skill_unit1_skill,skill_unit1_effect,multiplier1,skill_unit2_skill,skill_unit2_effect,mutiplier2,skill_unit3_skill,skill_unit3_effect,multpiplier3,skill_unit4_skill,skill_unit4_effect,multiplier4,apply1,apply2,apply3,icon
+0,description,name,tier,cost,skill_unit1_skill,skill_unit1_effect,multiplier1,skill_unit2_skill,skill_unit2_effect,multiplier2,skill_unit3_skill,skill_unit3_effect,multiplier3,skill_unit4_skill,skill_unit4_effect,multiplier4,apply1,apply2,apply3,icon
 1,,Swap,Low,0,Sacrifice,MaxHP,1,Protect,Draw,1,,,,,,,Exhaust,,,Exchange
 2,,Exchange,Low,0,Sacrifice,Draw,1,InstantBoost,Draw,2,,,,,,,Exhaust,,,Exchange
 3,,Pain Draw,Medium,0,Sacrifice,MaxHP,2,InstantBoost,Draw,2,,,,,,,Exhaust,,,Pick
@@ -935,7 +935,7 @@
 934,,Gentle Touch,Null,0,InstantBoost,Protect,2,InstantBoost,MaxHP,2,Damage,Null,1,,,,,,,Pointing
 935,,Softness Overcome Hardness,Null,1,Buff,Guard,0,Heal,MaxHP,2,Damage,MaxHP,2,,,,Delay,,,Hand
 936,,Eight Trigrams Palms,Null,1,Damage,MaxHP,1,Damage,MaxHP,1,Debuff,Restrain,3,,,,Multiply,,,YinYang
-937,,Elegant Strike,Null,1,InstantBoost,Strength,3,Damage,Strength,6,,,,,,,Strength,,,HeavyFall
+937,,multiplier3,Null,1,InstantBoost,Strength,3,Damage,Strength,6,,,,,,,Strength,,,HeavyFall
 938,,Banana,Null,0,Buff,Strength,1,Buff,Agility,1,Buff,Intelligence,1,Heal,Null,350,,,,Banana
 939,,Monkey Business,Null,1,InstantBoost,Agility,4,Debuff,Light,1,Debuff,Confuse,1,,,,,,,Clown
 940,,Immobilizing Skill,Null,0,Vulnerable,Protect,3,Debuff,Restrain,5,Debuff,Thunder,1,,,,,,,Seal

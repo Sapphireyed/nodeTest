@@ -1,12 +1,17 @@
-import createTable from './utils/createTable.js';
-//import { lang } from './urtils/lang.js';
 import { resetFilters, searchSwitch } from './utils/filtersFunc.js';
 import { sort } from './utils/sort.js';
-//import { getImgs, buildImg } from './getImgs.js'
 
 // Set all filters to value All
 Array.from(document.querySelectorAll('.filters__filters select')).map(filter => filter.value = 'All')
 Array.from(document.querySelectorAll('.filters__filters select'))[6].value = 'Both'
+
+// make only 10 first rows visible on first load
+const allRows = Array.from(document.querySelectorAll('tbody tr'))
+allRows.map((row, i) => {
+  if (i >= 10) {
+    row.classList.add('d-none')
+  }
+})
 
 // EXECUTE FUNCTIONS
 const attrButtons = [
@@ -19,22 +24,22 @@ const attrButtons = [
 ]
 
 attrButtons[0].addEventListener('click', () => {
-    sort('hp')
+    sort('hp', 'jobs')
 })
 attrButtons[1].addEventListener('click', () => {
-  sort('strength')
+  sort('strength', 'jobs')
 })
 attrButtons[2].addEventListener('click', () => {
-  sort('agility')
+  sort('agility', 'jobs')
 })
 attrButtons[3].addEventListener('click', () => {
-  sort('intelligence')
+  sort('intelligence', 'jobs')
 })
 attrButtons[4].addEventListener('click', () => {
-  sort('index')
+  sort('index', 'jobs')
 })
 attrButtons[5].addEventListener('click', () => {
-  sort('rarity')
+  sort('rarity', 'jobs')
 })
 
 let search = document.querySelector('.filters__buttons-filters .search-filters')

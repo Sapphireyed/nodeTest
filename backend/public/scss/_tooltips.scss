@@ -1,0 +1,12 @@
+td.tooltip {
+  position: relative;
+
+  .tooltittext {
+    display: none;
+    position: absolute;
+  }
+
+  &:hover .tooltittext {
+    display: block;
+  }
+}
