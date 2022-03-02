@@ -51,26 +51,15 @@ exports.getDescription = async (req, res) => {
     const descritpions = await descrLoc.find()
 
     const descriptions = await Job.aggregate(
-
-      // Pipeline
       [
-          // Stage 1
-          {
-              $lookup: {
-                  from: "abilities",
-                  localField: "switch_skill_id",
-                  foreignField: "_id",
-                  as: "switchSkill_info"
-              }
-          },
-          {
-              $lookup: {
-                from: "jobsLoc",
-                localField: "job_id",
-                foreignField: "_id",
-                as: "job_id_info"
-              }
-          },
+          // {
+          //     $lookup: {
+          //         from: "abilities",
+          //         localField: "switch_skill_id",
+          //         foreignField: "_id",
+          //         as: "switchSkill_info"
+          //     }
+          // },
           {
             $match: { $and: [
               {rarity: rarity2 },

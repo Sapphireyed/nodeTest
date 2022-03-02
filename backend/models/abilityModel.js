@@ -56,6 +56,10 @@ abilitySchema.pre(/^find/, function(next) {
       .populate({path: 'description4_Id'})
   next()
 })
+abilitySchema.post(/^find/, function(docs, next) { 
+  //  console.log('lll', docs)
+  next()
+})
 
 const Ability =  mongoose.model('abilities', abilitySchema)
 
@@ -63,12 +67,26 @@ let updatedAbilities = async () => {
   try {
     // get all needed collections
     const abilities = await Ability.find()
-    if (abilities.any(abil => abil.description1_Id)) {
+    //if (!abilities.some(abil => abil.description1_Id)) {
       const descritpions = await descrLoc.find()
+
       const units = await Unit.find()
-      const dealXDamageJoin = await descritpions.find(desc => desc.keys === 'DealXDamageJoin')._id
-      const EElementXAttackDescr = await descritpions.find(desc => desc.keys === 'EElementXAttackDescr')._id
-      const VRIDamageXDescr = await descritpions.find(desc => desc.keys === 'VRIDamageXDescr')._id
+      //DAMAGE
+      let dealXDamageJoin =  await descrLoc.find({Keys: 'DealXDamageJoin'})
+      dealXDamageJoin = dealXDamageJoin[0]._id
+      let eElementXAttackDescr = await descrLoc.find({Keys: 'EElementXAttackDescr'})
+      eElementXAttackDescr = eElementXAttackDescr[0]._id
+      let vRIDamageXDescr = await descrLoc.find({Keys: 'VRIDamageXDescr'})
+      vRIDamageXDescr = vRIDamageXDescr[0]._id
+      let debuffRemoveXAttackDescr = await descrLoc.find({Keys: 'DebuffRemoveXAttackDescr'})
+      debuffRemoveXAttackDescr = debuffRemoveXAttackDescr[0]._id
+      let bleedBurstDescr = await descrLoc.find({Keys: 'BleedBurstDescr'})
+      bleedBurstDescr = bleedBurstDescr[0]._id
+      //HEAL
+      let healXJoin =  await descrLoc.find({Keys: 'HealXJoin'})
+      healXJoin = healXJoin[0]._id
+      
+
 
       // get easy acces to multipliers values
       let hpPlayer = {}
@@ -83,66 +101,116 @@ let updatedAbilities = async () => {
       // get arrays
       const attrs = ['Strength', 'Agility', 'Intelligence', 'MaxHP']
       const attrsNoHp = ['Strength', 'Agility', 'Intelligence']
-      const elems = ['Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Dark', 'Light']
+      const elems = ['Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Dark', 'Light', 'Element']
       const vri = ['Venom', 'Restrain', 'Insane']
           // change abils one by one
     let abilsAll = abilities.map(async (abil, index) => {
       try {
-        const getDescName = async (skill, effect,desc, replace) => {
-          switch (skill) {
-            case 'Damage':
-              if (attrs.some(attr => attr === effect)) {
-                let setDesc = { [desc]: dealXDamageJoin }
-                let setReplace = { [replace]: 'multi' }
-                await Ability.updateOne( { name: abil.name}, { $set: setDesc })
-                await Ability.updateOne( { name: abil.name}, { $set: setReplace })
-              }
-              if (effect === 'Null') {
-                let setDesc = { [desc]: dealXDamageJoin }
-                let setReplace = { [replace]: 'multiplier' }
-                await Ability.updateOne( { name: abil.name}, { $set: setDesc })
-                await Ability.updateOne( { name: abil.name}, { $set: setReplace })
-              }
-              if (elems.some(elem => elem === effect)) {
-                let setDesc = { [desc]: EElementXAttackDescr }
-                let setReplace = { [replace]: 'effect, multi, final' }
-                await Ability.updateOne( { name: abil.name}, { $set: setDesc })
-                await Ability.updateOne( { name: abil.name}, { $set: setReplace })
-              }
-              if (vri.some(debuff => debuff === effect)) {
-                let setDesc = { [desc]: VRIDamageXDescr }
-                let setReplace = { [replace]: 'effect, multi, attr corresponding to vri' }
-                console.log('hhh',VRIDamageXDescr)
-                await Ability.updateOne( { name: abil.name}, { $set: setDesc })
-                await Ability.updateOne( { name: abil.name}, { $set: setReplace })
-              }
-              break;
-            
+        const getDescName = async (skill, effect,desc, replace, num) => {
+          try {
+            switch (skill) {
+              case 'Damage':
+                if (attrs.some(attr => attr === effect)) {
+                  let setDesc = { [desc]: dealXDamageJoin }
+                  let setReplace
+                  if (num === 1) {
+                    setReplace = { [replace]: abil.multi1 }
+                  }
+                  if (num === 2) {
+                    setReplace = { [replace]: abil.multi2 }
+                  }
+                  if (num === 3) {
+                    setReplace = { [replace]: abil.multi3 }
+                  }
+                  if (num === 4) {
+                    setReplace = { [replace]: abil.multi4 }
+                  }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                if (effect === 'Null') {
+                  let setDesc = { [desc]: dealXDamageJoin }
+                  let setReplace;
+                  if (num === 1) {
+                    setReplace = { [replace]: abil.multiplier1 }
+                  }
+                  if (num === 2) {
+                    setReplace = { [replace]: abil.multiplier2 }
+                  }
+                  if (num === 3) {
+                    setReplace = { [replace]: abil.multiplier3 }
+                  }
+                  if (num === 4) {
+                    setReplace = { [replace]: abil.multiplier4 }
+                  }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                if (elems.some(elem => elem === effect)) {
+                  let setDesc = { [desc]: eElementXAttackDescr }
+                  setReplace = { [replace]: eElementXAttackDescr }
+                  let eff = await descrLoc.find({Keys: effect})
+                  let finale = await descrLoc.find({Keys: 'Finale'})
+                  // if (abil.description1_Id) {
+                  //   let newObj = {}
+                  //   eElementXAttackDescr = Object.entries(abil.description1_Id._doc).map(([k,v]) => {
+                  //     if (typeof v === 'string') {
+                  //       newObj = {
+                  //         k: k,
+                  //         v: v.replace('{0)', 'hhh')
+                  //       }
+                  //     }
+
+                  // })
+                  // console.log(newObj)
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                if (vri.some(debuff => debuff === effect)) {
+                  let setDesc = { [desc]: vRIDamageXDescr }
+                  let setReplace = { [replace]: 'effect, multi, attr corresponding to vri' }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                if (effect === 'Debuff') {
+                  let setDesc = { [desc]: debuffRemoveXAttackDescr }
+                  let setReplace = { [replace]: 'multi ?' }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                if (effect === 'Bleed') {
+                  let setDesc = { [desc]: bleedBurstDescr }
+                  let setReplace = { [replace]: 'bleed, 2%, maxhp  ?' }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                break;
+              case 'Heal':
+                if (attrs.some(attr => attr === effect)) {
+                  let setDesc = { [desc]: healXJoin }
+                  let setReplace = { [replace]: 'multi' }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                if (effect === 'Null') {
+                  let setDesc = { [desc]: healXJoin }
+                  let setReplace = { [replace]: 'multiplier' }
+                  await Ability.updateOne( { name: abil.name}, { $set: setDesc })
+                  await Ability.updateOne( { name: abil.name}, { $set: setReplace })
+                }
+                break
+              
+            }
+          }catch (err) {
+            console.log('errpr inside', err)
           }
+
         }
-        getDescName(abil.skill_unit1_skill, abil.skill_unit1_effect, 'description1_Id', 'replace1')
-        getDescName(abil.skill_unit2_skill, abil.skill_unit2_effect, 'description2_Id', 'replace2')
-        getDescName(abil.skill_unit3_skill, abil.skill_unit3_effect, 'description3_Id', 'replace3')
-        getDescName(abil.skill_unit4_skill, abil.skill_unit4_effect, 'description4_Id', 'replace4')
-        // for (let i = 0; i < 4; i++) {
-        //   if (abil[unitSkills[i]] === 'Damage' && abil[unitEffects[i]].match(/Agility/)) {
-        //     console.log('abil')
-        //     switch (i) {
-        //       case 1:
-        //         await Ability.updateOne( { name: abil.name}, { $set: { description1_Id:  dealXDamageJoin} })
-        //         break;
-        //       case 2:
-        //         await Ability.updateOne( { name: abil.name}, { $set: { description2_Id:  dealXDamageJoin} })
-        //         break;
-        //       case 3:
-        //         await Ability.updateOne( { name: abil.name}, { $set: { description3_Id:  dealXDamageJoin} })
-        //         break;
-        //       case 4:
-        //         await Ability.updateOne( { name: abil.name}, { $set: { description4_Id:  dealXDamageJoin} })
-        //         break;
-        //     }
-        //   }
-        // }
+
+        getDescName(abil.skill_unit1_skill, abil.skill_unit1_effect, 'description1_Id', 'replace1',1)
+        getDescName(abil.skill_unit2_skill, abil.skill_unit2_effect, 'description2_Id', 'replace2',2)
+        getDescName(abil.skill_unit3_skill, abil.skill_unit3_effect, 'description3_Id', 'replace3',3)
+        getDescName(abil.skill_unit4_skill, abil.skill_unit4_effect, 'description4_Id', 'replace4',4)
 
 
         // assigning multi appropriate percentage based on power level
@@ -202,11 +270,11 @@ let updatedAbilities = async () => {
       }
     })
     Promise.all(abilsAll)
-    }
+    //}
 
 
   } catch (err) {
-    //console.log('err', err)
+    console.log('err', err)
   }
 
 }

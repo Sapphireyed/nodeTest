@@ -15,17 +15,17 @@ const jobLocSchema = mongoose.Schema({
 const JobLoc = mongoose.model('jobsLoc', jobLocSchema, 'jobsLoc')
 
 const descrLocSchema = mongoose.Schema({
-  keys: String,
-  english: String,
-  chinese: String,
-  chinese_trad: String,
-  russian: String,
-  portuguese: String,
-  spanish: String,
-  french: String,
-  japanese: String,
-  arabic: String,
-  dutch: String
+  Keys: String,
+  English: String,
+  Chinese: String,
+  Chinese_trad: String,
+  Russian: String,
+  Portuguese: String,
+  Spanish: String,
+  French: String,
+  Japanese: String,
+  Arabic: String,
+  Dutch: String
 })
 
 const descrLoc = mongoose.model('descrLoc', descrLocSchema, 'descrLoc')

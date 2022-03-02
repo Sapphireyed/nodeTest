@@ -43,7 +43,6 @@ export const searchSwitch = async (rar, elem, attr, type) => {
       document.querySelector('tbody').innerHTML = ''
       for (let i=0; i <= jobs.length; i++) {
         let row = allRows.find(row => row.children[2].textContent === jobs[i].job_id_info[0][lang])
-        console.log(jobs[i].job_id_info[lang], jobs[i])
         if (i < limit) {
           row.classList.remove('d-none')
         } else {

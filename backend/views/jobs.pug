@@ -71,10 +71,34 @@ block content
                     
               td.passive-kill= job.passive 
               td.switch-skill.tooltip= job.switch_skil
-                - let sSkill = abilities.find(abil => abil.name === job.switch_skil)
-                - sSkill = sSkill ? sSkill.description1_Id : ''
-                - sSkill = sSkill && sSkill != '' ? sSkill['english'] : ''
-                span.tooltip.tooltittext= sSkill
+                - 
+                  const replaceDesc = (skill, skillNum, replace) => {
+                    skillNum = skillNum && skillNum != '' ? skillNum[lang] : ''
+                    let replacer = skill ? skill[replace] : ''
+                    if (replacer !== '' && replacer !== undefined) {
+                      replacer = replacer.includes(',') ? replacer.split(',') : replacer
+                      for (let i=0; i < replacer.length-1; i++) {
+                        const regex = new RegExp(`\\{${i}\\}`, 'g');
+                        skillNum = typeof replacer == 'string' 
+                                  ? skillNum.replace(regex, replacer)
+                                  : skillNum.replace(regex, replacer[i])
+                      }
+                    }
+                    return skillNum
+                  }
+                  let sSkill = abilities.find(abil => abil.name === job.switch_skil)
+                  let sSkill1 = sSkill ? sSkill.description1_Id : ''
+                  sSkill1 = replaceDesc(sSkill, sSkill1, "replace1")
+
+                  let sSkill2 = sSkill ? sSkill.description2_Id : ''
+                  sSkill2 = replaceDesc(sSkill, sSkill2, "replace2")
+
+                  let sSkill3 = sSkill ? sSkill.description3_Id : ''
+                  sSkill3 = replaceDesc(sSkill, sSkill3, "replace3")
+
+                  let sSkill4 = sSkill ? sSkill.description4_Id : ''
+                  sSkill4 = replaceDesc(sSkill, sSkill4, "replace4")
+                span.tooltip.tooltittext= sSkill1 + '\n' + sSkill2 + '\n' + sSkill3 + '\n' + sSkill4
               //- <span class="tooltipMy tooltiptext">Gain 10%/15% <span class="maxhp"><img class="icon" src="https://jobmania.epicgamer.org/503b829fcb9ebcf20cd8.png" alt="hp"> Max HP</span> Protect . <span class="tipApply"></span></span>
               td.deck 
                 - if (job.abilities_5)

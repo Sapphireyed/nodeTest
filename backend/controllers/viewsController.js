@@ -30,11 +30,9 @@ exports.getJobs = async (req, res)=> {
 exports.getJob = async (req, res)=> {
   try {
     let job = await Job.find()
-    console.log('job', job, req.params.name)
     job = job[0]
 
    // let sSkill = await Ability.find({_id: job.switch_skill_id})   // other way of getting abilities
-    console.log('job', job)
 
     res.status(200).render(`job`, {
       title: job.job,
