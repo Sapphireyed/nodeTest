@@ -147,17 +147,31 @@ let updatedAbilities = async () => {
                   await Ability.updateOne( { name: abil.name}, { $set: setReplace })
                 }
                 if (elems.some(elem => elem === effect)) {
+                  console.log('abil', abil)
                   let setDesc = { [desc]: eElementXAttackDescr }
-                  setReplace = { [replace]: eElementXAttackDescr }
                   let eff = await descrLoc.find({Keys: effect})
-                  let finale = await descrLoc.find({Keys: 'Finale'})
+                  let finale = await descrLoc.find({Keys: 'XFinale'})
+                  let setReplace;
+                  if (num === 1) {
+                    setReplace = { [replace]: `${eff}|| ${abil.multi1}|| ${finale}` }
+                  }
+                  if (num === 2) {
+                    setReplace = { [replace]: `${eff}|| ${abil.multi2}|| ${finale}` }
+                  }
+                  if (num === 3) {
+                    setReplace = { [replace]: `${eff}|| ${abil.multi3}|| ${finale}` }
+                  }
+                  if (num === 4) {
+                    setReplace = { [replace]: `${eff}|| ${abil.multi4}|| ${finale}` }
+                  }
+
                   // if (abil.description1_Id) {
                   //   let newObj = {}
                   //   eElementXAttackDescr = Object.entries(abil.description1_Id._doc).map(([k,v]) => {
                   //     if (typeof v === 'string') {
                   //       newObj = {
                   //         k: k,
-                  //         v: v.replace('{0)', 'hhh')
+                  //         v: v.replace('{0}', 'hhh')
                   //       }
                   //     }
 
@@ -226,8 +240,11 @@ let updatedAbilities = async () => {
               await Ability.updateOne( { name: abil.name}, {$set: { multi1:  otherAttrs[index1]} } )
             }
             if (abil.skill_unit1_effect === 'MaxHP') {
-              let multi = `${hpEnemy[index1]}/${hpPlayer[index1]}`
+              let multi = `${hpEnemy[index1]} / ${hpPlayer[index1]}`
               await Ability.updateOne( { name: abil.name}, {$set: { multi1:  multi} } )
+            }
+            if (elems.some(elem => elem === abil.skill_unit1_effect) ) {
+              await Ability.updateOne( { name: abil.name}, {$set: { multi1:  otherAttrs[index1]} } )
             }
           }
 
@@ -237,7 +254,7 @@ let updatedAbilities = async () => {
               await Ability.updateOne( { name: abil.name}, {$set: { multi2:  otherAttrs[index2]} } )
             }
             if (abil.skill_unit2_effect === 'MaxHP') {
-              let multi = `${hpEnemy[index2]}/${hpPlayer[index2]}`
+              let multi = `${hpEnemy[index2]} / ${hpPlayer[index2]}`
               await Ability.updateOne( { name: abil.name}, {$set: { multi2:  multi} } )
             }
           }
@@ -248,7 +265,7 @@ let updatedAbilities = async () => {
               await Ability.updateOne( { name: abil.name}, {$set: { multi3:  otherAttrs[index3]} } )
             }
             if (abil.skill_unit3_effect === 'MaxHP') {
-              let multi = `${hpEnemy[index3]}/${hpPlayer[index3]}`
+              let multi = `${hpEnemy[index3]} / ${hpPlayer[index3]}`
               await Ability.updateOne( { name: abil.name}, {$set: { multi3:  multi} } )
             }
           }
@@ -259,7 +276,7 @@ let updatedAbilities = async () => {
               await Ability.updateOne( { name: abil.name}, {$set: { multi4:  otherAttrs[index4]} } )
             }
             if (abil.skill_unit4_effect === 'MaxHP') {
-              let multi = `${hpEnemy[index4]}/${hpPlayer[index4]}`
+              let multi = `${hpEnemy[index4]} / ${hpPlayer[index4]}`
               await Ability.updateOne( { name: abil.name}, {$set: { multi4:  multi} } )
             }
           }

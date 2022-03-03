@@ -76,8 +76,16 @@ block content
                     skillNum = skillNum && skillNum != '' ? skillNum[lang] : ''
                     let replacer = skill ? skill[replace] : ''
                     if (replacer !== '' && replacer !== undefined) {
-                      replacer = replacer.includes(',') ? replacer.split(',') : replacer
-                      for (let i=0; i < replacer.length-1; i++) {
+                      replacer = replacer.includes('||') ? replacer.split('||') : replacer
+                      for (let i=0; i < replacer.length; i++) {
+                        if (replacer[i].includes('Keys')) {
+                          replacer[i] = replacer[i].split(',\n')
+                          let translated = replacer[i].find(val => val.includes(lang))
+                          let index = translated.indexOf(': ')
+                          translated = translated.substring(index+2)
+                          replacer[i] = translated
+                          // for finale needs more work
+                        }
                         const regex = new RegExp(`\\{${i}\\}`, 'g');
                         skillNum = typeof replacer == 'string' 
                                   ? skillNum.replace(regex, replacer)

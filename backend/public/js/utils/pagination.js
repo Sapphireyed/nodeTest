@@ -129,11 +129,13 @@ paginationSelect.addEventListener('change', () => {
   fetch(`http://127.0.0.1:3000/api/v1/jobs?limit=${limit*1}&page=${page}`).then(function(response) {
     return response.json();
   }).then(function(data) {
-
+console.log('fff')
     let jobs = data.data.jobs
     document.querySelector('tbody').innerHTML = ''
     for (let i = 0; i <= jobs.length -1; i++) {
-      createTable(jobs, i, lang)
+      let row = allRows.find(row => row.children[2].textContent === jobs[i].job_id[lang])
+      row.classList.remove('d-none')
+      tbody.append(row)
     }
     disableButtons()
   })
