@@ -69,45 +69,8 @@ block content
                   if star <= job.rarity
                     img.star(src="../../../img/events/starColor1.png", alt="star", width=25)
                     
-              td.passive-kill= job.passive 
-              td.switch-skill.tooltip= job.switch_skil
-                - 
-                  const replaceDesc = (skill, skillNum, replace) => {
-                    skillNum = skillNum && skillNum != '' ? skillNum[lang] : ''
-                    let replacer = skill ? skill[replace] : ''
-                    if (replacer !== '' && replacer !== undefined) {
-                      replacer = replacer.includes('||') ? replacer.split('||') : replacer
-                      for (let i=0; i < replacer.length; i++) {
-                        if (replacer[i].includes('Keys')) {
-                          replacer[i] = replacer[i].split(',\n')
-                          let translated = replacer[i].find(val => val.includes(lang))
-                          let index = translated.indexOf(': ')
-                          translated = translated.substring(index+2)
-                          replacer[i] = translated
-                          // for finale needs more work
-                        }
-                        const regex = new RegExp(`\\{${i}\\}`, 'g');
-                        skillNum = typeof replacer == 'string' 
-                                  ? skillNum.replace(regex, replacer)
-                                  : skillNum.replace(regex, replacer[i])
-                      }
-                    }
-                    return skillNum
-                  }
-                  let sSkill = abilities.find(abil => abil.name === job.switch_skil)
-                  let sSkill1 = sSkill ? sSkill.description1_Id : ''
-                  sSkill1 = replaceDesc(sSkill, sSkill1, "replace1")
-
-                  let sSkill2 = sSkill ? sSkill.description2_Id : ''
-                  sSkill2 = replaceDesc(sSkill, sSkill2, "replace2")
-
-                  let sSkill3 = sSkill ? sSkill.description3_Id : ''
-                  sSkill3 = replaceDesc(sSkill, sSkill3, "replace3")
-
-                  let sSkill4 = sSkill ? sSkill.description4_Id : ''
-                  sSkill4 = replaceDesc(sSkill, sSkill4, "replace4")
-                span.tooltip.tooltittext= sSkill1 + '\n' + sSkill2 + '\n' + sSkill3 + '\n' + sSkill4
-              //- <span class="tooltipMy tooltiptext">Gain 10%/15% <span class="maxhp"><img class="icon" src="https://jobmania.epicgamer.org/503b829fcb9ebcf20cd8.png" alt="hp"> Max HP</span> Protect . <span class="tipApply"></span></span>
+              td.passive-kill= job.passive
+              td.switch-kill= job.switch_skil
               td.deck 
                 - if (job.abilities_5)
                   span= `${job.abilities_5} x5`
